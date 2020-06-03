@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>&#128104;&#8205;&#128187; Simulation | GhTA docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="&#128104;&#8205;&#128187; Simulation | GhTA docs ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../articles/pitch.html" title="Articles">Articles</a>
+                      </li>
+                      <li>
+                          <a href="../api/index.html" title="API Documentation">API Documentation</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <a href="pitch.html" title="Pitch" class="">Pitch</a>
+                    </li>
+                    <li class="">
+                      <a href="history.html" title="History" class="">History</a>
+                    </li>
+                    <li class="">
+                      <a href="crowdfund.html" title="Crowdfunding" class="">Crowdfunding</a>
+                    </li>
+                    <li class="">
+                      <a href="concept.html" title="Concepts" class="">Concepts</a>
+                    </li>
+                    <li class="">
+                      <a href="map.html" title="Map" class="">Map</a>
+                    </li>
+                    <li class="">
+                      <a href="modules.html" title="Modules" class="">Modules</a>
+                    </li>
+                    <li class="active">
+                      <a href="simulation.html" title="Simulation" class="active">Simulation</a>
+                    </li>
+                    <li class="">
+                      <a href="libraries.html" title="Libraries" class="">Libraries</a>
+                    </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="-simulation">👨‍💻 Simulation</h1>
+
+<p>One of the core foundations of Ghent Theft Auto is the ability to simulate or mock of real life processes happening in Ghent in the preset, as well as in the past and future.</p>
+<p>Where we can't rely on historical data or when predicting into the future, we want to be able to rely on some kind of mocking of data, be it fully fake or driven by machine learning.</p>
+<p>Simulation systems are <strong>big</strong> systems, coupling components into bigger processes.</p>
+<p>Ghent Theft Auto draws inspiration from the concept of a digital twin, and comes with some very lofty goals.</p>
+<ul>
+<li>Simulate the actual amount of humans inside the city at all times, every one of them with a full history and relations (260.000 entitites)</li>
+<li>Simulate backwards and forwards along time</li>
+</ul>
+<p><a href="https://www.notion.so/Life-d041b7e3462141149dd547d1dd602fb0">Life</a> combines human and <a href="https://www.notion.so/Time-6fc48e7fba1d4e57901347cda950dc5d">Time</a> to give the appearance of an actual life inside the city.</p>
+<p><a href="https://www.notion.so/TrafficSystem-6c8ffe9e27854bffa244047883c14907">TrafficSystem</a> takes <a href="https://www.notion.so/Open-Street-Map-1391e4e20194449482afd4d0ddf57b88">Open Street Map</a> and builds a traffic system for people to move along.</p>
+<p>The simulation combines <a href="https://www.notion.so/Location-acc1b1a8fa404b2e8cbba85d035f24f5">Location</a> and <a href="https://www.notion.so/Profession-8cbf0392ace44f7dbd02a6c485b403b3">Profession</a> in order to simulate the actual labour of citizens.</p>
+<h2 id="life">🚶‍♂️Life</h2>
+<ul>
+<li>birth</li>
+<li>school</li>
+<li>relations</li>
+<li>profession</li>
+<li>retirement</li>
+<li>death</li>
+<li>ancestry</li>
+</ul>
+<h2 id="time">🕰Time</h2>
+<ul>
+<li>day of week</li>
+<li>opening of stores via OSM</li>
+<li>fireworks on NYE</li>
+<li>Gentse Feesten</li>
+</ul>
+<h2 id="celestial">✨Celestial:</h2>
+<ul>
+<li>Solar position and intensity</li>
+<li>Lunar position, intensity, phase</li>
+</ul>
+<h2 id="climate">🌬Climate</h2>
+<ul>
+<li>Temperature</li>
+<li>weather 'state'</li>
+<li>wind speed</li>
+<li>wind direction</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/lucassel/ghent-theft-auto/blob/master/Documentation/articles/simulation.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Lucas Selfslagh 2012 - 2020.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
