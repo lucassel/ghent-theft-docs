@@ -739,31 +739,6 @@ references:
   commentId: F:Common.Emoji.EmojiType.wind_turbine
   fullName: Common.Emoji.EmojiType.wind_turbine
   nameWithType: EmojiType.wind_turbine
-- uid: DecalSystem
-  name: DecalSystem
-  href: api/DecalSystem.html
-  commentId: N:DecalSystem
-  fullName: DecalSystem
-  nameWithType: DecalSystem
-- uid: DecalSystem.DecalEditor
-  name: DecalEditor
-  href: api/DecalSystem.DecalEditor.html
-  commentId: T:DecalSystem.DecalEditor
-  fullName: DecalSystem.DecalEditor
-  nameWithType: DecalEditor
-- uid: DecalSystem.DecalEditor.OnInspectorGUI
-  name: OnInspectorGUI()
-  href: api/DecalSystem.DecalEditor.html#DecalSystem_DecalEditor_OnInspectorGUI
-  commentId: M:DecalSystem.DecalEditor.OnInspectorGUI
-  fullName: DecalSystem.DecalEditor.OnInspectorGUI()
-  nameWithType: DecalEditor.OnInspectorGUI()
-- uid: DecalSystem.DecalEditor.OnInspectorGUI*
-  name: OnInspectorGUI
-  href: api/DecalSystem.DecalEditor.html#DecalSystem_DecalEditor_OnInspectorGUI_
-  commentId: Overload:DecalSystem.DecalEditor.OnInspectorGUI
-  isSpec: "True"
-  fullName: DecalSystem.DecalEditor.OnInspectorGUI
-  nameWithType: DecalEditor.OnInspectorGUI
 - uid: ExitGames.Demos.DemoPunVoice
   name: ExitGames.Demos.DemoPunVoice
   href: api/ExitGames.Demos.DemoPunVoice.html
@@ -12269,12 +12244,6 @@ references:
   commentId: T:GhTA.Realtime.FlightInfoRetriever
   fullName: GhTA.Realtime.FlightInfoRetriever
   nameWithType: FlightInfoRetriever
-- uid: GhTA.Realtime.FlightInfoRetriever.AutoStart
-  name: AutoStart
-  href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_AutoStart
-  commentId: F:GhTA.Realtime.FlightInfoRetriever.AutoStart
-  fullName: GhTA.Realtime.FlightInfoRetriever.AutoStart
-  nameWithType: FlightInfoRetriever.AutoStart
 - uid: GhTA.Realtime.FlightInfoRetriever.Bounds
   name: Bounds
   href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_Bounds
@@ -12460,6 +12429,74 @@ references:
   commentId: F:GhTA.Realtime.RailInfoRetriever.Trains
   fullName: GhTA.Realtime.RailInfoRetriever.Trains
   nameWithType: RailInfoRetriever.Trains
+- uid: GhTA.Realtime.SheepInfoRetriever
+  name: SheepInfoRetriever
+  href: api/GhTA.Realtime.SheepInfoRetriever.html
+  commentId: T:GhTA.Realtime.SheepInfoRetriever
+  fullName: GhTA.Realtime.SheepInfoRetriever
+  nameWithType: SheepInfoRetriever
+- uid: GhTA.Realtime.SheepInfoRetriever._requestURL
+  name: _requestURL
+  href: api/GhTA.Realtime.SheepInfoRetriever.html#GhTA_Realtime_SheepInfoRetriever__requestURL
+  commentId: F:GhTA.Realtime.SheepInfoRetriever._requestURL
+  fullName: GhTA.Realtime.SheepInfoRetriever._requestURL
+  nameWithType: SheepInfoRetriever._requestURL
+- uid: GhTA.Realtime.SheepInfoRetriever.OnSheepLocationUpdated
+  name: OnSheepLocationUpdated
+  href: api/GhTA.Realtime.SheepInfoRetriever.html#GhTA_Realtime_SheepInfoRetriever_OnSheepLocationUpdated
+  commentId: F:GhTA.Realtime.SheepInfoRetriever.OnSheepLocationUpdated
+  fullName: GhTA.Realtime.SheepInfoRetriever.OnSheepLocationUpdated
+  nameWithType: SheepInfoRetriever.OnSheepLocationUpdated
+- uid: GhTA.Realtime.SheepInfoRetriever.ProcessData(System.String)
+  name: ProcessData(String)
+  href: api/GhTA.Realtime.SheepInfoRetriever.html#GhTA_Realtime_SheepInfoRetriever_ProcessData_System_String_
+  commentId: M:GhTA.Realtime.SheepInfoRetriever.ProcessData(System.String)
+  fullName: GhTA.Realtime.SheepInfoRetriever.ProcessData(System.String)
+  nameWithType: SheepInfoRetriever.ProcessData(String)
+- uid: GhTA.Realtime.SheepInfoRetriever.ProcessData*
+  name: ProcessData
+  href: api/GhTA.Realtime.SheepInfoRetriever.html#GhTA_Realtime_SheepInfoRetriever_ProcessData_
+  commentId: Overload:GhTA.Realtime.SheepInfoRetriever.ProcessData
+  isSpec: "True"
+  fullName: GhTA.Realtime.SheepInfoRetriever.ProcessData
+  nameWithType: SheepInfoRetriever.ProcessData
+- uid: GhTA.Realtime.SheepInfoRetriever.Rate
+  name: Rate
+  href: api/GhTA.Realtime.SheepInfoRetriever.html#GhTA_Realtime_SheepInfoRetriever_Rate
+  commentId: F:GhTA.Realtime.SheepInfoRetriever.Rate
+  fullName: GhTA.Realtime.SheepInfoRetriever.Rate
+  nameWithType: SheepInfoRetriever.Rate
+- uid: GhTA.Realtime.SheepInfoRetriever.SheepLocation
+  name: SheepLocation
+  href: api/GhTA.Realtime.SheepInfoRetriever.html#GhTA_Realtime_SheepInfoRetriever_SheepLocation
+  commentId: F:GhTA.Realtime.SheepInfoRetriever.SheepLocation
+  fullName: GhTA.Realtime.SheepInfoRetriever.SheepLocation
+  nameWithType: SheepInfoRetriever.SheepLocation
+- uid: GhTA.Realtime.SheepInfoRetriever.SheepPrefab
+  name: SheepPrefab
+  href: api/GhTA.Realtime.SheepInfoRetriever.html#GhTA_Realtime_SheepInfoRetriever_SheepPrefab
+  commentId: F:GhTA.Realtime.SheepInfoRetriever.SheepPrefab
+  fullName: GhTA.Realtime.SheepInfoRetriever.SheepPrefab
+  nameWithType: SheepInfoRetriever.SheepPrefab
+- uid: GhTA.Realtime.SheepInfoRetriever.StartSheepRequests
+  name: StartSheepRequests()
+  href: api/GhTA.Realtime.SheepInfoRetriever.html#GhTA_Realtime_SheepInfoRetriever_StartSheepRequests
+  commentId: M:GhTA.Realtime.SheepInfoRetriever.StartSheepRequests
+  fullName: GhTA.Realtime.SheepInfoRetriever.StartSheepRequests()
+  nameWithType: SheepInfoRetriever.StartSheepRequests()
+- uid: GhTA.Realtime.SheepInfoRetriever.StartSheepRequests*
+  name: StartSheepRequests
+  href: api/GhTA.Realtime.SheepInfoRetriever.html#GhTA_Realtime_SheepInfoRetriever_StartSheepRequests_
+  commentId: Overload:GhTA.Realtime.SheepInfoRetriever.StartSheepRequests
+  isSpec: "True"
+  fullName: GhTA.Realtime.SheepInfoRetriever.StartSheepRequests
+  nameWithType: SheepInfoRetriever.StartSheepRequests
+- uid: GhTA.Realtime.SheepInfoRetriever.WorldInfo
+  name: WorldInfo
+  href: api/GhTA.Realtime.SheepInfoRetriever.html#GhTA_Realtime_SheepInfoRetriever_WorldInfo
+  commentId: F:GhTA.Realtime.SheepInfoRetriever.WorldInfo
+  fullName: GhTA.Realtime.SheepInfoRetriever.WorldInfo
+  nameWithType: SheepInfoRetriever.WorldInfo
 - uid: GhTA.Terrain
   name: GhTA.Terrain
   href: api/GhTA.Terrain.html
@@ -15845,6 +15882,12 @@ references:
   commentId: T:GhTA.Web.InfoRetriever
   fullName: GhTA.Web.InfoRetriever
   nameWithType: InfoRetriever
+- uid: GhTA.Web.InfoRetriever.AutoStart
+  name: AutoStart
+  href: api/GhTA.Web.InfoRetriever.html#GhTA_Web_InfoRetriever_AutoStart
+  commentId: F:GhTA.Web.InfoRetriever.AutoStart
+  fullName: GhTA.Web.InfoRetriever.AutoStart
+  nameWithType: InfoRetriever.AutoStart
 - uid: GhTA.Web.InfoRetriever.DataCreated
   name: DataCreated
   href: api/GhTA.Web.InfoRetriever.html#GhTA_Web_InfoRetriever_DataCreated
