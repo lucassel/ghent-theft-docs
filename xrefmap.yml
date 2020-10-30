@@ -1375,12 +1375,12 @@ references:
   commentId: T:GhTA.Application.AppController
   fullName: GhTA.Application.AppController
   nameWithType: AppController
-- uid: GhTA.Application.AppController.FlightInfoRetriever
-  name: FlightInfoRetriever
-  href: api/GhTA.Application.AppController.html#GhTA_Application_AppController_FlightInfoRetriever
-  commentId: F:GhTA.Application.AppController.FlightInfoRetriever
-  fullName: GhTA.Application.AppController.FlightInfoRetriever
-  nameWithType: AppController.FlightInfoRetriever
+- uid: GhTA.Application.AppController.EmojiLibrary
+  name: EmojiLibrary
+  href: api/GhTA.Application.AppController.html#GhTA_Application_AppController_EmojiLibrary
+  commentId: F:GhTA.Application.AppController.EmojiLibrary
+  fullName: GhTA.Application.AppController.EmojiLibrary
+  nameWithType: AppController.EmojiLibrary
 - uid: GhTA.Application.AppController.LoadMap
   name: LoadMap()
   href: api/GhTA.Application.AppController.html#GhTA_Application_AppController_LoadMap
@@ -1394,6 +1394,12 @@ references:
   isSpec: "True"
   fullName: GhTA.Application.AppController.LoadMap
   nameWithType: AppController.LoadMap
+- uid: GhTA.Application.AppController.openDataGentLocationProvider
+  name: openDataGentLocationProvider
+  href: api/GhTA.Application.AppController.html#GhTA_Application_AppController_openDataGentLocationProvider
+  commentId: F:GhTA.Application.AppController.openDataGentLocationProvider
+  fullName: GhTA.Application.AppController.openDataGentLocationProvider
+  nameWithType: AppController.openDataGentLocationProvider
 - uid: GhTA.Application.AppController.ParkingInfoRetriever
   name: ParkingInfoRetriever
   href: api/GhTA.Application.AppController.html#GhTA_Application_AppController_ParkingInfoRetriever
@@ -1425,6 +1431,22 @@ references:
   commentId: F:GhTA.Application.AppController.SkipSplashscreen
   fullName: GhTA.Application.AppController.SkipSplashscreen
   nameWithType: AppController.SkipSplashscreen
+- uid: GhTA.Application.AppController.SpawnPointsOfInterest(GhTA.Maps.LambertTile[0:,0:],System.Collections.Generic.List{GhTA.Coordinates.IPointOfInterest})
+  name: SpawnPointsOfInterest(LambertTile[,], List<IPointOfInterest>)
+  href: api/GhTA.Application.AppController.html#GhTA_Application_AppController_SpawnPointsOfInterest_GhTA_Maps_LambertTile_0__0___System_Collections_Generic_List_GhTA_Coordinates_IPointOfInterest__
+  commentId: M:GhTA.Application.AppController.SpawnPointsOfInterest(GhTA.Maps.LambertTile[0:,0:],System.Collections.Generic.List{GhTA.Coordinates.IPointOfInterest})
+  name.vb: SpawnPointsOfInterest(LambertTile(,), List(Of IPointOfInterest))
+  fullName: GhTA.Application.AppController.SpawnPointsOfInterest(GhTA.Maps.LambertTile[,], System.Collections.Generic.List<GhTA.Coordinates.IPointOfInterest>)
+  fullName.vb: GhTA.Application.AppController.SpawnPointsOfInterest(GhTA.Maps.LambertTile(,), System.Collections.Generic.List(Of GhTA.Coordinates.IPointOfInterest))
+  nameWithType: AppController.SpawnPointsOfInterest(LambertTile[,], List<IPointOfInterest>)
+  nameWithType.vb: AppController.SpawnPointsOfInterest(LambertTile(,), List(Of IPointOfInterest))
+- uid: GhTA.Application.AppController.SpawnPointsOfInterest*
+  name: SpawnPointsOfInterest
+  href: api/GhTA.Application.AppController.html#GhTA_Application_AppController_SpawnPointsOfInterest_
+  commentId: Overload:GhTA.Application.AppController.SpawnPointsOfInterest
+  isSpec: "True"
+  fullName: GhTA.Application.AppController.SpawnPointsOfInterest
+  nameWithType: AppController.SpawnPointsOfInterest
 - uid: GhTA.Application.AppController.SpawnWorld
   name: SpawnWorld
   href: api/GhTA.Application.AppController.html#GhTA_Application_AppController_SpawnWorld
@@ -1459,6 +1481,12 @@ references:
   commentId: F:GhTA.Application.AppController.WeatherInfoRetriever
   fullName: GhTA.Application.AppController.WeatherInfoRetriever
   nameWithType: AppController.WeatherInfoRetriever
+- uid: GhTA.Application.AppController.WorldInfo
+  name: WorldInfo
+  href: api/GhTA.Application.AppController.html#GhTA_Application_AppController_WorldInfo
+  commentId: F:GhTA.Application.AppController.WorldInfo
+  fullName: GhTA.Application.AppController.WorldInfo
+  nameWithType: AppController.WorldInfo
 - uid: GhTA.Application.ApplicationController
   name: ApplicationController
   href: api/GhTA.Application.ApplicationController.html
@@ -1616,6 +1644,12 @@ references:
   commentId: F:GhTA.Application.FlowController.MapController
   fullName: GhTA.Application.FlowController.MapController
   nameWithType: FlowController.MapController
+- uid: GhTA.Application.FlowController.MapLoader
+  name: MapLoader
+  href: api/GhTA.Application.FlowController.html#GhTA_Application_FlowController_MapLoader
+  commentId: F:GhTA.Application.FlowController.MapLoader
+  fullName: GhTA.Application.FlowController.MapLoader
+  nameWithType: FlowController.MapLoader
 - uid: GhTA.Application.FlowController.ParkingInfoRetriever
   name: ParkingInfoRetriever
   href: api/GhTA.Application.FlowController.html#GhTA_Application_FlowController_ParkingInfoRetriever
@@ -4597,6 +4631,32 @@ references:
   commentId: T:GhTA.Coordinates.ProjectionHelper
   fullName: GhTA.Coordinates.ProjectionHelper
   nameWithType: ProjectionHelper
+- uid: GhTA.Coordinates.ProjectionHelper.ConvertGameCoordinatesToWGS84(UnityEngine.Vector3,UnityEngine.Vector3)
+  name: ConvertGameCoordinatesToWGS84(Vector3, Vector3)
+  href: api/GhTA.Coordinates.ProjectionHelper.html#GhTA_Coordinates_ProjectionHelper_ConvertGameCoordinatesToWGS84_UnityEngine_Vector3_UnityEngine_Vector3_
+  commentId: M:GhTA.Coordinates.ProjectionHelper.ConvertGameCoordinatesToWGS84(UnityEngine.Vector3,UnityEngine.Vector3)
+  fullName: GhTA.Coordinates.ProjectionHelper.ConvertGameCoordinatesToWGS84(UnityEngine.Vector3, UnityEngine.Vector3)
+  nameWithType: ProjectionHelper.ConvertGameCoordinatesToWGS84(Vector3, Vector3)
+- uid: GhTA.Coordinates.ProjectionHelper.ConvertGameCoordinatesToWGS84*
+  name: ConvertGameCoordinatesToWGS84
+  href: api/GhTA.Coordinates.ProjectionHelper.html#GhTA_Coordinates_ProjectionHelper_ConvertGameCoordinatesToWGS84_
+  commentId: Overload:GhTA.Coordinates.ProjectionHelper.ConvertGameCoordinatesToWGS84
+  isSpec: "True"
+  fullName: GhTA.Coordinates.ProjectionHelper.ConvertGameCoordinatesToWGS84
+  nameWithType: ProjectionHelper.ConvertGameCoordinatesToWGS84
+- uid: GhTA.Coordinates.ProjectionHelper.ConvertWGS84ToGameCoordinates(UnityEngine.Vector2,UnityEngine.Vector3)
+  name: ConvertWGS84ToGameCoordinates(Vector2, Vector3)
+  href: api/GhTA.Coordinates.ProjectionHelper.html#GhTA_Coordinates_ProjectionHelper_ConvertWGS84ToGameCoordinates_UnityEngine_Vector2_UnityEngine_Vector3_
+  commentId: M:GhTA.Coordinates.ProjectionHelper.ConvertWGS84ToGameCoordinates(UnityEngine.Vector2,UnityEngine.Vector3)
+  fullName: GhTA.Coordinates.ProjectionHelper.ConvertWGS84ToGameCoordinates(UnityEngine.Vector2, UnityEngine.Vector3)
+  nameWithType: ProjectionHelper.ConvertWGS84ToGameCoordinates(Vector2, Vector3)
+- uid: GhTA.Coordinates.ProjectionHelper.ConvertWGS84ToGameCoordinates*
+  name: ConvertWGS84ToGameCoordinates
+  href: api/GhTA.Coordinates.ProjectionHelper.html#GhTA_Coordinates_ProjectionHelper_ConvertWGS84ToGameCoordinates_
+  commentId: Overload:GhTA.Coordinates.ProjectionHelper.ConvertWGS84ToGameCoordinates
+  isSpec: "True"
+  fullName: GhTA.Coordinates.ProjectionHelper.ConvertWGS84ToGameCoordinates
+  nameWithType: ProjectionHelper.ConvertWGS84ToGameCoordinates
 - uid: GhTA.Coordinates.ProjectionHelper.FromLambertToWGS(UnityEngine.Vector2)
   name: FromLambertToWGS(Vector2)
   href: api/GhTA.Coordinates.ProjectionHelper.html#GhTA_Coordinates_ProjectionHelper_FromLambertToWGS_UnityEngine_Vector2_
@@ -4833,6 +4893,31 @@ references:
   isSpec: "True"
   fullName: GhTA.Editor.Realtime.WeatherRetrieverEditor.OnInspectorGUI
   nameWithType: WeatherRetrieverEditor.OnInspectorGUI
+- uid: GhTA.Editor.StreetView
+  name: GhTA.Editor.StreetView
+  href: api/GhTA.Editor.StreetView.html
+  commentId: N:GhTA.Editor.StreetView
+  fullName: GhTA.Editor.StreetView
+  nameWithType: GhTA.Editor.StreetView
+- uid: GhTA.Editor.StreetView.StreetViewEditor
+  name: StreetViewEditor
+  href: api/GhTA.Editor.StreetView.StreetViewEditor.html
+  commentId: T:GhTA.Editor.StreetView.StreetViewEditor
+  fullName: GhTA.Editor.StreetView.StreetViewEditor
+  nameWithType: StreetViewEditor
+- uid: GhTA.Editor.StreetView.StreetViewEditor.CreateInspectorGUI
+  name: CreateInspectorGUI()
+  href: api/GhTA.Editor.StreetView.StreetViewEditor.html#GhTA_Editor_StreetView_StreetViewEditor_CreateInspectorGUI
+  commentId: M:GhTA.Editor.StreetView.StreetViewEditor.CreateInspectorGUI
+  fullName: GhTA.Editor.StreetView.StreetViewEditor.CreateInspectorGUI()
+  nameWithType: StreetViewEditor.CreateInspectorGUI()
+- uid: GhTA.Editor.StreetView.StreetViewEditor.CreateInspectorGUI*
+  name: CreateInspectorGUI
+  href: api/GhTA.Editor.StreetView.StreetViewEditor.html#GhTA_Editor_StreetView_StreetViewEditor_CreateInspectorGUI_
+  commentId: Overload:GhTA.Editor.StreetView.StreetViewEditor.CreateInspectorGUI
+  isSpec: "True"
+  fullName: GhTA.Editor.StreetView.StreetViewEditor.CreateInspectorGUI
+  nameWithType: StreetViewEditor.CreateInspectorGUI
 - uid: GhTA.Life
   name: GhTA.Life
   href: api/GhTA.Life.html
@@ -7296,6 +7381,12 @@ references:
   commentId: F:GhTA.Maps.MapController._reviveLocations
   fullName: GhTA.Maps.MapController._reviveLocations
   nameWithType: MapController._reviveLocations
+- uid: GhTA.Maps.MapController._tiles
+  name: _tiles
+  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController__tiles
+  commentId: F:GhTA.Maps.MapController._tiles
+  fullName: GhTA.Maps.MapController._tiles
+  nameWithType: MapController._tiles
 - uid: GhTA.Maps.MapController.AttemptBuildingsForTile(GhTA.Maps.LambertTile,GhTA.Common.Model.MapLibrary)
   name: AttemptBuildingsForTile(LambertTile, MapLibrary)
   href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_AttemptBuildingsForTile_GhTA_Maps_LambertTile_GhTA_Common_Model_MapLibrary_
@@ -7392,12 +7483,15 @@ references:
   isSpec: "True"
   fullName: GhTA.Maps.MapController.GetNearestRespawnLocation
   nameWithType: MapController.GetNearestRespawnLocation
-- uid: GhTA.Maps.MapController.LoadMapCoroutine(GhTA.Common.Model.WorldInfo)
-  name: LoadMapCoroutine(WorldInfo)
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_LoadMapCoroutine_GhTA_Common_Model_WorldInfo_
-  commentId: M:GhTA.Maps.MapController.LoadMapCoroutine(GhTA.Common.Model.WorldInfo)
-  fullName: GhTA.Maps.MapController.LoadMapCoroutine(GhTA.Common.Model.WorldInfo)
-  nameWithType: MapController.LoadMapCoroutine(WorldInfo)
+- uid: GhTA.Maps.MapController.LoadMapCoroutine(System.Collections.Generic.List{GhTA.Maps.LambertTile},GhTA.Common.Model.WorldInfo)
+  name: LoadMapCoroutine(List<LambertTile>, WorldInfo)
+  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_LoadMapCoroutine_System_Collections_Generic_List_GhTA_Maps_LambertTile__GhTA_Common_Model_WorldInfo_
+  commentId: M:GhTA.Maps.MapController.LoadMapCoroutine(System.Collections.Generic.List{GhTA.Maps.LambertTile},GhTA.Common.Model.WorldInfo)
+  name.vb: LoadMapCoroutine(List(Of LambertTile), WorldInfo)
+  fullName: GhTA.Maps.MapController.LoadMapCoroutine(System.Collections.Generic.List<GhTA.Maps.LambertTile>, GhTA.Common.Model.WorldInfo)
+  fullName.vb: GhTA.Maps.MapController.LoadMapCoroutine(System.Collections.Generic.List(Of GhTA.Maps.LambertTile), GhTA.Common.Model.WorldInfo)
+  nameWithType: MapController.LoadMapCoroutine(List<LambertTile>, WorldInfo)
+  nameWithType.vb: MapController.LoadMapCoroutine(List(Of LambertTile), WorldInfo)
 - uid: GhTA.Maps.MapController.LoadMapCoroutine*
   name: LoadMapCoroutine
   href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_LoadMapCoroutine_
@@ -7405,12 +7499,15 @@ references:
   isSpec: "True"
   fullName: GhTA.Maps.MapController.LoadMapCoroutine
   nameWithType: MapController.LoadMapCoroutine
-- uid: GhTA.Maps.MapController.LoadMapOneShot(GhTA.Common.Model.WorldInfo)
-  name: LoadMapOneShot(WorldInfo)
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_LoadMapOneShot_GhTA_Common_Model_WorldInfo_
-  commentId: M:GhTA.Maps.MapController.LoadMapOneShot(GhTA.Common.Model.WorldInfo)
-  fullName: GhTA.Maps.MapController.LoadMapOneShot(GhTA.Common.Model.WorldInfo)
-  nameWithType: MapController.LoadMapOneShot(WorldInfo)
+- uid: GhTA.Maps.MapController.LoadMapOneShot(System.Collections.Generic.List{GhTA.Maps.LambertTile},GhTA.Common.Model.WorldInfo)
+  name: LoadMapOneShot(List<LambertTile>, WorldInfo)
+  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_LoadMapOneShot_System_Collections_Generic_List_GhTA_Maps_LambertTile__GhTA_Common_Model_WorldInfo_
+  commentId: M:GhTA.Maps.MapController.LoadMapOneShot(System.Collections.Generic.List{GhTA.Maps.LambertTile},GhTA.Common.Model.WorldInfo)
+  name.vb: LoadMapOneShot(List(Of LambertTile), WorldInfo)
+  fullName: GhTA.Maps.MapController.LoadMapOneShot(System.Collections.Generic.List<GhTA.Maps.LambertTile>, GhTA.Common.Model.WorldInfo)
+  fullName.vb: GhTA.Maps.MapController.LoadMapOneShot(System.Collections.Generic.List(Of GhTA.Maps.LambertTile), GhTA.Common.Model.WorldInfo)
+  nameWithType: MapController.LoadMapOneShot(List<LambertTile>, WorldInfo)
+  nameWithType.vb: MapController.LoadMapOneShot(List(Of LambertTile), WorldInfo)
 - uid: GhTA.Maps.MapController.LoadMapOneShot*
   name: LoadMapOneShot
   href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_LoadMapOneShot_
@@ -7443,12 +7540,6 @@ references:
   commentId: F:GhTA.Maps.MapController.OnMapLoadProgress
   fullName: GhTA.Maps.MapController.OnMapLoadProgress
   nameWithType: MapController.OnMapLoadProgress
-- uid: GhTA.Maps.MapController.OpenDataGentLocationProvider
-  name: OpenDataGentLocationProvider
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_OpenDataGentLocationProvider
-  commentId: F:GhTA.Maps.MapController.OpenDataGentLocationProvider
-  fullName: GhTA.Maps.MapController.OpenDataGentLocationProvider
-  nameWithType: MapController.OpenDataGentLocationProvider
 - uid: GhTA.Maps.MapController.SortLocationsIntoTiles(System.Collections.Generic.List{UnityEngine.GameObject})
   name: SortLocationsIntoTiles(List<GameObject>)
   href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_SortLocationsIntoTiles_System_Collections_Generic_List_UnityEngine_GameObject__
@@ -10605,6 +10696,12 @@ references:
   commentId: T:GhTA.Pawns.FirstPersonPawn
   fullName: GhTA.Pawns.FirstPersonPawn
   nameWithType: FirstPersonPawn
+- uid: GhTA.Pawns.FirstPersonPawn._cameraHeight
+  name: _cameraHeight
+  href: api/GhTA.Pawns.FirstPersonPawn.html#GhTA_Pawns_FirstPersonPawn__cameraHeight
+  commentId: F:GhTA.Pawns.FirstPersonPawn._cameraHeight
+  fullName: GhTA.Pawns.FirstPersonPawn._cameraHeight
+  nameWithType: FirstPersonPawn._cameraHeight
 - uid: GhTA.Pawns.FirstPersonPawn.MovementSpeed
   name: MovementSpeed
   href: api/GhTA.Pawns.FirstPersonPawn.html#GhTA_Pawns_FirstPersonPawn_MovementSpeed
@@ -12312,12 +12409,19 @@ references:
   commentId: T:GhTA.Realtime.FlightInfoRetriever
   fullName: GhTA.Realtime.FlightInfoRetriever
   nameWithType: FlightInfoRetriever
-- uid: GhTA.Realtime.FlightInfoRetriever.Bounds
-  name: Bounds
-  href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_Bounds
-  commentId: F:GhTA.Realtime.FlightInfoRetriever.Bounds
-  fullName: GhTA.Realtime.FlightInfoRetriever.Bounds
-  nameWithType: FlightInfoRetriever.Bounds
+- uid: GhTA.Realtime.FlightInfoRetriever.ConfigureFlightInfoRetriever(GhTA.Common.Model.WorldInfo,UnityEngine.Transform)
+  name: ConfigureFlightInfoRetriever(WorldInfo, Transform)
+  href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_ConfigureFlightInfoRetriever_GhTA_Common_Model_WorldInfo_UnityEngine_Transform_
+  commentId: M:GhTA.Realtime.FlightInfoRetriever.ConfigureFlightInfoRetriever(GhTA.Common.Model.WorldInfo,UnityEngine.Transform)
+  fullName: GhTA.Realtime.FlightInfoRetriever.ConfigureFlightInfoRetriever(GhTA.Common.Model.WorldInfo, UnityEngine.Transform)
+  nameWithType: FlightInfoRetriever.ConfigureFlightInfoRetriever(WorldInfo, Transform)
+- uid: GhTA.Realtime.FlightInfoRetriever.ConfigureFlightInfoRetriever*
+  name: ConfigureFlightInfoRetriever
+  href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_ConfigureFlightInfoRetriever_
+  commentId: Overload:GhTA.Realtime.FlightInfoRetriever.ConfigureFlightInfoRetriever
+  isSpec: "True"
+  fullName: GhTA.Realtime.FlightInfoRetriever.ConfigureFlightInfoRetriever
+  nameWithType: FlightInfoRetriever.ConfigureFlightInfoRetriever
 - uid: GhTA.Realtime.FlightInfoRetriever.CreateFlights(System.Collections.Generic.IEnumerable{GhTA.Traffic.Flight})
   name: CreateFlights(IEnumerable<Flight>)
   href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_CreateFlights_System_Collections_Generic_IEnumerable_GhTA_Traffic_Flight__
@@ -12352,6 +12456,25 @@ references:
   commentId: F:GhTA.Realtime.FlightInfoRetriever.FlightPrefab
   fullName: GhTA.Realtime.FlightInfoRetriever.FlightPrefab
   nameWithType: FlightInfoRetriever.FlightPrefab
+- uid: GhTA.Realtime.FlightInfoRetriever.ProcessData(System.String)
+  name: ProcessData(String)
+  href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_ProcessData_System_String_
+  commentId: M:GhTA.Realtime.FlightInfoRetriever.ProcessData(System.String)
+  fullName: GhTA.Realtime.FlightInfoRetriever.ProcessData(System.String)
+  nameWithType: FlightInfoRetriever.ProcessData(String)
+- uid: GhTA.Realtime.FlightInfoRetriever.ProcessData*
+  name: ProcessData
+  href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_ProcessData_
+  commentId: Overload:GhTA.Realtime.FlightInfoRetriever.ProcessData
+  isSpec: "True"
+  fullName: GhTA.Realtime.FlightInfoRetriever.ProcessData
+  nameWithType: FlightInfoRetriever.ProcessData
+- uid: GhTA.Realtime.FlightInfoRetriever.Rate
+  name: Rate
+  href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_Rate
+  commentId: F:GhTA.Realtime.FlightInfoRetriever.Rate
+  fullName: GhTA.Realtime.FlightInfoRetriever.Rate
+  nameWithType: FlightInfoRetriever.Rate
 - uid: GhTA.Realtime.FlightInfoRetriever.RemoveFlights(System.Collections.Generic.IEnumerable{GhTA.Traffic.Flight})
   name: RemoveFlights(IEnumerable<Flight>)
   href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_RemoveFlights_System_Collections_Generic_IEnumerable_GhTA_Traffic_Flight__
@@ -12374,19 +12497,6 @@ references:
   commentId: F:GhTA.Realtime.FlightInfoRetriever.Retrieved
   fullName: GhTA.Realtime.FlightInfoRetriever.Retrieved
   nameWithType: FlightInfoRetriever.Retrieved
-- uid: GhTA.Realtime.FlightInfoRetriever.StartFlightInfoRequests(GhTA.Common.Model.WorldInfo)
-  name: StartFlightInfoRequests(WorldInfo)
-  href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_StartFlightInfoRequests_GhTA_Common_Model_WorldInfo_
-  commentId: M:GhTA.Realtime.FlightInfoRetriever.StartFlightInfoRequests(GhTA.Common.Model.WorldInfo)
-  fullName: GhTA.Realtime.FlightInfoRetriever.StartFlightInfoRequests(GhTA.Common.Model.WorldInfo)
-  nameWithType: FlightInfoRetriever.StartFlightInfoRequests(WorldInfo)
-- uid: GhTA.Realtime.FlightInfoRetriever.StartFlightInfoRequests*
-  name: StartFlightInfoRequests
-  href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_StartFlightInfoRequests_
-  commentId: Overload:GhTA.Realtime.FlightInfoRetriever.StartFlightInfoRequests
-  isSpec: "True"
-  fullName: GhTA.Realtime.FlightInfoRetriever.StartFlightInfoRequests
-  nameWithType: FlightInfoRetriever.StartFlightInfoRequests
 - uid: GhTA.Realtime.FlightInfoRetriever.UpdateFlights(System.Collections.Generic.IEnumerable{GhTA.Traffic.Flight})
   name: UpdateFlights(IEnumerable<Flight>)
   href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_UpdateFlights_System_Collections_Generic_IEnumerable_GhTA_Traffic_Flight__
@@ -12403,6 +12513,19 @@ references:
   isSpec: "True"
   fullName: GhTA.Realtime.FlightInfoRetriever.UpdateFlights
   nameWithType: FlightInfoRetriever.UpdateFlights
+- uid: GhTA.Realtime.FlightInfoRetriever.URL
+  name: URL
+  href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_URL
+  commentId: P:GhTA.Realtime.FlightInfoRetriever.URL
+  fullName: GhTA.Realtime.FlightInfoRetriever.URL
+  nameWithType: FlightInfoRetriever.URL
+- uid: GhTA.Realtime.FlightInfoRetriever.URL*
+  name: URL
+  href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_URL_
+  commentId: Overload:GhTA.Realtime.FlightInfoRetriever.URL
+  isSpec: "True"
+  fullName: GhTA.Realtime.FlightInfoRetriever.URL
+  nameWithType: FlightInfoRetriever.URL
 - uid: GhTA.Realtime.ParkingInfoRetriever
   name: ParkingInfoRetriever
   href: api/GhTA.Realtime.ParkingInfoRetriever.html
@@ -12576,6 +12699,12 @@ references:
   commentId: F:GhTA.Realtime.SheepInfoRetriever.Rate
   fullName: GhTA.Realtime.SheepInfoRetriever.Rate
   nameWithType: SheepInfoRetriever.Rate
+- uid: GhTA.Realtime.SheepInfoRetriever.SheepPrefab
+  name: SheepPrefab
+  href: api/GhTA.Realtime.SheepInfoRetriever.html#GhTA_Realtime_SheepInfoRetriever_SheepPrefab
+  commentId: F:GhTA.Realtime.SheepInfoRetriever.SheepPrefab
+  fullName: GhTA.Realtime.SheepInfoRetriever.SheepPrefab
+  nameWithType: SheepInfoRetriever.SheepPrefab
 - uid: GhTA.Realtime.SheepInfoRetriever.URL
   name: URL
   href: api/GhTA.Realtime.SheepInfoRetriever.html#GhTA_Realtime_SheepInfoRetriever_URL
@@ -13662,12 +13791,12 @@ references:
   isSpec: "True"
   fullName: GhTA.Traffic.SegmentComponent.ID
   nameWithType: SegmentComponent.ID
-- uid: GhTA.Traffic.SegmentComponent.Initialize(GhTA.Traffic.RoadSegment,UnityEngine.Vector3,GhTA.Traffic.TrafficController)
-  name: Initialize(RoadSegment, Vector3, TrafficController)
-  href: api/GhTA.Traffic.SegmentComponent.html#GhTA_Traffic_SegmentComponent_Initialize_GhTA_Traffic_RoadSegment_UnityEngine_Vector3_GhTA_Traffic_TrafficController_
-  commentId: M:GhTA.Traffic.SegmentComponent.Initialize(GhTA.Traffic.RoadSegment,UnityEngine.Vector3,GhTA.Traffic.TrafficController)
-  fullName: GhTA.Traffic.SegmentComponent.Initialize(GhTA.Traffic.RoadSegment, UnityEngine.Vector3, GhTA.Traffic.TrafficController)
-  nameWithType: SegmentComponent.Initialize(RoadSegment, Vector3, TrafficController)
+- uid: GhTA.Traffic.SegmentComponent.Initialize(GhTA.Traffic.RoadSegment,UnityEngine.Vector3,GhTA.Traffic.TrafficController,GhTA.Maps.PathTypeEnum)
+  name: Initialize(RoadSegment, Vector3, TrafficController, PathTypeEnum)
+  href: api/GhTA.Traffic.SegmentComponent.html#GhTA_Traffic_SegmentComponent_Initialize_GhTA_Traffic_RoadSegment_UnityEngine_Vector3_GhTA_Traffic_TrafficController_GhTA_Maps_PathTypeEnum_
+  commentId: M:GhTA.Traffic.SegmentComponent.Initialize(GhTA.Traffic.RoadSegment,UnityEngine.Vector3,GhTA.Traffic.TrafficController,GhTA.Maps.PathTypeEnum)
+  fullName: GhTA.Traffic.SegmentComponent.Initialize(GhTA.Traffic.RoadSegment, UnityEngine.Vector3, GhTA.Traffic.TrafficController, GhTA.Maps.PathTypeEnum)
+  nameWithType: SegmentComponent.Initialize(RoadSegment, Vector3, TrafficController, PathTypeEnum)
 - uid: GhTA.Traffic.SegmentComponent.Initialize*
   name: Initialize
   href: api/GhTA.Traffic.SegmentComponent.html#GhTA_Traffic_SegmentComponent_Initialize_
@@ -13729,12 +13858,18 @@ references:
   commentId: T:GhTA.Traffic.TrafficController
   fullName: GhTA.Traffic.TrafficController
   nameWithType: TrafficController
-- uid: GhTA.Traffic.TrafficController._segmentsList
-  name: _segmentsList
-  href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController__segmentsList
-  commentId: F:GhTA.Traffic.TrafficController._segmentsList
-  fullName: GhTA.Traffic.TrafficController._segmentsList
-  nameWithType: TrafficController._segmentsList
+- uid: GhTA.Traffic.TrafficController._roadList
+  name: _roadList
+  href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController__roadList
+  commentId: F:GhTA.Traffic.TrafficController._roadList
+  fullName: GhTA.Traffic.TrafficController._roadList
+  nameWithType: TrafficController._roadList
+- uid: GhTA.Traffic.TrafficController._tramList
+  name: _tramList
+  href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController__tramList
+  commentId: F:GhTA.Traffic.TrafficController._tramList
+  fullName: GhTA.Traffic.TrafficController._tramList
+  nameWithType: TrafficController._tramList
 - uid: GhTA.Traffic.TrafficController._worldInfo
   name: _worldInfo
   href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController__worldInfo
@@ -13844,19 +13979,6 @@ references:
   isSpec: "True"
   fullName: GhTA.Traffic.TrafficController.GetSegmentByID
   nameWithType: TrafficController.GetSegmentByID
-- uid: GhTA.Traffic.TrafficController.LoadSegmentsFromDiskJSON(UnityEngine.TextAsset)
-  name: LoadSegmentsFromDiskJSON(TextAsset)
-  href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController_LoadSegmentsFromDiskJSON_UnityEngine_TextAsset_
-  commentId: M:GhTA.Traffic.TrafficController.LoadSegmentsFromDiskJSON(UnityEngine.TextAsset)
-  fullName: GhTA.Traffic.TrafficController.LoadSegmentsFromDiskJSON(UnityEngine.TextAsset)
-  nameWithType: TrafficController.LoadSegmentsFromDiskJSON(TextAsset)
-- uid: GhTA.Traffic.TrafficController.LoadSegmentsFromDiskJSON*
-  name: LoadSegmentsFromDiskJSON
-  href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController_LoadSegmentsFromDiskJSON_
-  commentId: Overload:GhTA.Traffic.TrafficController.LoadSegmentsFromDiskJSON
-  isSpec: "True"
-  fullName: GhTA.Traffic.TrafficController.LoadSegmentsFromDiskJSON
-  nameWithType: TrafficController.LoadSegmentsFromDiskJSON
 - uid: GhTA.Traffic.TrafficController.NumberOfVehiclesToSpawn
   name: NumberOfVehiclesToSpawn
   href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController_NumberOfVehiclesToSpawn
@@ -13926,15 +14048,15 @@ references:
   isSpec: "True"
   fullName: GhTA.Traffic.TrafficController.SetHighPassSpeed
   nameWithType: TrafficController.SetHighPassSpeed
-- uid: GhTA.Traffic.TrafficController.SpawnRoads(System.Collections.Generic.List{GhTA.Traffic.RoadSegment},UnityEngine.Vector3)
-  name: SpawnRoads(List<RoadSegment>, Vector3)
-  href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController_SpawnRoads_System_Collections_Generic_List_GhTA_Traffic_RoadSegment__UnityEngine_Vector3_
-  commentId: M:GhTA.Traffic.TrafficController.SpawnRoads(System.Collections.Generic.List{GhTA.Traffic.RoadSegment},UnityEngine.Vector3)
-  name.vb: SpawnRoads(List(Of RoadSegment), Vector3)
-  fullName: GhTA.Traffic.TrafficController.SpawnRoads(System.Collections.Generic.List<GhTA.Traffic.RoadSegment>, UnityEngine.Vector3)
-  fullName.vb: GhTA.Traffic.TrafficController.SpawnRoads(System.Collections.Generic.List(Of GhTA.Traffic.RoadSegment), UnityEngine.Vector3)
-  nameWithType: TrafficController.SpawnRoads(List<RoadSegment>, Vector3)
-  nameWithType.vb: TrafficController.SpawnRoads(List(Of RoadSegment), Vector3)
+- uid: GhTA.Traffic.TrafficController.SpawnRoads(System.Collections.Generic.List{GhTA.Traffic.RoadSegment},System.Collections.Generic.List{GhTA.Traffic.SegmentComponent},UnityEngine.Vector3,GhTA.Maps.PathTypeEnum)
+  name: SpawnRoads(List<RoadSegment>, List<SegmentComponent>, Vector3, PathTypeEnum)
+  href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController_SpawnRoads_System_Collections_Generic_List_GhTA_Traffic_RoadSegment__System_Collections_Generic_List_GhTA_Traffic_SegmentComponent__UnityEngine_Vector3_GhTA_Maps_PathTypeEnum_
+  commentId: M:GhTA.Traffic.TrafficController.SpawnRoads(System.Collections.Generic.List{GhTA.Traffic.RoadSegment},System.Collections.Generic.List{GhTA.Traffic.SegmentComponent},UnityEngine.Vector3,GhTA.Maps.PathTypeEnum)
+  name.vb: SpawnRoads(List(Of RoadSegment), List(Of SegmentComponent), Vector3, PathTypeEnum)
+  fullName: GhTA.Traffic.TrafficController.SpawnRoads(System.Collections.Generic.List<GhTA.Traffic.RoadSegment>, System.Collections.Generic.List<GhTA.Traffic.SegmentComponent>, UnityEngine.Vector3, GhTA.Maps.PathTypeEnum)
+  fullName.vb: GhTA.Traffic.TrafficController.SpawnRoads(System.Collections.Generic.List(Of GhTA.Traffic.RoadSegment), System.Collections.Generic.List(Of GhTA.Traffic.SegmentComponent), UnityEngine.Vector3, GhTA.Maps.PathTypeEnum)
+  nameWithType: TrafficController.SpawnRoads(List<RoadSegment>, List<SegmentComponent>, Vector3, PathTypeEnum)
+  nameWithType.vb: TrafficController.SpawnRoads(List(Of RoadSegment), List(Of SegmentComponent), Vector3, PathTypeEnum)
 - uid: GhTA.Traffic.TrafficController.SpawnRoads*
   name: SpawnRoads
   href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController_SpawnRoads_
@@ -13942,12 +14064,15 @@ references:
   isSpec: "True"
   fullName: GhTA.Traffic.TrafficController.SpawnRoads
   nameWithType: TrafficController.SpawnRoads
-- uid: GhTA.Traffic.TrafficController.SpawnSingleRoad(GhTA.Traffic.RoadSegment,UnityEngine.Vector3)
-  name: SpawnSingleRoad(RoadSegment, Vector3)
-  href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController_SpawnSingleRoad_GhTA_Traffic_RoadSegment_UnityEngine_Vector3_
-  commentId: M:GhTA.Traffic.TrafficController.SpawnSingleRoad(GhTA.Traffic.RoadSegment,UnityEngine.Vector3)
-  fullName: GhTA.Traffic.TrafficController.SpawnSingleRoad(GhTA.Traffic.RoadSegment, UnityEngine.Vector3)
-  nameWithType: TrafficController.SpawnSingleRoad(RoadSegment, Vector3)
+- uid: GhTA.Traffic.TrafficController.SpawnSingleRoad(GhTA.Traffic.RoadSegment,System.Collections.Generic.List{GhTA.Traffic.SegmentComponent},UnityEngine.Vector3)
+  name: SpawnSingleRoad(RoadSegment, List<SegmentComponent>, Vector3)
+  href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController_SpawnSingleRoad_GhTA_Traffic_RoadSegment_System_Collections_Generic_List_GhTA_Traffic_SegmentComponent__UnityEngine_Vector3_
+  commentId: M:GhTA.Traffic.TrafficController.SpawnSingleRoad(GhTA.Traffic.RoadSegment,System.Collections.Generic.List{GhTA.Traffic.SegmentComponent},UnityEngine.Vector3)
+  name.vb: SpawnSingleRoad(RoadSegment, List(Of SegmentComponent), Vector3)
+  fullName: GhTA.Traffic.TrafficController.SpawnSingleRoad(GhTA.Traffic.RoadSegment, System.Collections.Generic.List<GhTA.Traffic.SegmentComponent>, UnityEngine.Vector3)
+  fullName.vb: GhTA.Traffic.TrafficController.SpawnSingleRoad(GhTA.Traffic.RoadSegment, System.Collections.Generic.List(Of GhTA.Traffic.SegmentComponent), UnityEngine.Vector3)
+  nameWithType: TrafficController.SpawnSingleRoad(RoadSegment, List<SegmentComponent>, Vector3)
+  nameWithType.vb: TrafficController.SpawnSingleRoad(RoadSegment, List(Of SegmentComponent), Vector3)
 - uid: GhTA.Traffic.TrafficController.SpawnSingleRoad*
   name: SpawnSingleRoad
   href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController_SpawnSingleRoad_
@@ -13955,24 +14080,24 @@ references:
   isSpec: "True"
   fullName: GhTA.Traffic.TrafficController.SpawnSingleRoad
   nameWithType: TrafficController.SpawnSingleRoad
-- uid: GhTA.Traffic.TrafficController.TrafficData
-  name: TrafficData
-  href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController_TrafficData
-  commentId: F:GhTA.Traffic.TrafficController.TrafficData
-  fullName: GhTA.Traffic.TrafficController.TrafficData
-  nameWithType: TrafficController.TrafficData
 - uid: GhTA.Traffic.TrafficController.TrafficDataBinary
   name: TrafficDataBinary
   href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController_TrafficDataBinary
   commentId: F:GhTA.Traffic.TrafficController.TrafficDataBinary
   fullName: GhTA.Traffic.TrafficController.TrafficDataBinary
   nameWithType: TrafficController.TrafficDataBinary
-- uid: GhTA.Traffic.TrafficController.UseBinary
-  name: UseBinary
-  href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController_UseBinary
-  commentId: F:GhTA.Traffic.TrafficController.UseBinary
-  fullName: GhTA.Traffic.TrafficController.UseBinary
-  nameWithType: TrafficController.UseBinary
+- uid: GhTA.Traffic.TrafficController.TramwayFile
+  name: TramwayFile
+  href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController_TramwayFile
+  commentId: F:GhTA.Traffic.TrafficController.TramwayFile
+  fullName: GhTA.Traffic.TrafficController.TramwayFile
+  nameWithType: TrafficController.TramwayFile
+- uid: GhTA.Traffic.TrafficController.Tramways
+  name: Tramways
+  href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController_Tramways
+  commentId: F:GhTA.Traffic.TrafficController.Tramways
+  fullName: GhTA.Traffic.TrafficController.Tramways
+  nameWithType: TrafficController.Tramways
 - uid: GhTA.Traffic.TrafficController.VehicleBandPass
   name: VehicleBandPass
   href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController_VehicleBandPass
@@ -14929,6 +15054,32 @@ references:
   isSpec: "True"
   fullName: GhTA.Utility.TileHelper.BuildTileMesh
   nameWithType: TileHelper.BuildTileMesh
+- uid: GhTA.Utility.TileHelper.CanBeSorted(UnityEngine.Vector3,System.Int32)
+  name: CanBeSorted(Vector3, Int32)
+  href: api/GhTA.Utility.TileHelper.html#GhTA_Utility_TileHelper_CanBeSorted_UnityEngine_Vector3_System_Int32_
+  commentId: M:GhTA.Utility.TileHelper.CanBeSorted(UnityEngine.Vector3,System.Int32)
+  fullName: GhTA.Utility.TileHelper.CanBeSorted(UnityEngine.Vector3, System.Int32)
+  nameWithType: TileHelper.CanBeSorted(Vector3, Int32)
+- uid: GhTA.Utility.TileHelper.CanBeSorted*
+  name: CanBeSorted
+  href: api/GhTA.Utility.TileHelper.html#GhTA_Utility_TileHelper_CanBeSorted_
+  commentId: Overload:GhTA.Utility.TileHelper.CanBeSorted
+  isSpec: "True"
+  fullName: GhTA.Utility.TileHelper.CanBeSorted
+  nameWithType: TileHelper.CanBeSorted
+- uid: GhTA.Utility.TileHelper.ConvertPositionToID(UnityEngine.Vector3)
+  name: ConvertPositionToID(Vector3)
+  href: api/GhTA.Utility.TileHelper.html#GhTA_Utility_TileHelper_ConvertPositionToID_UnityEngine_Vector3_
+  commentId: M:GhTA.Utility.TileHelper.ConvertPositionToID(UnityEngine.Vector3)
+  fullName: GhTA.Utility.TileHelper.ConvertPositionToID(UnityEngine.Vector3)
+  nameWithType: TileHelper.ConvertPositionToID(Vector3)
+- uid: GhTA.Utility.TileHelper.ConvertPositionToID*
+  name: ConvertPositionToID
+  href: api/GhTA.Utility.TileHelper.html#GhTA_Utility_TileHelper_ConvertPositionToID_
+  commentId: Overload:GhTA.Utility.TileHelper.ConvertPositionToID
+  isSpec: "True"
+  fullName: GhTA.Utility.TileHelper.ConvertPositionToID
+  nameWithType: TileHelper.ConvertPositionToID
 - uid: GhTA.Utility.TileHelper.GetTilesForSpawnConfiguration(System.Int32,UnityEngine.Vector2)
   name: GetTilesForSpawnConfiguration(Int32, Vector2)
   href: api/GhTA.Utility.TileHelper.html#GhTA_Utility_TileHelper_GetTilesForSpawnConfiguration_System_Int32_UnityEngine_Vector2_
@@ -17425,6 +17576,12 @@ references:
   isSpec: "True"
   fullName: IgnoreUiRaycastWhenInactive.IsRaycastLocationValid
   nameWithType: IgnoreUiRaycastWhenInactive.IsRaycastLocationValid
+- uid: Global.InfoRetrieverEditor
+  name: InfoRetrieverEditor
+  href: api/Global.InfoRetrieverEditor.html
+  commentId: T:Global.InfoRetrieverEditor
+  fullName: InfoRetrieverEditor
+  nameWithType: InfoRetrieverEditor
 - uid: Global.LedUnit
   name: LedUnit
   href: api/Global.LedUnit.html
@@ -17455,6 +17612,115 @@ references:
   commentId: F:Global.LedUnit.PreviousState
   fullName: LedUnit.PreviousState
   nameWithType: LedUnit.PreviousState
+- uid: Global.Mapillary
+  name: Mapillary
+  href: api/Global.Mapillary.html
+  commentId: T:Global.Mapillary
+  fullName: Mapillary
+  nameWithType: Mapillary
+- uid: Global.Mapillary.ClientID
+  name: ClientID
+  href: api/Global.Mapillary.html#Global_Mapillary_ClientID
+  commentId: F:Global.Mapillary.ClientID
+  fullName: Mapillary.ClientID
+  nameWithType: Mapillary.ClientID
+- uid: Global.Mapillary.ConstructImageUrl(System.String,MapillarySize)
+  name: ConstructImageUrl(String, MapillarySize)
+  href: api/Global.Mapillary.html#Global_Mapillary_ConstructImageUrl_System_String_MapillarySize_
+  commentId: M:Global.Mapillary.ConstructImageUrl(System.String,MapillarySize)
+  fullName: Mapillary.ConstructImageUrl(System.String, MapillarySize)
+  nameWithType: Mapillary.ConstructImageUrl(String, MapillarySize)
+- uid: Global.Mapillary.ConstructImageUrl*
+  name: ConstructImageUrl
+  href: api/Global.Mapillary.html#Global_Mapillary_ConstructImageUrl_
+  commentId: Overload:Global.Mapillary.ConstructImageUrl
+  isSpec: "True"
+  fullName: Mapillary.ConstructImageUrl
+  nameWithType: Mapillary.ConstructImageUrl
+- uid: Global.Mapillary.featureUrl
+  name: featureUrl
+  href: api/Global.Mapillary.html#Global_Mapillary_featureUrl
+  commentId: F:Global.Mapillary.featureUrl
+  fullName: Mapillary.featureUrl
+  nameWithType: Mapillary.featureUrl
+- uid: Global.Mapillary.imageUrl
+  name: imageUrl
+  href: api/Global.Mapillary.html#Global_Mapillary_imageUrl
+  commentId: F:Global.Mapillary.imageUrl
+  fullName: Mapillary.imageUrl
+  nameWithType: Mapillary.imageUrl
+- uid: Global.MapillaryProperties
+  name: MapillaryProperties
+  href: api/Global.MapillaryProperties.html
+  commentId: T:Global.MapillaryProperties
+  fullName: MapillaryProperties
+  nameWithType: MapillaryProperties
+- uid: Global.MapillaryProperties.CameraAngle
+  name: CameraAngle
+  href: api/Global.MapillaryProperties.html#Global_MapillaryProperties_CameraAngle
+  commentId: F:Global.MapillaryProperties.CameraAngle
+  fullName: MapillaryProperties.CameraAngle
+  nameWithType: MapillaryProperties.CameraAngle
+- uid: Global.MapillaryProperties.CameraMake
+  name: CameraMake
+  href: api/Global.MapillaryProperties.html#Global_MapillaryProperties_CameraMake
+  commentId: F:Global.MapillaryProperties.CameraMake
+  fullName: MapillaryProperties.CameraMake
+  nameWithType: MapillaryProperties.CameraMake
+- uid: Global.MapillaryProperties.ImageKey
+  name: ImageKey
+  href: api/Global.MapillaryProperties.html#Global_MapillaryProperties_ImageKey
+  commentId: F:Global.MapillaryProperties.ImageKey
+  fullName: MapillaryProperties.ImageKey
+  nameWithType: MapillaryProperties.ImageKey
+- uid: Global.MapillaryResult
+  name: MapillaryResult
+  href: api/Global.MapillaryResult.html
+  commentId: T:Global.MapillaryResult
+  fullName: MapillaryResult
+  nameWithType: MapillaryResult
+- uid: Global.MapillaryResult.geo
+  name: geo
+  href: api/Global.MapillaryResult.html#Global_MapillaryResult_geo
+  commentId: F:Global.MapillaryResult.geo
+  fullName: MapillaryResult.geo
+  nameWithType: MapillaryResult.geo
+- uid: Global.MapillaryResult.properties
+  name: properties
+  href: api/Global.MapillaryResult.html#Global_MapillaryResult_properties
+  commentId: F:Global.MapillaryResult.properties
+  fullName: MapillaryResult.properties
+  nameWithType: MapillaryResult.properties
+- uid: Global.MapillarySize
+  name: MapillarySize
+  href: api/Global.MapillarySize.html
+  commentId: T:Global.MapillarySize
+  fullName: MapillarySize
+  nameWithType: MapillarySize
+- uid: Global.MapillarySize.thumb_1024
+  name: thumb_1024
+  href: api/Global.MapillarySize.html#Global_MapillarySize_thumb_1024
+  commentId: F:Global.MapillarySize.thumb_1024
+  fullName: MapillarySize.thumb_1024
+  nameWithType: MapillarySize.thumb_1024
+- uid: Global.MapillarySize.thumb_2048
+  name: thumb_2048
+  href: api/Global.MapillarySize.html#Global_MapillarySize_thumb_2048
+  commentId: F:Global.MapillarySize.thumb_2048
+  fullName: MapillarySize.thumb_2048
+  nameWithType: MapillarySize.thumb_2048
+- uid: Global.MapillarySize.thumb_320
+  name: thumb_320
+  href: api/Global.MapillarySize.html#Global_MapillarySize_thumb_320
+  commentId: F:Global.MapillarySize.thumb_320
+  fullName: MapillarySize.thumb_320
+  nameWithType: MapillarySize.thumb_320
+- uid: Global.MapillarySize.thumb_640
+  name: thumb_640
+  href: api/Global.MapillarySize.html#Global_MapillarySize_thumb_640
+  commentId: F:Global.MapillarySize.thumb_640
+  fullName: MapillarySize.thumb_640
+  nameWithType: MapillarySize.thumb_640
 - uid: Global.MouseLookHelper
   name: MouseLookHelper
   href: api/Global.MouseLookHelper.html
@@ -17809,214 +18075,6 @@ references:
   commentId: T:Global.RoadParent
   fullName: RoadParent
   nameWithType: RoadParent
-- uid: Global.ScreenshotCompanion
-  name: ScreenshotCompanion
-  href: api/Global.ScreenshotCompanion.html
-  commentId: T:Global.ScreenshotCompanion
-  fullName: ScreenshotCompanion
-  nameWithType: ScreenshotCompanion
-- uid: Global.ScreenshotCompanion.CaptureCutout(System.Int32)
-  name: CaptureCutout(Int32)
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_CaptureCutout_System_Int32_
-  commentId: M:Global.ScreenshotCompanion.CaptureCutout(System.Int32)
-  fullName: ScreenshotCompanion.CaptureCutout(System.Int32)
-  nameWithType: ScreenshotCompanion.CaptureCutout(Int32)
-- uid: Global.ScreenshotCompanion.CaptureCutout*
-  name: CaptureCutout
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_CaptureCutout_
-  commentId: Overload:Global.ScreenshotCompanion.CaptureCutout
-  isSpec: "True"
-  fullName: ScreenshotCompanion.CaptureCutout
-  nameWithType: ScreenshotCompanion.CaptureCutout
-- uid: Global.ScreenshotCompanion.CaptureCutoutVoid(System.Int32)
-  name: CaptureCutoutVoid(Int32)
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_CaptureCutoutVoid_System_Int32_
-  commentId: M:Global.ScreenshotCompanion.CaptureCutoutVoid(System.Int32)
-  fullName: ScreenshotCompanion.CaptureCutoutVoid(System.Int32)
-  nameWithType: ScreenshotCompanion.CaptureCutoutVoid(Int32)
-- uid: Global.ScreenshotCompanion.CaptureCutoutVoid*
-  name: CaptureCutoutVoid
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_CaptureCutoutVoid_
-  commentId: Overload:Global.ScreenshotCompanion.CaptureCutoutVoid
-  isSpec: "True"
-  fullName: ScreenshotCompanion.CaptureCutoutVoid
-  nameWithType: ScreenshotCompanion.CaptureCutoutVoid
-- uid: Global.ScreenshotCompanion.CaptureMethod
-  name: ScreenshotCompanion.CaptureMethod
-  href: api/Global.ScreenshotCompanion.CaptureMethod.html
-  commentId: T:Global.ScreenshotCompanion.CaptureMethod
-  fullName: ScreenshotCompanion.CaptureMethod
-  nameWithType: ScreenshotCompanion.CaptureMethod
-- uid: Global.ScreenshotCompanion.CaptureMethod.CaptureScreenshot
-  name: CaptureScreenshot
-  href: api/Global.ScreenshotCompanion.CaptureMethod.html#Global_ScreenshotCompanion_CaptureMethod_CaptureScreenshot
-  commentId: F:Global.ScreenshotCompanion.CaptureMethod.CaptureScreenshot
-  fullName: ScreenshotCompanion.CaptureMethod.CaptureScreenshot
-  nameWithType: ScreenshotCompanion.CaptureMethod.CaptureScreenshot
-- uid: Global.ScreenshotCompanion.CaptureMethod.Cutout
-  name: Cutout
-  href: api/Global.ScreenshotCompanion.CaptureMethod.html#Global_ScreenshotCompanion_CaptureMethod_Cutout
-  commentId: F:Global.ScreenshotCompanion.CaptureMethod.Cutout
-  fullName: ScreenshotCompanion.CaptureMethod.Cutout
-  nameWithType: ScreenshotCompanion.CaptureMethod.Cutout
-- uid: Global.ScreenshotCompanion.CaptureMethod.RenderTexture
-  name: RenderTexture
-  href: api/Global.ScreenshotCompanion.CaptureMethod.html#Global_ScreenshotCompanion_CaptureMethod_RenderTexture
-  commentId: F:Global.ScreenshotCompanion.CaptureMethod.RenderTexture
-  fullName: ScreenshotCompanion.CaptureMethod.RenderTexture
-  nameWithType: ScreenshotCompanion.CaptureMethod.RenderTexture
-- uid: Global.ScreenshotCompanion.CaptureRenderTexture(UnityEngine.Camera,System.Int32)
-  name: CaptureRenderTexture(Camera, Int32)
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_CaptureRenderTexture_UnityEngine_Camera_System_Int32_
-  commentId: M:Global.ScreenshotCompanion.CaptureRenderTexture(UnityEngine.Camera,System.Int32)
-  fullName: ScreenshotCompanion.CaptureRenderTexture(UnityEngine.Camera, System.Int32)
-  nameWithType: ScreenshotCompanion.CaptureRenderTexture(Camera, Int32)
-- uid: Global.ScreenshotCompanion.CaptureRenderTexture*
-  name: CaptureRenderTexture
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_CaptureRenderTexture_
-  commentId: Overload:Global.ScreenshotCompanion.CaptureRenderTexture
-  isSpec: "True"
-  fullName: ScreenshotCompanion.CaptureRenderTexture
-  nameWithType: ScreenshotCompanion.CaptureRenderTexture
-- uid: Global.ScreenshotCompanion.CaptureScreenshots(System.Int32,System.Boolean)
-  name: CaptureScreenshots(Int32, Boolean)
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_CaptureScreenshots_System_Int32_System_Boolean_
-  commentId: M:Global.ScreenshotCompanion.CaptureScreenshots(System.Int32,System.Boolean)
-  fullName: ScreenshotCompanion.CaptureScreenshots(System.Int32, System.Boolean)
-  nameWithType: ScreenshotCompanion.CaptureScreenshots(Int32, Boolean)
-- uid: Global.ScreenshotCompanion.CaptureScreenshots*
-  name: CaptureScreenshots
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_CaptureScreenshots_
-  commentId: Overload:Global.ScreenshotCompanion.CaptureScreenshots
-  isSpec: "True"
-  fullName: ScreenshotCompanion.CaptureScreenshots
-  nameWithType: ScreenshotCompanion.CaptureScreenshots
-- uid: Global.ScreenshotCompanion.Create
-  name: Create()
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_Create
-  commentId: M:Global.ScreenshotCompanion.Create
-  fullName: ScreenshotCompanion.Create()
-  nameWithType: ScreenshotCompanion.Create()
-- uid: Global.ScreenshotCompanion.Create*
-  name: Create
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_Create_
-  commentId: Overload:Global.ScreenshotCompanion.Create
-  isSpec: "True"
-  fullName: ScreenshotCompanion.Create
-  nameWithType: ScreenshotCompanion.Create
-- uid: Global.ScreenshotCompanion.Delete(System.Int32)
-  name: Delete(Int32)
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_Delete_System_Int32_
-  commentId: M:Global.ScreenshotCompanion.Delete(System.Int32)
-  fullName: ScreenshotCompanion.Delete(System.Int32)
-  nameWithType: ScreenshotCompanion.Delete(Int32)
-- uid: Global.ScreenshotCompanion.Delete*
-  name: Delete
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_Delete_
-  commentId: Overload:Global.ScreenshotCompanion.Delete
-  isSpec: "True"
-  fullName: ScreenshotCompanion.Delete
-  nameWithType: ScreenshotCompanion.Delete
-- uid: Global.ScreenshotCompanion.FileType
-  name: ScreenshotCompanion.FileType
-  href: api/Global.ScreenshotCompanion.FileType.html
-  commentId: T:Global.ScreenshotCompanion.FileType
-  fullName: ScreenshotCompanion.FileType
-  nameWithType: ScreenshotCompanion.FileType
-- uid: Global.ScreenshotCompanion.FileType.JPG
-  name: JPG
-  href: api/Global.ScreenshotCompanion.FileType.html#Global_ScreenshotCompanion_FileType_JPG
-  commentId: F:Global.ScreenshotCompanion.FileType.JPG
-  fullName: ScreenshotCompanion.FileType.JPG
-  nameWithType: ScreenshotCompanion.FileType.JPG
-- uid: Global.ScreenshotCompanion.FileType.PNG
-  name: PNG
-  href: api/Global.ScreenshotCompanion.FileType.html#Global_ScreenshotCompanion_FileType_PNG
-  commentId: F:Global.ScreenshotCompanion.FileType.PNG
-  fullName: ScreenshotCompanion.FileType.PNG
-  nameWithType: ScreenshotCompanion.FileType.PNG
-- uid: Global.ScreenshotCompanion.foldoutSettings
-  name: foldoutSettings
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_foldoutSettings
-  commentId: F:Global.ScreenshotCompanion.foldoutSettings
-  fullName: ScreenshotCompanion.foldoutSettings
-  nameWithType: ScreenshotCompanion.foldoutSettings
-- uid: Global.ScreenshotCompanion.getFileName(System.Int32)
-  name: getFileName(Int32)
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_getFileName_System_Int32_
-  commentId: M:Global.ScreenshotCompanion.getFileName(System.Int32)
-  fullName: ScreenshotCompanion.getFileName(System.Int32)
-  nameWithType: ScreenshotCompanion.getFileName(Int32)
-- uid: Global.ScreenshotCompanion.getFileName*
-  name: getFileName
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_getFileName_
-  commentId: Overload:Global.ScreenshotCompanion.getFileName
-  isSpec: "True"
-  fullName: ScreenshotCompanion.getFileName
-  nameWithType: ScreenshotCompanion.getFileName
-- uid: Global.ScreenshotCompanion.getResolution
-  name: getResolution()
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_getResolution
-  commentId: M:Global.ScreenshotCompanion.getResolution
-  fullName: ScreenshotCompanion.getResolution()
-  nameWithType: ScreenshotCompanion.getResolution()
-- uid: Global.ScreenshotCompanion.getResolution*
-  name: getResolution
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_getResolution_
-  commentId: Overload:Global.ScreenshotCompanion.getResolution
-  isSpec: "True"
-  fullName: ScreenshotCompanion.getResolution
-  nameWithType: ScreenshotCompanion.getResolution
-- uid: Global.ScreenshotCompanion.getSaveDirectory
-  name: getSaveDirectory()
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_getSaveDirectory
-  commentId: M:Global.ScreenshotCompanion.getSaveDirectory
-  fullName: ScreenshotCompanion.getSaveDirectory()
-  nameWithType: ScreenshotCompanion.getSaveDirectory()
-- uid: Global.ScreenshotCompanion.getSaveDirectory*
-  name: getSaveDirectory
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_getSaveDirectory_
-  commentId: Overload:Global.ScreenshotCompanion.getSaveDirectory
-  isSpec: "True"
-  fullName: ScreenshotCompanion.getSaveDirectory
-  nameWithType: ScreenshotCompanion.getSaveDirectory
-- uid: Global.ScreenshotCompanion.lastCam
-  name: lastCam
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_lastCam
-  commentId: F:Global.ScreenshotCompanion.lastCam
-  fullName: ScreenshotCompanion.lastCam
-  nameWithType: ScreenshotCompanion.lastCam
-- uid: Global.ScreenshotCompanion.lastCamID
-  name: lastCamID
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_lastCamID
-  commentId: F:Global.ScreenshotCompanion.lastCamID
-  fullName: ScreenshotCompanion.lastCamID
-  nameWithType: ScreenshotCompanion.lastCamID
-- uid: Global.ScreenshotCompanion.list
-  name: list
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_list
-  commentId: F:Global.ScreenshotCompanion.list
-  fullName: ScreenshotCompanion.list
-  nameWithType: ScreenshotCompanion.list
-- uid: Global.ScreenshotCompanion.RequestDelete(System.Int32)
-  name: RequestDelete(Int32)
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_RequestDelete_System_Int32_
-  commentId: M:Global.ScreenshotCompanion.RequestDelete(System.Int32)
-  fullName: ScreenshotCompanion.RequestDelete(System.Int32)
-  nameWithType: ScreenshotCompanion.RequestDelete(Int32)
-- uid: Global.ScreenshotCompanion.RequestDelete*
-  name: RequestDelete
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_RequestDelete_
-  commentId: Overload:Global.ScreenshotCompanion.RequestDelete
-  isSpec: "True"
-  fullName: ScreenshotCompanion.RequestDelete
-  nameWithType: ScreenshotCompanion.RequestDelete
-- uid: Global.ScreenshotCompanion.settings
-  name: settings
-  href: api/Global.ScreenshotCompanion.html#Global_ScreenshotCompanion_settings
-  commentId: F:Global.ScreenshotCompanion.settings
-  fullName: ScreenshotCompanion.settings
-  nameWithType: ScreenshotCompanion.settings
 - uid: Global.ServerSettingsInspector
   name: ServerSettingsInspector
   href: api/Global.ServerSettingsInspector.html
@@ -18099,6 +18157,96 @@ references:
   isSpec: "True"
   fullName: SoundsForJoinAndLeave.OnPlayerLeftRoom
   nameWithType: SoundsForJoinAndLeave.OnPlayerLeftRoom
+- uid: Global.StreetViewService
+  name: StreetViewService
+  href: api/Global.StreetViewService.html
+  commentId: T:Global.StreetViewService
+  fullName: StreetViewService
+  nameWithType: StreetViewService
+- uid: Global.StreetViewService.AutoRun
+  name: AutoRun
+  href: api/Global.StreetViewService.html#Global_StreetViewService_AutoRun
+  commentId: F:Global.StreetViewService.AutoRun
+  fullName: StreetViewService.AutoRun
+  nameWithType: StreetViewService.AutoRun
+- uid: Global.StreetViewService.DebugStuff
+  name: DebugStuff
+  href: api/Global.StreetViewService.html#Global_StreetViewService_DebugStuff
+  commentId: F:Global.StreetViewService.DebugStuff
+  fullName: StreetViewService.DebugStuff
+  nameWithType: StreetViewService.DebugStuff
+- uid: Global.StreetViewService.DoRequest
+  name: DoRequest()
+  href: api/Global.StreetViewService.html#Global_StreetViewService_DoRequest
+  commentId: M:Global.StreetViewService.DoRequest
+  fullName: StreetViewService.DoRequest()
+  nameWithType: StreetViewService.DoRequest()
+- uid: Global.StreetViewService.DoRequest*
+  name: DoRequest
+  href: api/Global.StreetViewService.html#Global_StreetViewService_DoRequest_
+  commentId: Overload:Global.StreetViewService.DoRequest
+  isSpec: "True"
+  fullName: StreetViewService.DoRequest
+  nameWithType: StreetViewService.DoRequest
+- uid: Global.StreetViewService.features
+  name: features
+  href: api/Global.StreetViewService.html#Global_StreetViewService_features
+  commentId: F:Global.StreetViewService.features
+  fullName: StreetViewService.features
+  nameWithType: StreetViewService.features
+- uid: Global.StreetViewService.GetRequestOnce(System.String,System.Action{System.String})
+  name: GetRequestOnce(String, Action<String>)
+  href: api/Global.StreetViewService.html#Global_StreetViewService_GetRequestOnce_System_String_System_Action_System_String__
+  commentId: M:Global.StreetViewService.GetRequestOnce(System.String,System.Action{System.String})
+  name.vb: GetRequestOnce(String, Action(Of String))
+  fullName: StreetViewService.GetRequestOnce(System.String, System.Action<System.String>)
+  fullName.vb: StreetViewService.GetRequestOnce(System.String, System.Action(Of System.String))
+  nameWithType: StreetViewService.GetRequestOnce(String, Action<String>)
+  nameWithType.vb: StreetViewService.GetRequestOnce(String, Action(Of String))
+- uid: Global.StreetViewService.GetRequestOnce*
+  name: GetRequestOnce
+  href: api/Global.StreetViewService.html#Global_StreetViewService_GetRequestOnce_
+  commentId: Overload:Global.StreetViewService.GetRequestOnce
+  isSpec: "True"
+  fullName: StreetViewService.GetRequestOnce
+  nameWithType: StreetViewService.GetRequestOnce
+- uid: Global.StreetViewService.GPS
+  name: GPS
+  href: api/Global.StreetViewService.html#Global_StreetViewService_GPS
+  commentId: F:Global.StreetViewService.GPS
+  fullName: StreetViewService.GPS
+  nameWithType: StreetViewService.GPS
+- uid: Global.StreetViewService.ImageSize
+  name: ImageSize
+  href: api/Global.StreetViewService.html#Global_StreetViewService_ImageSize
+  commentId: F:Global.StreetViewService.ImageSize
+  fullName: StreetViewService.ImageSize
+  nameWithType: StreetViewService.ImageSize
+- uid: Global.StreetViewService.OnDataReceived
+  name: OnDataReceived
+  href: api/Global.StreetViewService.html#Global_StreetViewService_OnDataReceived
+  commentId: F:Global.StreetViewService.OnDataReceived
+  fullName: StreetViewService.OnDataReceived
+  nameWithType: StreetViewService.OnDataReceived
+- uid: Global.StreetViewService.processData(System.String)
+  name: processData(String)
+  href: api/Global.StreetViewService.html#Global_StreetViewService_processData_System_String_
+  commentId: M:Global.StreetViewService.processData(System.String)
+  fullName: StreetViewService.processData(System.String)
+  nameWithType: StreetViewService.processData(String)
+- uid: Global.StreetViewService.processData*
+  name: processData
+  href: api/Global.StreetViewService.html#Global_StreetViewService_processData_
+  commentId: Overload:Global.StreetViewService.processData
+  isSpec: "True"
+  fullName: StreetViewService.processData
+  nameWithType: StreetViewService.processData
+- uid: Global.StreetViewService.WorldInfo
+  name: WorldInfo
+  href: api/Global.StreetViewService.html#Global_StreetViewService_WorldInfo
+  commentId: F:Global.StreetViewService.WorldInfo
+  fullName: StreetViewService.WorldInfo
+  nameWithType: StreetViewService.WorldInfo
 - uid: Global.TrainDepartureDrawer
   name: TrainDepartureDrawer
   href: api/Global.TrainDepartureDrawer.html
