@@ -5015,12 +5015,6 @@ references:
   isSpec: "True"
   fullName: GhTA.Maps.Editor.MapEditor.OnSceneGUI
   nameWithType: MapEditor.OnSceneGUI
-- uid: GhTA.Maps.Editor.MapMenu
-  name: MapMenu
-  href: api/GhTA.Maps.Editor.MapMenu.html
-  commentId: T:GhTA.Maps.Editor.MapMenu
-  fullName: GhTA.Maps.Editor.MapMenu
-  nameWithType: MapMenu
 - uid: GhTA.Maps.Editor.OpenStreetMapEditor
   name: OpenStreetMapEditor
   href: api/GhTA.Maps.Editor.OpenStreetMapEditor.html
@@ -5318,19 +5312,6 @@ references:
   commentId: F:GhTA.Maps.MapController._tiles
   fullName: GhTA.Maps.MapController._tiles
   nameWithType: MapController._tiles
-- uid: GhTA.Maps.MapController.AttemptBuildingsForTile(GhTA.Maps.LambertTile,GhTA.Common.Model.MapLibrary)
-  name: AttemptBuildingsForTile(LambertTile, MapLibrary)
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_AttemptBuildingsForTile_GhTA_Maps_LambertTile_GhTA_Common_Model_MapLibrary_
-  commentId: M:GhTA.Maps.MapController.AttemptBuildingsForTile(GhTA.Maps.LambertTile,GhTA.Common.Model.MapLibrary)
-  fullName: GhTA.Maps.MapController.AttemptBuildingsForTile(GhTA.Maps.LambertTile, GhTA.Common.Model.MapLibrary)
-  nameWithType: MapController.AttemptBuildingsForTile(LambertTile, MapLibrary)
-- uid: GhTA.Maps.MapController.AttemptBuildingsForTile*
-  name: AttemptBuildingsForTile
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_AttemptBuildingsForTile_
-  commentId: Overload:GhTA.Maps.MapController.AttemptBuildingsForTile
-  isSpec: "True"
-  fullName: GhTA.Maps.MapController.AttemptBuildingsForTile
-  nameWithType: MapController.AttemptBuildingsForTile
 - uid: GhTA.Maps.MapController.AttemptMiniMapForTile(GhTA.Maps.LambertTile,GhTA.Common.Model.MapLibrary)
   name: AttemptMiniMapForTile(LambertTile, MapLibrary)
   href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_AttemptMiniMapForTile_GhTA_Maps_LambertTile_GhTA_Common_Model_MapLibrary_
@@ -5357,32 +5338,6 @@ references:
   isSpec: "True"
   fullName: GhTA.Maps.MapController.AttemptPrefabForTile
   nameWithType: MapController.AttemptPrefabForTile
-- uid: GhTA.Maps.MapController.AttemptTerrainForTile(GhTA.Maps.LambertTile,GhTA.Terrain.TerrainLibrary)
-  name: AttemptTerrainForTile(LambertTile, TerrainLibrary)
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_AttemptTerrainForTile_GhTA_Maps_LambertTile_GhTA_Terrain_TerrainLibrary_
-  commentId: M:GhTA.Maps.MapController.AttemptTerrainForTile(GhTA.Maps.LambertTile,GhTA.Terrain.TerrainLibrary)
-  fullName: GhTA.Maps.MapController.AttemptTerrainForTile(GhTA.Maps.LambertTile, GhTA.Terrain.TerrainLibrary)
-  nameWithType: MapController.AttemptTerrainForTile(LambertTile, TerrainLibrary)
-- uid: GhTA.Maps.MapController.AttemptTerrainForTile*
-  name: AttemptTerrainForTile
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_AttemptTerrainForTile_
-  commentId: Overload:GhTA.Maps.MapController.AttemptTerrainForTile
-  isSpec: "True"
-  fullName: GhTA.Maps.MapController.AttemptTerrainForTile
-  nameWithType: MapController.AttemptTerrainForTile
-- uid: GhTA.Maps.MapController.CurrentProgress
-  name: CurrentProgress
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_CurrentProgress
-  commentId: P:GhTA.Maps.MapController.CurrentProgress
-  fullName: GhTA.Maps.MapController.CurrentProgress
-  nameWithType: MapController.CurrentProgress
-- uid: GhTA.Maps.MapController.CurrentProgress*
-  name: CurrentProgress
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_CurrentProgress_
-  commentId: Overload:GhTA.Maps.MapController.CurrentProgress
-  isSpec: "True"
-  fullName: GhTA.Maps.MapController.CurrentProgress
-  nameWithType: MapController.CurrentProgress
 - uid: GhTA.Maps.MapController.DrawGrid
   name: DrawGrid
   href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_DrawGrid
@@ -5414,19 +5369,6 @@ references:
   isSpec: "True"
   fullName: GhTA.Maps.MapController.LoadMapOneShot
   nameWithType: MapController.LoadMapOneShot
-- uid: GhTA.Maps.MapController.LoadTile(UnityEngine.Vector2Int)
-  name: LoadTile(Vector2Int)
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_LoadTile_UnityEngine_Vector2Int_
-  commentId: M:GhTA.Maps.MapController.LoadTile(UnityEngine.Vector2Int)
-  fullName: GhTA.Maps.MapController.LoadTile(UnityEngine.Vector2Int)
-  nameWithType: MapController.LoadTile(Vector2Int)
-- uid: GhTA.Maps.MapController.LoadTile*
-  name: LoadTile
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_LoadTile_
-  commentId: Overload:GhTA.Maps.MapController.LoadTile
-  isSpec: "True"
-  fullName: GhTA.Maps.MapController.LoadTile
-  nameWithType: MapController.LoadTile
 - uid: GhTA.Maps.MapController.MapLibrary
   name: MapLibrary
   href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_MapLibrary
@@ -5439,22 +5381,6 @@ references:
   commentId: F:GhTA.Maps.MapController.OnMapLoadProgress
   fullName: GhTA.Maps.MapController.OnMapLoadProgress
   nameWithType: MapController.OnMapLoadProgress
-- uid: GhTA.Maps.MapController.SortLocationsIntoTiles(System.Collections.Generic.List{UnityEngine.GameObject})
-  name: SortLocationsIntoTiles(List<GameObject>)
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_SortLocationsIntoTiles_System_Collections_Generic_List_UnityEngine_GameObject__
-  commentId: M:GhTA.Maps.MapController.SortLocationsIntoTiles(System.Collections.Generic.List{UnityEngine.GameObject})
-  name.vb: SortLocationsIntoTiles(List(Of GameObject))
-  fullName: GhTA.Maps.MapController.SortLocationsIntoTiles(System.Collections.Generic.List<UnityEngine.GameObject>)
-  fullName.vb: GhTA.Maps.MapController.SortLocationsIntoTiles(System.Collections.Generic.List(Of UnityEngine.GameObject))
-  nameWithType: MapController.SortLocationsIntoTiles(List<GameObject>)
-  nameWithType.vb: MapController.SortLocationsIntoTiles(List(Of GameObject))
-- uid: GhTA.Maps.MapController.SortLocationsIntoTiles*
-  name: SortLocationsIntoTiles
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_SortLocationsIntoTiles_
-  commentId: Overload:GhTA.Maps.MapController.SortLocationsIntoTiles
-  isSpec: "True"
-  fullName: GhTA.Maps.MapController.SortLocationsIntoTiles
-  nameWithType: MapController.SortLocationsIntoTiles
 - uid: GhTA.Maps.MapController.SpawnBuildings
   name: SpawnBuildings
   href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_SpawnBuildings
@@ -8823,12 +8749,12 @@ references:
   commentId: F:GhTA.Pawns.TopDownPawn.Height
   fullName: GhTA.Pawns.TopDownPawn.Height
   nameWithType: TopDownPawn.Height
-- uid: GhTA.Pawns.TopDownPawn.mouseSensitivity
-  name: mouseSensitivity
-  href: api/GhTA.Pawns.TopDownPawn.html#GhTA_Pawns_TopDownPawn_mouseSensitivity
-  commentId: F:GhTA.Pawns.TopDownPawn.mouseSensitivity
-  fullName: GhTA.Pawns.TopDownPawn.mouseSensitivity
-  nameWithType: TopDownPawn.mouseSensitivity
+- uid: GhTA.Pawns.TopDownPawn.MouseSensitivity
+  name: MouseSensitivity
+  href: api/GhTA.Pawns.TopDownPawn.html#GhTA_Pawns_TopDownPawn_MouseSensitivity
+  commentId: F:GhTA.Pawns.TopDownPawn.MouseSensitivity
+  fullName: GhTA.Pawns.TopDownPawn.MouseSensitivity
+  nameWithType: TopDownPawn.MouseSensitivity
 - uid: GhTA.Pawns.TopDownPawn.PanBorderThickness
   name: PanBorderThickness
   href: api/GhTA.Pawns.TopDownPawn.html#GhTA_Pawns_TopDownPawn_PanBorderThickness
@@ -13048,12 +12974,6 @@ references:
   commentId: N:GhTA.Utility.Editor
   fullName: GhTA.Utility.Editor
   nameWithType: GhTA.Utility.Editor
-- uid: GhTA.Utility.Editor.SceneLoadHelper
-  name: SceneLoadHelper
-  href: api/GhTA.Utility.Editor.SceneLoadHelper.html
-  commentId: T:GhTA.Utility.Editor.SceneLoadHelper
-  fullName: GhTA.Utility.Editor.SceneLoadHelper
-  nameWithType: SceneLoadHelper
 - uid: GhTA.Utility.Editor.ShapeEditor
   name: ShapeEditor
   href: api/GhTA.Utility.Editor.ShapeEditor.html
