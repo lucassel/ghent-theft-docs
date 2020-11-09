@@ -266,6 +266,12 @@ references:
   commentId: F:GhTA.Application.FlowController.MapController
   fullName: GhTA.Application.FlowController.MapController
   nameWithType: FlowController.MapController
+- uid: GhTA.Application.FlowController.MapLoader
+  name: MapLoader
+  href: api/GhTA.Application.FlowController.html#GhTA_Application_FlowController_MapLoader
+  commentId: F:GhTA.Application.FlowController.MapLoader
+  fullName: GhTA.Application.FlowController.MapLoader
+  nameWithType: FlowController.MapLoader
 - uid: GhTA.Application.FlowController.ParkingInfoRetriever
   name: ParkingInfoRetriever
   href: api/GhTA.Application.FlowController.html#GhTA_Application_FlowController_ParkingInfoRetriever
@@ -474,6 +480,22 @@ references:
   commentId: F:GhTA.Application.MapSceneLoader.CurrentTile
   fullName: GhTA.Application.MapSceneLoader.CurrentTile
   nameWithType: MapSceneLoader.CurrentTile
+- uid: GhTA.Application.MapSceneLoader.LoadBatch(System.Collections.Generic.List{System.String})
+  name: LoadBatch(List<String>)
+  href: api/GhTA.Application.MapSceneLoader.html#GhTA_Application_MapSceneLoader_LoadBatch_System_Collections_Generic_List_System_String__
+  commentId: M:GhTA.Application.MapSceneLoader.LoadBatch(System.Collections.Generic.List{System.String})
+  name.vb: LoadBatch(List(Of String))
+  fullName: GhTA.Application.MapSceneLoader.LoadBatch(System.Collections.Generic.List<System.String>)
+  fullName.vb: GhTA.Application.MapSceneLoader.LoadBatch(System.Collections.Generic.List(Of System.String))
+  nameWithType: MapSceneLoader.LoadBatch(List<String>)
+  nameWithType.vb: MapSceneLoader.LoadBatch(List(Of String))
+- uid: GhTA.Application.MapSceneLoader.LoadBatch*
+  name: LoadBatch
+  href: api/GhTA.Application.MapSceneLoader.html#GhTA_Application_MapSceneLoader_LoadBatch_
+  commentId: Overload:GhTA.Application.MapSceneLoader.LoadBatch
+  isSpec: "True"
+  fullName: GhTA.Application.MapSceneLoader.LoadBatch
+  nameWithType: MapSceneLoader.LoadBatch
 - uid: GhTA.Application.MapSceneLoader.LoadFullMap
   name: LoadFullMap()
   href: api/GhTA.Application.MapSceneLoader.html#GhTA_Application_MapSceneLoader_LoadFullMap
@@ -1354,6 +1376,12 @@ references:
   commentId: F:GhTA.Celestial.DayNightCycle._skyMat
   fullName: GhTA.Celestial.DayNightCycle._skyMat
   nameWithType: DayNightCycle._skyMat
+- uid: GhTA.Celestial.DayNightCycle.AmbientIntensity
+  name: AmbientIntensity
+  href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_AmbientIntensity
+  commentId: F:GhTA.Celestial.DayNightCycle.AmbientIntensity
+  fullName: GhTA.Celestial.DayNightCycle.AmbientIntensity
+  nameWithType: DayNightCycle.AmbientIntensity
 - uid: GhTA.Celestial.DayNightCycle.DayAtmosphereThickness
   name: DayAtmosphereThickness
   href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_DayAtmosphereThickness
@@ -5203,6 +5231,19 @@ references:
   isSpec: "True"
   fullName: GhTA.Maps.LambertTile.Init
   nameWithType: LambertTile.Init
+- uid: GhTA.Maps.LambertTile.OnValidate
+  name: OnValidate()
+  href: api/GhTA.Maps.LambertTile.html#GhTA_Maps_LambertTile_OnValidate
+  commentId: M:GhTA.Maps.LambertTile.OnValidate
+  fullName: GhTA.Maps.LambertTile.OnValidate()
+  nameWithType: LambertTile.OnValidate()
+- uid: GhTA.Maps.LambertTile.OnValidate*
+  name: OnValidate
+  href: api/GhTA.Maps.LambertTile.html#GhTA_Maps_LambertTile_OnValidate_
+  commentId: Overload:GhTA.Maps.LambertTile.OnValidate
+  isSpec: "True"
+  fullName: GhTA.Maps.LambertTile.OnValidate
+  nameWithType: LambertTile.OnValidate
 - uid: GhTA.Maps.LambertTile.ShortName
   name: ShortName
   href: api/GhTA.Maps.LambertTile.html#GhTA_Maps_LambertTile_ShortName
@@ -5360,22 +5401,6 @@ references:
   commentId: F:GhTA.Maps.MapController.EmojiLibrary
   fullName: GhTA.Maps.MapController.EmojiLibrary
   nameWithType: MapController.EmojiLibrary
-- uid: GhTA.Maps.MapController.LoadMapCoroutine(System.Collections.Generic.List{GhTA.Maps.LambertTile},GhTA.Common.Model.WorldInfo)
-  name: LoadMapCoroutine(List<LambertTile>, WorldInfo)
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_LoadMapCoroutine_System_Collections_Generic_List_GhTA_Maps_LambertTile__GhTA_Common_Model_WorldInfo_
-  commentId: M:GhTA.Maps.MapController.LoadMapCoroutine(System.Collections.Generic.List{GhTA.Maps.LambertTile},GhTA.Common.Model.WorldInfo)
-  name.vb: LoadMapCoroutine(List(Of LambertTile), WorldInfo)
-  fullName: GhTA.Maps.MapController.LoadMapCoroutine(System.Collections.Generic.List<GhTA.Maps.LambertTile>, GhTA.Common.Model.WorldInfo)
-  fullName.vb: GhTA.Maps.MapController.LoadMapCoroutine(System.Collections.Generic.List(Of GhTA.Maps.LambertTile), GhTA.Common.Model.WorldInfo)
-  nameWithType: MapController.LoadMapCoroutine(List<LambertTile>, WorldInfo)
-  nameWithType.vb: MapController.LoadMapCoroutine(List(Of LambertTile), WorldInfo)
-- uid: GhTA.Maps.MapController.LoadMapCoroutine*
-  name: LoadMapCoroutine
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_LoadMapCoroutine_
-  commentId: Overload:GhTA.Maps.MapController.LoadMapCoroutine
-  isSpec: "True"
-  fullName: GhTA.Maps.MapController.LoadMapCoroutine
-  nameWithType: MapController.LoadMapCoroutine
 - uid: GhTA.Maps.MapController.LoadMapOneShot(GhTA.Common.Model.WorldInfo)
   name: LoadMapOneShot(WorldInfo)
   href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_LoadMapOneShot_GhTA_Common_Model_WorldInfo_
@@ -5436,6 +5461,19 @@ references:
   commentId: F:GhTA.Maps.MapController.SpawnBuildings
   fullName: GhTA.Maps.MapController.SpawnBuildings
   nameWithType: MapController.SpawnBuildings
+- uid: GhTA.Maps.MapController.SpawnEverything(GhTA.Common.Model.WorldInfo)
+  name: SpawnEverything(WorldInfo)
+  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_SpawnEverything_GhTA_Common_Model_WorldInfo_
+  commentId: M:GhTA.Maps.MapController.SpawnEverything(GhTA.Common.Model.WorldInfo)
+  fullName: GhTA.Maps.MapController.SpawnEverything(GhTA.Common.Model.WorldInfo)
+  nameWithType: MapController.SpawnEverything(WorldInfo)
+- uid: GhTA.Maps.MapController.SpawnEverything*
+  name: SpawnEverything
+  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_SpawnEverything_
+  commentId: Overload:GhTA.Maps.MapController.SpawnEverything
+  isSpec: "True"
+  fullName: GhTA.Maps.MapController.SpawnEverything
+  nameWithType: MapController.SpawnEverything
 - uid: GhTA.Maps.MapController.SpawnMiniMap
   name: SpawnMiniMap
   href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_SpawnMiniMap
@@ -11327,6 +11365,19 @@ references:
   isSpec: "True"
   fullName: GhTA.Time.TimeHelper.ToUnixTime
   nameWithType: TimeHelper.ToUnixTime
+- uid: GhTA.Time.TimeHelper.UTCOffset
+  name: UTCOffset()
+  href: api/GhTA.Time.TimeHelper.html#GhTA_Time_TimeHelper_UTCOffset
+  commentId: M:GhTA.Time.TimeHelper.UTCOffset
+  fullName: GhTA.Time.TimeHelper.UTCOffset()
+  nameWithType: TimeHelper.UTCOffset()
+- uid: GhTA.Time.TimeHelper.UTCOffset*
+  name: UTCOffset
+  href: api/GhTA.Time.TimeHelper.html#GhTA_Time_TimeHelper_UTCOffset_
+  commentId: Overload:GhTA.Time.TimeHelper.UTCOffset
+  isSpec: "True"
+  fullName: GhTA.Time.TimeHelper.UTCOffset
+  nameWithType: TimeHelper.UTCOffset
 - uid: GhTA.Time.TimeInfo
   name: TimeInfo
   href: api/GhTA.Time.TimeInfo.html
