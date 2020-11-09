@@ -19,6 +19,19 @@ references:
   commentId: F:GhTA.Application.AppController.EmojiLibrary
   fullName: GhTA.Application.AppController.EmojiLibrary
   nameWithType: AppController.EmojiLibrary
+- uid: GhTA.Application.AppController.GetNearestRespawnLocation(UnityEngine.Vector3)
+  name: GetNearestRespawnLocation(Vector3)
+  href: api/GhTA.Application.AppController.html#GhTA_Application_AppController_GetNearestRespawnLocation_UnityEngine_Vector3_
+  commentId: M:GhTA.Application.AppController.GetNearestRespawnLocation(UnityEngine.Vector3)
+  fullName: GhTA.Application.AppController.GetNearestRespawnLocation(UnityEngine.Vector3)
+  nameWithType: AppController.GetNearestRespawnLocation(Vector3)
+- uid: GhTA.Application.AppController.GetNearestRespawnLocation*
+  name: GetNearestRespawnLocation
+  href: api/GhTA.Application.AppController.html#GhTA_Application_AppController_GetNearestRespawnLocation_
+  commentId: Overload:GhTA.Application.AppController.GetNearestRespawnLocation
+  isSpec: "True"
+  fullName: GhTA.Application.AppController.GetNearestRespawnLocation
+  nameWithType: AppController.GetNearestRespawnLocation
 - uid: GhTA.Application.AppController.LoadScenes
   name: LoadScenes
   href: api/GhTA.Application.AppController.html#GhTA_Application_AppController_LoadScenes
@@ -31,25 +44,6 @@ references:
   commentId: F:GhTA.Application.AppController.openDataGentLocationProvider
   fullName: GhTA.Application.AppController.openDataGentLocationProvider
   nameWithType: AppController.openDataGentLocationProvider
-- uid: GhTA.Application.AppController.ParkingInfoRetriever
-  name: ParkingInfoRetriever
-  href: api/GhTA.Application.AppController.html#GhTA_Application_AppController_ParkingInfoRetriever
-  commentId: F:GhTA.Application.AppController.ParkingInfoRetriever
-  fullName: GhTA.Application.AppController.ParkingInfoRetriever
-  nameWithType: AppController.ParkingInfoRetriever
-- uid: GhTA.Application.AppController.ProcessRespawn
-  name: ProcessRespawn()
-  href: api/GhTA.Application.AppController.html#GhTA_Application_AppController_ProcessRespawn
-  commentId: M:GhTA.Application.AppController.ProcessRespawn
-  fullName: GhTA.Application.AppController.ProcessRespawn()
-  nameWithType: AppController.ProcessRespawn()
-- uid: GhTA.Application.AppController.ProcessRespawn*
-  name: ProcessRespawn
-  href: api/GhTA.Application.AppController.html#GhTA_Application_AppController_ProcessRespawn_
-  commentId: Overload:GhTA.Application.AppController.ProcessRespawn
-  isSpec: "True"
-  fullName: GhTA.Application.AppController.ProcessRespawn
-  nameWithType: AppController.ProcessRespawn
 - uid: GhTA.Application.AppController.RailInfoRetriever
   name: RailInfoRetriever
   href: api/GhTA.Application.AppController.html#GhTA_Application_AppController_RailInfoRetriever
@@ -62,15 +56,12 @@ references:
   commentId: F:GhTA.Application.AppController.SkipSplashscreen
   fullName: GhTA.Application.AppController.SkipSplashscreen
   nameWithType: AppController.SkipSplashscreen
-- uid: GhTA.Application.AppController.SpawnPointsOfInterest(GhTA.Maps.LambertTile[0:,0:],System.Collections.Generic.List{GhTA.Coordinates.IPointOfInterest})
-  name: SpawnPointsOfInterest(LambertTile[,], List<IPointOfInterest>)
-  href: api/GhTA.Application.AppController.html#GhTA_Application_AppController_SpawnPointsOfInterest_GhTA_Maps_LambertTile_0__0___System_Collections_Generic_List_GhTA_Coordinates_IPointOfInterest__
-  commentId: M:GhTA.Application.AppController.SpawnPointsOfInterest(GhTA.Maps.LambertTile[0:,0:],System.Collections.Generic.List{GhTA.Coordinates.IPointOfInterest})
-  name.vb: SpawnPointsOfInterest(LambertTile(,), List(Of IPointOfInterest))
-  fullName: GhTA.Application.AppController.SpawnPointsOfInterest(GhTA.Maps.LambertTile[,], System.Collections.Generic.List<GhTA.Coordinates.IPointOfInterest>)
-  fullName.vb: GhTA.Application.AppController.SpawnPointsOfInterest(GhTA.Maps.LambertTile(,), System.Collections.Generic.List(Of GhTA.Coordinates.IPointOfInterest))
-  nameWithType: AppController.SpawnPointsOfInterest(LambertTile[,], List<IPointOfInterest>)
-  nameWithType.vb: AppController.SpawnPointsOfInterest(LambertTile(,), List(Of IPointOfInterest))
+- uid: GhTA.Application.AppController.SpawnPointsOfInterest
+  name: SpawnPointsOfInterest()
+  href: api/GhTA.Application.AppController.html#GhTA_Application_AppController_SpawnPointsOfInterest
+  commentId: M:GhTA.Application.AppController.SpawnPointsOfInterest
+  fullName: GhTA.Application.AppController.SpawnPointsOfInterest()
+  nameWithType: AppController.SpawnPointsOfInterest()
 - uid: GhTA.Application.AppController.SpawnPointsOfInterest*
   name: SpawnPointsOfInterest
   href: api/GhTA.Application.AppController.html#GhTA_Application_AppController_SpawnPointsOfInterest_
@@ -275,12 +266,6 @@ references:
   commentId: F:GhTA.Application.FlowController.MapController
   fullName: GhTA.Application.FlowController.MapController
   nameWithType: FlowController.MapController
-- uid: GhTA.Application.FlowController.MapLoader
-  name: MapLoader
-  href: api/GhTA.Application.FlowController.html#GhTA_Application_FlowController_MapLoader
-  commentId: F:GhTA.Application.FlowController.MapLoader
-  fullName: GhTA.Application.FlowController.MapLoader
-  nameWithType: FlowController.MapLoader
 - uid: GhTA.Application.FlowController.ParkingInfoRetriever
   name: ParkingInfoRetriever
   href: api/GhTA.Application.FlowController.html#GhTA_Application_FlowController_ParkingInfoRetriever
@@ -299,6 +284,12 @@ references:
   commentId: F:GhTA.Application.FlowController.RailInfoRetriever
   fullName: GhTA.Application.FlowController.RailInfoRetriever
   nameWithType: FlowController.RailInfoRetriever
+- uid: GhTA.Application.FlowController.SceneLoader
+  name: SceneLoader
+  href: api/GhTA.Application.FlowController.html#GhTA_Application_FlowController_SceneLoader
+  commentId: F:GhTA.Application.FlowController.SceneLoader
+  fullName: GhTA.Application.FlowController.SceneLoader
+  nameWithType: FlowController.SceneLoader
 - uid: GhTA.Application.FlowController.TimeController
   name: TimeController
   href: api/GhTA.Application.FlowController.html#GhTA_Application_FlowController_TimeController
@@ -483,19 +474,19 @@ references:
   commentId: F:GhTA.Application.MapSceneLoader.CurrentTile
   fullName: GhTA.Application.MapSceneLoader.CurrentTile
   nameWithType: MapSceneLoader.CurrentTile
-- uid: GhTA.Application.MapSceneLoader.LoadMap
-  name: LoadMap()
-  href: api/GhTA.Application.MapSceneLoader.html#GhTA_Application_MapSceneLoader_LoadMap
-  commentId: M:GhTA.Application.MapSceneLoader.LoadMap
-  fullName: GhTA.Application.MapSceneLoader.LoadMap()
-  nameWithType: MapSceneLoader.LoadMap()
-- uid: GhTA.Application.MapSceneLoader.LoadMap*
-  name: LoadMap
-  href: api/GhTA.Application.MapSceneLoader.html#GhTA_Application_MapSceneLoader_LoadMap_
-  commentId: Overload:GhTA.Application.MapSceneLoader.LoadMap
+- uid: GhTA.Application.MapSceneLoader.LoadFullMap
+  name: LoadFullMap()
+  href: api/GhTA.Application.MapSceneLoader.html#GhTA_Application_MapSceneLoader_LoadFullMap
+  commentId: M:GhTA.Application.MapSceneLoader.LoadFullMap
+  fullName: GhTA.Application.MapSceneLoader.LoadFullMap()
+  nameWithType: MapSceneLoader.LoadFullMap()
+- uid: GhTA.Application.MapSceneLoader.LoadFullMap*
+  name: LoadFullMap
+  href: api/GhTA.Application.MapSceneLoader.html#GhTA_Application_MapSceneLoader_LoadFullMap_
+  commentId: Overload:GhTA.Application.MapSceneLoader.LoadFullMap
   isSpec: "True"
-  fullName: GhTA.Application.MapSceneLoader.LoadMap
-  nameWithType: MapSceneLoader.LoadMap
+  fullName: GhTA.Application.MapSceneLoader.LoadFullMap
+  nameWithType: MapSceneLoader.LoadFullMap
 - uid: GhTA.Application.MapSceneLoader.OnMapLoadComplete
   name: OnMapLoadComplete
   href: api/GhTA.Application.MapSceneLoader.html#GhTA_Application_MapSceneLoader_OnMapLoadComplete
@@ -596,6 +587,12 @@ references:
   commentId: T:GhTA.Application.PlayerController
   fullName: GhTA.Application.PlayerController
   nameWithType: PlayerController
+- uid: GhTA.Application.PlayerController.LastLocation
+  name: LastLocation
+  href: api/GhTA.Application.PlayerController.html#GhTA_Application_PlayerController_LastLocation
+  commentId: F:GhTA.Application.PlayerController.LastLocation
+  fullName: GhTA.Application.PlayerController.LastLocation
+  nameWithType: PlayerController.LastLocation
 - uid: GhTA.Application.PlayerController.Mode
   name: Mode
   href: api/GhTA.Application.PlayerController.html#GhTA_Application_PlayerController_Mode
@@ -614,12 +611,12 @@ references:
   commentId: F:GhTA.Application.PlayerController.Pawn
   fullName: GhTA.Application.PlayerController.Pawn
   nameWithType: PlayerController.Pawn
-- uid: GhTA.Application.PlayerController.SpawnAndPosses(UnityEngine.Vector3,System.Single)
-  name: SpawnAndPosses(Vector3, Single)
-  href: api/GhTA.Application.PlayerController.html#GhTA_Application_PlayerController_SpawnAndPosses_UnityEngine_Vector3_System_Single_
-  commentId: M:GhTA.Application.PlayerController.SpawnAndPosses(UnityEngine.Vector3,System.Single)
-  fullName: GhTA.Application.PlayerController.SpawnAndPosses(UnityEngine.Vector3, System.Single)
-  nameWithType: PlayerController.SpawnAndPosses(Vector3, Single)
+- uid: GhTA.Application.PlayerController.SpawnAndPosses(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  name: SpawnAndPosses(Vector3, Vector3, Single)
+  href: api/GhTA.Application.PlayerController.html#GhTA_Application_PlayerController_SpawnAndPosses_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_
+  commentId: M:GhTA.Application.PlayerController.SpawnAndPosses(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  fullName: GhTA.Application.PlayerController.SpawnAndPosses(UnityEngine.Vector3, UnityEngine.Vector3, System.Single)
+  nameWithType: PlayerController.SpawnAndPosses(Vector3, Vector3, Single)
 - uid: GhTA.Application.PlayerController.SpawnAndPosses*
   name: SpawnAndPosses
   href: api/GhTA.Application.PlayerController.html#GhTA_Application_PlayerController_SpawnAndPosses_
@@ -5363,19 +5360,6 @@ references:
   commentId: F:GhTA.Maps.MapController.EmojiLibrary
   fullName: GhTA.Maps.MapController.EmojiLibrary
   nameWithType: MapController.EmojiLibrary
-- uid: GhTA.Maps.MapController.GetNearestRespawnLocation(UnityEngine.Vector3)
-  name: GetNearestRespawnLocation(Vector3)
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_GetNearestRespawnLocation_UnityEngine_Vector3_
-  commentId: M:GhTA.Maps.MapController.GetNearestRespawnLocation(UnityEngine.Vector3)
-  fullName: GhTA.Maps.MapController.GetNearestRespawnLocation(UnityEngine.Vector3)
-  nameWithType: MapController.GetNearestRespawnLocation(Vector3)
-- uid: GhTA.Maps.MapController.GetNearestRespawnLocation*
-  name: GetNearestRespawnLocation
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_GetNearestRespawnLocation_
-  commentId: Overload:GhTA.Maps.MapController.GetNearestRespawnLocation
-  isSpec: "True"
-  fullName: GhTA.Maps.MapController.GetNearestRespawnLocation
-  nameWithType: MapController.GetNearestRespawnLocation
 - uid: GhTA.Maps.MapController.LoadMapCoroutine(System.Collections.Generic.List{GhTA.Maps.LambertTile},GhTA.Common.Model.WorldInfo)
   name: LoadMapCoroutine(List<LambertTile>, WorldInfo)
   href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_LoadMapCoroutine_System_Collections_Generic_List_GhTA_Maps_LambertTile__GhTA_Common_Model_WorldInfo_
@@ -5392,15 +5376,12 @@ references:
   isSpec: "True"
   fullName: GhTA.Maps.MapController.LoadMapCoroutine
   nameWithType: MapController.LoadMapCoroutine
-- uid: GhTA.Maps.MapController.LoadMapOneShot(System.Collections.Generic.List{GhTA.Maps.LambertTile},GhTA.Common.Model.WorldInfo)
-  name: LoadMapOneShot(List<LambertTile>, WorldInfo)
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_LoadMapOneShot_System_Collections_Generic_List_GhTA_Maps_LambertTile__GhTA_Common_Model_WorldInfo_
-  commentId: M:GhTA.Maps.MapController.LoadMapOneShot(System.Collections.Generic.List{GhTA.Maps.LambertTile},GhTA.Common.Model.WorldInfo)
-  name.vb: LoadMapOneShot(List(Of LambertTile), WorldInfo)
-  fullName: GhTA.Maps.MapController.LoadMapOneShot(System.Collections.Generic.List<GhTA.Maps.LambertTile>, GhTA.Common.Model.WorldInfo)
-  fullName.vb: GhTA.Maps.MapController.LoadMapOneShot(System.Collections.Generic.List(Of GhTA.Maps.LambertTile), GhTA.Common.Model.WorldInfo)
-  nameWithType: MapController.LoadMapOneShot(List<LambertTile>, WorldInfo)
-  nameWithType.vb: MapController.LoadMapOneShot(List(Of LambertTile), WorldInfo)
+- uid: GhTA.Maps.MapController.LoadMapOneShot(GhTA.Common.Model.WorldInfo)
+  name: LoadMapOneShot(WorldInfo)
+  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_LoadMapOneShot_GhTA_Common_Model_WorldInfo_
+  commentId: M:GhTA.Maps.MapController.LoadMapOneShot(GhTA.Common.Model.WorldInfo)
+  fullName: GhTA.Maps.MapController.LoadMapOneShot(GhTA.Common.Model.WorldInfo)
+  nameWithType: MapController.LoadMapOneShot(WorldInfo)
 - uid: GhTA.Maps.MapController.LoadMapOneShot*
   name: LoadMapOneShot
   href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_LoadMapOneShot_
@@ -9484,12 +9465,12 @@ references:
   commentId: F:GhTA.Presentation.LoadingScreenViewController.ProgressBar
   fullName: GhTA.Presentation.LoadingScreenViewController.ProgressBar
   nameWithType: LoadingScreenViewController.ProgressBar
-- uid: GhTA.Presentation.LoadingScreenViewController.SetTileName(System.String,System.String)
-  name: SetTileName(String, String)
-  href: api/GhTA.Presentation.LoadingScreenViewController.html#GhTA_Presentation_LoadingScreenViewController_SetTileName_System_String_System_String_
-  commentId: M:GhTA.Presentation.LoadingScreenViewController.SetTileName(System.String,System.String)
-  fullName: GhTA.Presentation.LoadingScreenViewController.SetTileName(System.String, System.String)
-  nameWithType: LoadingScreenViewController.SetTileName(String, String)
+- uid: GhTA.Presentation.LoadingScreenViewController.SetTileName(System.String)
+  name: SetTileName(String)
+  href: api/GhTA.Presentation.LoadingScreenViewController.html#GhTA_Presentation_LoadingScreenViewController_SetTileName_System_String_
+  commentId: M:GhTA.Presentation.LoadingScreenViewController.SetTileName(System.String)
+  fullName: GhTA.Presentation.LoadingScreenViewController.SetTileName(System.String)
+  nameWithType: LoadingScreenViewController.SetTileName(String)
 - uid: GhTA.Presentation.LoadingScreenViewController.SetTileName*
   name: SetTileName
   href: api/GhTA.Presentation.LoadingScreenViewController.html#GhTA_Presentation_LoadingScreenViewController_SetTileName_
@@ -10119,12 +10100,12 @@ references:
   isSpec: "True"
   fullName: GhTA.Presentation.WastedViewController.OnRespawnButtonClicked
   nameWithType: WastedViewController.OnRespawnButtonClicked
-- uid: GhTA.Presentation.WastedViewController.SetDeathText(System.String,System.String)
-  name: SetDeathText(String, String)
-  href: api/GhTA.Presentation.WastedViewController.html#GhTA_Presentation_WastedViewController_SetDeathText_System_String_System_String_
-  commentId: M:GhTA.Presentation.WastedViewController.SetDeathText(System.String,System.String)
-  fullName: GhTA.Presentation.WastedViewController.SetDeathText(System.String, System.String)
-  nameWithType: WastedViewController.SetDeathText(String, String)
+- uid: GhTA.Presentation.WastedViewController.SetDeathText(System.String,System.String,System.String)
+  name: SetDeathText(String, String, String)
+  href: api/GhTA.Presentation.WastedViewController.html#GhTA_Presentation_WastedViewController_SetDeathText_System_String_System_String_System_String_
+  commentId: M:GhTA.Presentation.WastedViewController.SetDeathText(System.String,System.String,System.String)
+  fullName: GhTA.Presentation.WastedViewController.SetDeathText(System.String, System.String, System.String)
+  nameWithType: WastedViewController.SetDeathText(String, String, String)
 - uid: GhTA.Presentation.WastedViewController.SetDeathText*
   name: SetDeathText
   href: api/GhTA.Presentation.WastedViewController.html#GhTA_Presentation_WastedViewController_SetDeathText_
@@ -10344,6 +10325,12 @@ references:
   isSpec: "True"
   fullName: GhTA.Realtime.FlightInfoRetriever.CreateFlights
   nameWithType: FlightInfoRetriever.CreateFlights
+- uid: GhTA.Realtime.FlightInfoRetriever.DebugData
+  name: DebugData
+  href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_DebugData
+  commentId: F:GhTA.Realtime.FlightInfoRetriever.DebugData
+  fullName: GhTA.Realtime.FlightInfoRetriever.DebugData
+  nameWithType: FlightInfoRetriever.DebugData
 - uid: GhTA.Realtime.FlightInfoRetriever.FlightBuffer
   name: FlightBuffer
   href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_FlightBuffer

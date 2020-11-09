@@ -1255,6 +1255,35 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Application_PlayerController_LastLocation.md&amp;value=---%0Auid%3A%20GhTA.Application.PlayerController.LastLocation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ghenttheftauto/ghent-theft-auto/blob/master/Assets/Runtime/Application/PlayerController.cs/#L29">View Source</a>
+  </span>
+  <h4 id="GhTA_Application_PlayerController_LastLocation" data-uid="GhTA.Application.PlayerController.LastLocation">LastLocation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 LastLocation</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Application_PlayerController_Mode.md&amp;value=---%0Auid%3A%20GhTA.Application.PlayerController.Mode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -1431,18 +1460,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Application_PlayerController_SpawnAndPosses_UnityEngine_Vector3_System_Single_.md&amp;value=---%0Auid%3A%20GhTA.Application.PlayerController.SpawnAndPosses(UnityEngine.Vector3%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Application_PlayerController_SpawnAndPosses_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_.md&amp;value=---%0Auid%3A%20GhTA.Application.PlayerController.SpawnAndPosses(UnityEngine.Vector3%2CUnityEngine.Vector3%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ghenttheftauto/ghent-theft-auto/blob/master/Assets/Runtime/Application/PlayerController.cs/#L49">View Source</a>
+    <a href="https://github.com/ghenttheftauto/ghent-theft-auto/blob/master/Assets/Runtime/Application/PlayerController.cs/#L40">View Source</a>
   </span>
   <a id="GhTA_Application_PlayerController_SpawnAndPosses_" data-uid="GhTA.Application.PlayerController.SpawnAndPosses*"></a>
-  <h4 id="GhTA_Application_PlayerController_SpawnAndPosses_UnityEngine_Vector3_System_Single_" data-uid="GhTA.Application.PlayerController.SpawnAndPosses(UnityEngine.Vector3,System.Single)">SpawnAndPosses(Vector3, Single)</h4>
+  <h4 id="GhTA_Application_PlayerController_SpawnAndPosses_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_" data-uid="GhTA.Application.PlayerController.SpawnAndPosses(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)">SpawnAndPosses(Vector3, Vector3, Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SpawnAndPosses(Vector3 worldOffset, float size)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SpawnAndPosses(Vector3 location, Vector3 worldOffset, float size)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1454,6 +1483,11 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">location</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><span class="xref">UnityEngine.Vector3</span></td>
         <td><span class="parametername">worldOffset</span></td>
@@ -1471,7 +1505,7 @@
     <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Application_PlayerController_UnpossesAndDespawn.md&amp;value=---%0Auid%3A%20GhTA.Application.PlayerController.UnpossesAndDespawn%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ghenttheftauto/ghent-theft-auto/blob/master/Assets/Runtime/Application/PlayerController.cs/#L79">View Source</a>
+    <a href="https://github.com/ghenttheftauto/ghent-theft-auto/blob/master/Assets/Runtime/Application/PlayerController.cs/#L69">View Source</a>
   </span>
   <a id="GhTA_Application_PlayerController_UnpossesAndDespawn_" data-uid="GhTA.Application.PlayerController.UnpossesAndDespawn*"></a>
   <h4 id="GhTA_Application_PlayerController_UnpossesAndDespawn" data-uid="GhTA.Application.PlayerController.UnpossesAndDespawn">UnpossesAndDespawn()</h4>
