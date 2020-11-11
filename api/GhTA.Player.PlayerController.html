@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class TelephoneComponent
+    <title>Class PlayerController
    | GhTA docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class TelephoneComponent
+    <meta name="title" content="Class PlayerController
    | GhTA docs ">
     <meta name="generator" content="docfx 2.52.0.0">
     
@@ -251,8 +251,8 @@
                           <li class="">
                             <a href="GhTA.Common.Runtime.PickupENUM.html" title="PickupENUM" class="">PickupENUM</a>
                           </li>
-                          <li class="active">
-                            <a href="GhTA.Common.Runtime.TelephoneComponent.html" title="TelephoneComponent" class="active">TelephoneComponent</a>
+                          <li class="">
+                            <a href="GhTA.Common.Runtime.TelephoneComponent.html" title="TelephoneComponent" class="">TelephoneComponent</a>
                           </li>
                         </ul>  </li>
                     <li class="">
@@ -638,8 +638,8 @@
                           <li class="">
                             <a href="GhTA.Player.Money.html" title="Money" class="">Money</a>
                           </li>
-                          <li class="">
-                            <a href="GhTA.Player.PlayerController.html" title="PlayerController" class="">PlayerController</a>
+                          <li class="active">
+                            <a href="GhTA.Player.PlayerController.html" title="PlayerController" class="active">PlayerController</a>
                           </li>
                           <li class="">
                             <a href="GhTA.Player.PlayerStats.html" title="PlayerStats" class="">PlayerStats</a>
@@ -1219,12 +1219,12 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="GhTA.Common.Runtime.TelephoneComponent">
+            <article class="content wrap" id="_content" data-uid="GhTA.Player.PlayerController">
   
   
-  <h1 id="GhTA_Common_Runtime_TelephoneComponent" data-uid="GhTA.Common.Runtime.TelephoneComponent" class="text-break">Class TelephoneComponent
+  <h1 id="GhTA_Player_PlayerController" data-uid="GhTA.Player.PlayerController" class="text-break">Class PlayerController
   </h1>
-  <div class="markdown level0 summary"><p>Allows the application to call a telephone number.</p>
+  <div class="markdown level0 summary"><p>PlayerController, each connected player has one. PlayerControllers posses Pawns and capture input.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -1234,29 +1234,29 @@
     <div class="level2"><span class="xref">UnityEngine.Component</span></div>
     <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
     <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
-    <div class="level5"><span class="xref">TelephoneComponent</span></div>
+    <div class="level5"><span class="xref">PlayerController</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="GhTA.Common.Runtime.html">GhTA.Common.Runtime</a></h6>
-  <h6><strong>Assembly</strong>: GhTA.Common.Runtime.dll</h6>
-  <h5 id="GhTA_Common_Runtime_TelephoneComponent_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GhTA.Player.html">GhTA.Player</a></h6>
+  <h6><strong>Assembly</strong>: GhTA.Application.dll</h6>
+  <h5 id="GhTA_Player_PlayerController_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TelephoneComponent : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerController : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Common_Runtime_TelephoneComponent__number.md&amp;value=---%0Auid%3A%20GhTA.Common.Runtime.TelephoneComponent._number%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Player_PlayerController_LastLocation.md&amp;value=---%0Auid%3A%20GhTA.Player.PlayerController.LastLocation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lucassel/ghent-theft-common/blob/master/Assets/Public/Runtime/TelephoneComponent.cs/#L10">View Source</a>
+    <a href="https://github.com/ghenttheftauto/ghent-theft-auto/blob/master/Assets/Runtime/Application/PlayerController.cs/#L29">View Source</a>
   </span>
-  <h4 id="GhTA_Common_Runtime_TelephoneComponent__number" data-uid="GhTA.Common.Runtime.TelephoneComponent._number">_number</h4>
+  <h4 id="GhTA_Player_PlayerController_LastLocation" data-uid="GhTA.Player.PlayerController.LastLocation">LastLocation</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string _number</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector3 LastLocation</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1268,7 +1268,210 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Player_PlayerController_Mode.md&amp;value=---%0Auid%3A%20GhTA.Player.PlayerController.Mode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ghenttheftauto/ghent-theft-auto/blob/master/Assets/Runtime/Application/PlayerController.cs/#L23">View Source</a>
+  </span>
+  <h4 id="GhTA_Player_PlayerController_Mode" data-uid="GhTA.Player.PlayerController.Mode">Mode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpawnMode Mode</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GhTA.Player.SpawnMode.html">SpawnMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Player_PlayerController_OnPlayerDeath.md&amp;value=---%0Auid%3A%20GhTA.Player.PlayerController.OnPlayerDeath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ghenttheftauto/ghent-theft-auto/blob/master/Assets/Runtime/Application/PlayerController.cs/#L22">View Source</a>
+  </span>
+  <h4 id="GhTA_Player_PlayerController_OnPlayerDeath" data-uid="GhTA.Player.PlayerController.OnPlayerDeath">OnPlayerDeath</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action OnPlayerDeath</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Player_PlayerController_Pawn.md&amp;value=---%0Auid%3A%20GhTA.Player.PlayerController.Pawn%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ghenttheftauto/ghent-theft-auto/blob/master/Assets/Runtime/Application/PlayerController.cs/#L24">View Source</a>
+  </span>
+  <h4 id="GhTA_Player_PlayerController_Pawn" data-uid="GhTA.Player.PlayerController.Pawn">Pawn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject Pawn</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Player_PlayerController_Stats.md&amp;value=---%0Auid%3A%20GhTA.Player.PlayerController.Stats%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ghenttheftauto/ghent-theft-auto/blob/master/Assets/Runtime/Application/PlayerController.cs/#L28">View Source</a>
+  </span>
+  <h4 id="GhTA_Player_PlayerController_Stats" data-uid="GhTA.Player.PlayerController.Stats">Stats</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerStats Stats</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GhTA.Player.PlayerStats.html">PlayerStats</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Player_PlayerController_UFO.md&amp;value=---%0Auid%3A%20GhTA.Player.PlayerController.UFO%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ghenttheftauto/ghent-theft-auto/blob/master/Assets/Runtime/Application/PlayerController.cs/#L26">View Source</a>
+  </span>
+  <h4 id="GhTA_Player_PlayerController_UFO" data-uid="GhTA.Player.PlayerController.UFO">UFO</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject UFO</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Player_PlayerController_UFORig.md&amp;value=---%0Auid%3A%20GhTA.Player.PlayerController.UFORig%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ghenttheftauto/ghent-theft-auto/blob/master/Assets/Runtime/Application/PlayerController.cs/#L27">View Source</a>
+  </span>
+  <h4 id="GhTA_Player_PlayerController_UFORig" data-uid="GhTA.Player.PlayerController.UFORig">UFORig</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject UFORig</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Player_PlayerController_VRPawn.md&amp;value=---%0Auid%3A%20GhTA.Player.PlayerController.VRPawn%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ghenttheftauto/ghent-theft-auto/blob/master/Assets/Runtime/Application/PlayerController.cs/#L25">View Source</a>
+  </span>
+  <h4 id="GhTA_Player_PlayerController_VRPawn" data-uid="GhTA.Player.PlayerController.VRPawn">VRPawn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform VRPawn</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1277,33 +1480,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Common_Runtime_TelephoneComponent_Call.md&amp;value=---%0Auid%3A%20GhTA.Common.Runtime.TelephoneComponent.Call%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Player_PlayerController_SpawnAndPosses_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_.md&amp;value=---%0Auid%3A%20GhTA.Player.PlayerController.SpawnAndPosses(UnityEngine.Vector3%2CUnityEngine.Vector3%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lucassel/ghent-theft-common/blob/master/Assets/Public/Runtime/TelephoneComponent.cs/#L14">View Source</a>
+    <a href="https://github.com/ghenttheftauto/ghent-theft-auto/blob/master/Assets/Runtime/Application/PlayerController.cs/#L40">View Source</a>
   </span>
-  <a id="GhTA_Common_Runtime_TelephoneComponent_Call_" data-uid="GhTA.Common.Runtime.TelephoneComponent.Call*"></a>
-  <h4 id="GhTA_Common_Runtime_TelephoneComponent_Call" data-uid="GhTA.Common.Runtime.TelephoneComponent.Call">Call()</h4>
+  <a id="GhTA_Player_PlayerController_SpawnAndPosses_" data-uid="GhTA.Player.PlayerController.SpawnAndPosses*"></a>
+  <h4 id="GhTA_Player_PlayerController_SpawnAndPosses_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_" data-uid="GhTA.Player.PlayerController.SpawnAndPosses(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)">SpawnAndPosses(Vector3, Vector3, Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Call()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Common_Runtime_TelephoneComponent_Initialize_System_String_.md&amp;value=---%0Auid%3A%20GhTA.Common.Runtime.TelephoneComponent.Initialize(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lucassel/ghent-theft-common/blob/master/Assets/Public/Runtime/TelephoneComponent.cs/#L12">View Source</a>
-  </span>
-  <a id="GhTA_Common_Runtime_TelephoneComponent_Initialize_" data-uid="GhTA.Common.Runtime.TelephoneComponent.Initialize*"></a>
-  <h4 id="GhTA_Common_Runtime_TelephoneComponent_Initialize_System_String_" data-uid="GhTA.Common.Runtime.TelephoneComponent.Initialize(System.String)">Initialize(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Initialize(string telephone_number)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SpawnAndPosses(Vector3 location, Vector3 worldOffset, float size)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1316,12 +1504,37 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">telephone_number</span></td>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">location</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">worldOffset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">size</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Player_PlayerController_UnpossesAndDespawn.md&amp;value=---%0Auid%3A%20GhTA.Player.PlayerController.UnpossesAndDespawn%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ghenttheftauto/ghent-theft-auto/blob/master/Assets/Runtime/Application/PlayerController.cs/#L69">View Source</a>
+  </span>
+  <a id="GhTA_Player_PlayerController_UnpossesAndDespawn_" data-uid="GhTA.Player.PlayerController.UnpossesAndDespawn*"></a>
+  <h4 id="GhTA_Player_PlayerController_UnpossesAndDespawn" data-uid="GhTA.Player.PlayerController.UnpossesAndDespawn">UnpossesAndDespawn()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnpossesAndDespawn()</code></pre>
+  </div>
 </article>
           </div>
           
@@ -1330,10 +1543,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Common_Runtime_TelephoneComponent.md&amp;value=---%0Auid%3A%20GhTA.Common.Runtime.TelephoneComponent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Player_PlayerController.md&amp;value=---%0Auid%3A%20GhTA.Player.PlayerController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/lucassel/ghent-theft-common/blob/master/Assets/Public/Runtime/TelephoneComponent.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/ghenttheftauto/ghent-theft-auto/blob/master/Assets/Runtime/Application/PlayerController.cs/#L20" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

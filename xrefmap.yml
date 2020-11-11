@@ -3957,91 +3957,95 @@ references:
   isSpec: "True"
   fullName: GhTA.Coordinates.MapBounds.MapBounds
   nameWithType: MapBounds.MapBounds
-- uid: GhTA.Coordinates.MapBounds.BoundsToURL
-  name: BoundsToURL()
-  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_BoundsToURL
-  commentId: M:GhTA.Coordinates.MapBounds.BoundsToURL
-  fullName: GhTA.Coordinates.MapBounds.BoundsToURL()
-  nameWithType: MapBounds.BoundsToURL()
-- uid: GhTA.Coordinates.MapBounds.BoundsToURL*
-  name: BoundsToURL
-  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_BoundsToURL_
-  commentId: Overload:GhTA.Coordinates.MapBounds.BoundsToURL
+- uid: GhTA.Coordinates.MapBounds.LowerLeft
+  name: LowerLeft
+  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_LowerLeft
+  commentId: F:GhTA.Coordinates.MapBounds.LowerLeft
+  fullName: GhTA.Coordinates.MapBounds.LowerLeft
+  nameWithType: MapBounds.LowerLeft
+- uid: GhTA.Coordinates.MapBounds.LowerRight
+  name: LowerRight
+  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_LowerRight
+  commentId: F:GhTA.Coordinates.MapBounds.LowerRight
+  fullName: GhTA.Coordinates.MapBounds.LowerRight
+  nameWithType: MapBounds.LowerRight
+- uid: GhTA.Coordinates.MapBounds.ToOverpassUrl
+  name: ToOverpassUrl()
+  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_ToOverpassUrl
+  commentId: M:GhTA.Coordinates.MapBounds.ToOverpassUrl
+  fullName: GhTA.Coordinates.MapBounds.ToOverpassUrl()
+  nameWithType: MapBounds.ToOverpassUrl()
+- uid: GhTA.Coordinates.MapBounds.ToOverpassUrl*
+  name: ToOverpassUrl
+  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_ToOverpassUrl_
+  commentId: Overload:GhTA.Coordinates.MapBounds.ToOverpassUrl
   isSpec: "True"
-  fullName: GhTA.Coordinates.MapBounds.BoundsToURL
-  nameWithType: MapBounds.BoundsToURL
-- uid: GhTA.Coordinates.MapBounds.lowerLeft
-  name: lowerLeft
-  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_lowerLeft
-  commentId: F:GhTA.Coordinates.MapBounds.lowerLeft
-  fullName: GhTA.Coordinates.MapBounds.lowerLeft
-  nameWithType: MapBounds.lowerLeft
-- uid: GhTA.Coordinates.MapBounds.lowerRight
-  name: lowerRight
-  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_lowerRight
-  commentId: F:GhTA.Coordinates.MapBounds.lowerRight
-  fullName: GhTA.Coordinates.MapBounds.lowerRight
-  nameWithType: MapBounds.lowerRight
-- uid: GhTA.Coordinates.MapBounds.MaxLatitude
-  name: MaxLatitude
-  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_MaxLatitude
-  commentId: F:GhTA.Coordinates.MapBounds.MaxLatitude
-  fullName: GhTA.Coordinates.MapBounds.MaxLatitude
-  nameWithType: MapBounds.MaxLatitude
-- uid: GhTA.Coordinates.MapBounds.MaxLongitude
-  name: MaxLongitude
-  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_MaxLongitude
-  commentId: F:GhTA.Coordinates.MapBounds.MaxLongitude
-  fullName: GhTA.Coordinates.MapBounds.MaxLongitude
-  nameWithType: MapBounds.MaxLongitude
-- uid: GhTA.Coordinates.MapBounds.MinimumLatitude
-  name: MinimumLatitude
-  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_MinimumLatitude
-  commentId: F:GhTA.Coordinates.MapBounds.MinimumLatitude
-  fullName: GhTA.Coordinates.MapBounds.MinimumLatitude
-  nameWithType: MapBounds.MinimumLatitude
-- uid: GhTA.Coordinates.MapBounds.MinimumLongitude
-  name: MinimumLongitude
-  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_MinimumLongitude
-  commentId: F:GhTA.Coordinates.MapBounds.MinimumLongitude
-  fullName: GhTA.Coordinates.MapBounds.MinimumLongitude
-  nameWithType: MapBounds.MinimumLongitude
-- uid: GhTA.Coordinates.MapBounds.upperLeft
-  name: upperLeft
-  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_upperLeft
-  commentId: F:GhTA.Coordinates.MapBounds.upperLeft
-  fullName: GhTA.Coordinates.MapBounds.upperLeft
-  nameWithType: MapBounds.upperLeft
-- uid: GhTA.Coordinates.MapBounds.upperRight
-  name: upperRight
-  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_upperRight
-  commentId: F:GhTA.Coordinates.MapBounds.upperRight
-  fullName: GhTA.Coordinates.MapBounds.upperRight
-  nameWithType: MapBounds.upperRight
-- uid: GhTA.Coordinates.MapBounds.WGS84LatitudeMax
-  name: WGS84LatitudeMax
-  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_WGS84LatitudeMax
-  commentId: F:GhTA.Coordinates.MapBounds.WGS84LatitudeMax
-  fullName: GhTA.Coordinates.MapBounds.WGS84LatitudeMax
-  nameWithType: MapBounds.WGS84LatitudeMax
-- uid: GhTA.Coordinates.MapBounds.WGS84LatitudeMin
-  name: WGS84LatitudeMin
-  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_WGS84LatitudeMin
-  commentId: F:GhTA.Coordinates.MapBounds.WGS84LatitudeMin
-  fullName: GhTA.Coordinates.MapBounds.WGS84LatitudeMin
-  nameWithType: MapBounds.WGS84LatitudeMin
-- uid: GhTA.Coordinates.MapBounds.WGS84LongitudeMax
-  name: WGS84LongitudeMax
-  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_WGS84LongitudeMax
-  commentId: F:GhTA.Coordinates.MapBounds.WGS84LongitudeMax
-  fullName: GhTA.Coordinates.MapBounds.WGS84LongitudeMax
-  nameWithType: MapBounds.WGS84LongitudeMax
-- uid: GhTA.Coordinates.MapBounds.WGS84LongitudeMin
-  name: WGS84LongitudeMin
-  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_WGS84LongitudeMin
-  commentId: F:GhTA.Coordinates.MapBounds.WGS84LongitudeMin
-  fullName: GhTA.Coordinates.MapBounds.WGS84LongitudeMin
-  nameWithType: MapBounds.WGS84LongitudeMin
+  fullName: GhTA.Coordinates.MapBounds.ToOverpassUrl
+  nameWithType: MapBounds.ToOverpassUrl
+- uid: GhTA.Coordinates.MapBounds.UpperLeft
+  name: UpperLeft
+  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_UpperLeft
+  commentId: F:GhTA.Coordinates.MapBounds.UpperLeft
+  fullName: GhTA.Coordinates.MapBounds.UpperLeft
+  nameWithType: MapBounds.UpperLeft
+- uid: GhTA.Coordinates.MapBounds.UpperRight
+  name: UpperRight
+  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_UpperRight
+  commentId: F:GhTA.Coordinates.MapBounds.UpperRight
+  fullName: GhTA.Coordinates.MapBounds.UpperRight
+  nameWithType: MapBounds.UpperRight
+- uid: GhTA.Coordinates.MapBounds.WGS84_MaxLat
+  name: WGS84_MaxLat
+  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_WGS84_MaxLat
+  commentId: P:GhTA.Coordinates.MapBounds.WGS84_MaxLat
+  fullName: GhTA.Coordinates.MapBounds.WGS84_MaxLat
+  nameWithType: MapBounds.WGS84_MaxLat
+- uid: GhTA.Coordinates.MapBounds.WGS84_MaxLat*
+  name: WGS84_MaxLat
+  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_WGS84_MaxLat_
+  commentId: Overload:GhTA.Coordinates.MapBounds.WGS84_MaxLat
+  isSpec: "True"
+  fullName: GhTA.Coordinates.MapBounds.WGS84_MaxLat
+  nameWithType: MapBounds.WGS84_MaxLat
+- uid: GhTA.Coordinates.MapBounds.WGS84_MaxLon
+  name: WGS84_MaxLon
+  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_WGS84_MaxLon
+  commentId: P:GhTA.Coordinates.MapBounds.WGS84_MaxLon
+  fullName: GhTA.Coordinates.MapBounds.WGS84_MaxLon
+  nameWithType: MapBounds.WGS84_MaxLon
+- uid: GhTA.Coordinates.MapBounds.WGS84_MaxLon*
+  name: WGS84_MaxLon
+  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_WGS84_MaxLon_
+  commentId: Overload:GhTA.Coordinates.MapBounds.WGS84_MaxLon
+  isSpec: "True"
+  fullName: GhTA.Coordinates.MapBounds.WGS84_MaxLon
+  nameWithType: MapBounds.WGS84_MaxLon
+- uid: GhTA.Coordinates.MapBounds.WGS84_MinLat
+  name: WGS84_MinLat
+  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_WGS84_MinLat
+  commentId: P:GhTA.Coordinates.MapBounds.WGS84_MinLat
+  fullName: GhTA.Coordinates.MapBounds.WGS84_MinLat
+  nameWithType: MapBounds.WGS84_MinLat
+- uid: GhTA.Coordinates.MapBounds.WGS84_MinLat*
+  name: WGS84_MinLat
+  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_WGS84_MinLat_
+  commentId: Overload:GhTA.Coordinates.MapBounds.WGS84_MinLat
+  isSpec: "True"
+  fullName: GhTA.Coordinates.MapBounds.WGS84_MinLat
+  nameWithType: MapBounds.WGS84_MinLat
+- uid: GhTA.Coordinates.MapBounds.WGS84_MinLon
+  name: WGS84_MinLon
+  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_WGS84_MinLon
+  commentId: P:GhTA.Coordinates.MapBounds.WGS84_MinLon
+  fullName: GhTA.Coordinates.MapBounds.WGS84_MinLon
+  nameWithType: MapBounds.WGS84_MinLon
+- uid: GhTA.Coordinates.MapBounds.WGS84_MinLon*
+  name: WGS84_MinLon
+  href: api/GhTA.Coordinates.MapBounds.html#GhTA_Coordinates_MapBounds_WGS84_MinLon_
+  commentId: Overload:GhTA.Coordinates.MapBounds.WGS84_MinLon
+  isSpec: "True"
+  fullName: GhTA.Coordinates.MapBounds.WGS84_MinLon
+  nameWithType: MapBounds.WGS84_MinLon
 - uid: GhTA.Coordinates.ProjectionHelper
   name: ProjectionHelper
   href: api/GhTA.Coordinates.ProjectionHelper.html
@@ -10628,6 +10632,86 @@ references:
   commentId: T:GhTA.Player.Money
   fullName: GhTA.Player.Money
   nameWithType: Money
+- uid: GhTA.Player.PlayerController
+  name: PlayerController
+  href: api/GhTA.Player.PlayerController.html
+  commentId: T:GhTA.Player.PlayerController
+  fullName: GhTA.Player.PlayerController
+  nameWithType: PlayerController
+- uid: GhTA.Player.PlayerController.LastLocation
+  name: LastLocation
+  href: api/GhTA.Player.PlayerController.html#GhTA_Player_PlayerController_LastLocation
+  commentId: F:GhTA.Player.PlayerController.LastLocation
+  fullName: GhTA.Player.PlayerController.LastLocation
+  nameWithType: PlayerController.LastLocation
+- uid: GhTA.Player.PlayerController.Mode
+  name: Mode
+  href: api/GhTA.Player.PlayerController.html#GhTA_Player_PlayerController_Mode
+  commentId: F:GhTA.Player.PlayerController.Mode
+  fullName: GhTA.Player.PlayerController.Mode
+  nameWithType: PlayerController.Mode
+- uid: GhTA.Player.PlayerController.OnPlayerDeath
+  name: OnPlayerDeath
+  href: api/GhTA.Player.PlayerController.html#GhTA_Player_PlayerController_OnPlayerDeath
+  commentId: F:GhTA.Player.PlayerController.OnPlayerDeath
+  fullName: GhTA.Player.PlayerController.OnPlayerDeath
+  nameWithType: PlayerController.OnPlayerDeath
+- uid: GhTA.Player.PlayerController.Pawn
+  name: Pawn
+  href: api/GhTA.Player.PlayerController.html#GhTA_Player_PlayerController_Pawn
+  commentId: F:GhTA.Player.PlayerController.Pawn
+  fullName: GhTA.Player.PlayerController.Pawn
+  nameWithType: PlayerController.Pawn
+- uid: GhTA.Player.PlayerController.SpawnAndPosses(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  name: SpawnAndPosses(Vector3, Vector3, Single)
+  href: api/GhTA.Player.PlayerController.html#GhTA_Player_PlayerController_SpawnAndPosses_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_
+  commentId: M:GhTA.Player.PlayerController.SpawnAndPosses(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  fullName: GhTA.Player.PlayerController.SpawnAndPosses(UnityEngine.Vector3, UnityEngine.Vector3, System.Single)
+  nameWithType: PlayerController.SpawnAndPosses(Vector3, Vector3, Single)
+- uid: GhTA.Player.PlayerController.SpawnAndPosses*
+  name: SpawnAndPosses
+  href: api/GhTA.Player.PlayerController.html#GhTA_Player_PlayerController_SpawnAndPosses_
+  commentId: Overload:GhTA.Player.PlayerController.SpawnAndPosses
+  isSpec: "True"
+  fullName: GhTA.Player.PlayerController.SpawnAndPosses
+  nameWithType: PlayerController.SpawnAndPosses
+- uid: GhTA.Player.PlayerController.Stats
+  name: Stats
+  href: api/GhTA.Player.PlayerController.html#GhTA_Player_PlayerController_Stats
+  commentId: F:GhTA.Player.PlayerController.Stats
+  fullName: GhTA.Player.PlayerController.Stats
+  nameWithType: PlayerController.Stats
+- uid: GhTA.Player.PlayerController.UFO
+  name: UFO
+  href: api/GhTA.Player.PlayerController.html#GhTA_Player_PlayerController_UFO
+  commentId: F:GhTA.Player.PlayerController.UFO
+  fullName: GhTA.Player.PlayerController.UFO
+  nameWithType: PlayerController.UFO
+- uid: GhTA.Player.PlayerController.UFORig
+  name: UFORig
+  href: api/GhTA.Player.PlayerController.html#GhTA_Player_PlayerController_UFORig
+  commentId: F:GhTA.Player.PlayerController.UFORig
+  fullName: GhTA.Player.PlayerController.UFORig
+  nameWithType: PlayerController.UFORig
+- uid: GhTA.Player.PlayerController.UnpossesAndDespawn
+  name: UnpossesAndDespawn()
+  href: api/GhTA.Player.PlayerController.html#GhTA_Player_PlayerController_UnpossesAndDespawn
+  commentId: M:GhTA.Player.PlayerController.UnpossesAndDespawn
+  fullName: GhTA.Player.PlayerController.UnpossesAndDespawn()
+  nameWithType: PlayerController.UnpossesAndDespawn()
+- uid: GhTA.Player.PlayerController.UnpossesAndDespawn*
+  name: UnpossesAndDespawn
+  href: api/GhTA.Player.PlayerController.html#GhTA_Player_PlayerController_UnpossesAndDespawn_
+  commentId: Overload:GhTA.Player.PlayerController.UnpossesAndDespawn
+  isSpec: "True"
+  fullName: GhTA.Player.PlayerController.UnpossesAndDespawn
+  nameWithType: PlayerController.UnpossesAndDespawn
+- uid: GhTA.Player.PlayerController.VRPawn
+  name: VRPawn
+  href: api/GhTA.Player.PlayerController.html#GhTA_Player_PlayerController_VRPawn
+  commentId: F:GhTA.Player.PlayerController.VRPawn
+  fullName: GhTA.Player.PlayerController.VRPawn
+  nameWithType: PlayerController.VRPawn
 - uid: GhTA.Player.PlayerStats
   name: PlayerStats
   href: api/GhTA.Player.PlayerStats.html
@@ -10666,6 +10750,36 @@ references:
   isSpec: "True"
   fullName: GhTA.Player.PlayerStats.UpdateWeaponStat
   nameWithType: PlayerStats.UpdateWeaponStat
+- uid: GhTA.Player.SpawnMode
+  name: SpawnMode
+  href: api/GhTA.Player.SpawnMode.html
+  commentId: T:GhTA.Player.SpawnMode
+  fullName: GhTA.Player.SpawnMode
+  nameWithType: SpawnMode
+- uid: GhTA.Player.SpawnMode.FirstPerson
+  name: FirstPerson
+  href: api/GhTA.Player.SpawnMode.html#GhTA_Player_SpawnMode_FirstPerson
+  commentId: F:GhTA.Player.SpawnMode.FirstPerson
+  fullName: GhTA.Player.SpawnMode.FirstPerson
+  nameWithType: SpawnMode.FirstPerson
+- uid: GhTA.Player.SpawnMode.FreeLook
+  name: FreeLook
+  href: api/GhTA.Player.SpawnMode.html#GhTA_Player_SpawnMode_FreeLook
+  commentId: F:GhTA.Player.SpawnMode.FreeLook
+  fullName: GhTA.Player.SpawnMode.FreeLook
+  nameWithType: SpawnMode.FreeLook
+- uid: GhTA.Player.SpawnMode.TopDown
+  name: TopDown
+  href: api/GhTA.Player.SpawnMode.html#GhTA_Player_SpawnMode_TopDown
+  commentId: F:GhTA.Player.SpawnMode.TopDown
+  fullName: GhTA.Player.SpawnMode.TopDown
+  nameWithType: SpawnMode.TopDown
+- uid: GhTA.Player.SpawnMode.UFO
+  name: UFO
+  href: api/GhTA.Player.SpawnMode.html#GhTA_Player_SpawnMode_UFO
+  commentId: F:GhTA.Player.SpawnMode.UFO
+  fullName: GhTA.Player.SpawnMode.UFO
+  nameWithType: SpawnMode.UFO
 - uid: GhTA.Player.WantedLevels
   name: WantedLevels
   href: api/GhTA.Player.WantedLevels.html
@@ -11679,12 +11793,6 @@ references:
   commentId: F:GhTA.Realtime.FlightInfoRetriever.DebugData
   fullName: GhTA.Realtime.FlightInfoRetriever.DebugData
   nameWithType: FlightInfoRetriever.DebugData
-- uid: GhTA.Realtime.FlightInfoRetriever.FlightBuffer
-  name: FlightBuffer
-  href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_FlightBuffer
-  commentId: F:GhTA.Realtime.FlightInfoRetriever.FlightBuffer
-  fullName: GhTA.Realtime.FlightInfoRetriever.FlightBuffer
-  nameWithType: FlightInfoRetriever.FlightBuffer
 - uid: GhTA.Realtime.FlightInfoRetriever.FlightList
   name: FlightList
   href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_FlightList
@@ -11732,12 +11840,6 @@ references:
   isSpec: "True"
   fullName: GhTA.Realtime.FlightInfoRetriever.RemoveFlights
   nameWithType: FlightInfoRetriever.RemoveFlights
-- uid: GhTA.Realtime.FlightInfoRetriever.Retrieved
-  name: Retrieved
-  href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_Retrieved
-  commentId: F:GhTA.Realtime.FlightInfoRetriever.Retrieved
-  fullName: GhTA.Realtime.FlightInfoRetriever.Retrieved
-  nameWithType: FlightInfoRetriever.Retrieved
 - uid: GhTA.Realtime.FlightInfoRetriever.UpdateFlights(System.Collections.Generic.IEnumerable{GhTA.Traffic.Flight})
   name: UpdateFlights(IEnumerable<Flight>)
   href: api/GhTA.Realtime.FlightInfoRetriever.html#GhTA_Realtime_FlightInfoRetriever_UpdateFlights_System_Collections_Generic_IEnumerable_GhTA_Traffic_Flight__
@@ -13556,18 +13658,6 @@ references:
   commentId: F:GhTA.Traffic.TrafficController.Tramways
   fullName: GhTA.Traffic.TrafficController.Tramways
   nameWithType: TrafficController.Tramways
-- uid: GhTA.Traffic.TrafficController.VehicleBandPass
-  name: VehicleBandPass
-  href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController_VehicleBandPass
-  commentId: F:GhTA.Traffic.TrafficController.VehicleBandPass
-  fullName: GhTA.Traffic.TrafficController.VehicleBandPass
-  nameWithType: TrafficController.VehicleBandPass
-- uid: GhTA.Traffic.TrafficController.VehicleHighPass
-  name: VehicleHighPass
-  href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController_VehicleHighPass
-  commentId: F:GhTA.Traffic.TrafficController.VehicleHighPass
-  fullName: GhTA.Traffic.TrafficController.VehicleHighPass
-  nameWithType: TrafficController.VehicleHighPass
 - uid: GhTA.Traffic.TrafficController.Vehicles
   name: Vehicles
   href: api/GhTA.Traffic.TrafficController.html#GhTA_Traffic_TrafficController_Vehicles
