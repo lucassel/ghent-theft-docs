@@ -841,101 +841,6 @@ references:
   commentId: F:GhTA.Application.AppController.WorldInfo
   fullName: GhTA.Application.AppController.WorldInfo
   nameWithType: AppController.WorldInfo
-- uid: GhTA.Application.ApplicationController
-  name: ApplicationController
-  href: api/GhTA.Application.ApplicationController.html
-  commentId: T:GhTA.Application.ApplicationController
-  fullName: GhTA.Application.ApplicationController
-  nameWithType: ApplicationController
-- uid: GhTA.Application.ApplicationController.ApplicationMode
-  name: ApplicationMode
-  href: api/GhTA.Application.ApplicationController.html#GhTA_Application_ApplicationController_ApplicationMode
-  commentId: F:GhTA.Application.ApplicationController.ApplicationMode
-  fullName: GhTA.Application.ApplicationController.ApplicationMode
-  nameWithType: ApplicationController.ApplicationMode
-- uid: GhTA.Application.ApplicationController.ChatController
-  name: ChatController
-  href: api/GhTA.Application.ApplicationController.html#GhTA_Application_ApplicationController_ChatController
-  commentId: F:GhTA.Application.ApplicationController.ChatController
-  fullName: GhTA.Application.ApplicationController.ChatController
-  nameWithType: ApplicationController.ChatController
-- uid: GhTA.Application.ApplicationController.Controller
-  name: Controller
-  href: api/GhTA.Application.ApplicationController.html#GhTA_Application_ApplicationController_Controller
-  commentId: F:GhTA.Application.ApplicationController.Controller
-  fullName: GhTA.Application.ApplicationController.Controller
-  nameWithType: ApplicationController.Controller
-- uid: GhTA.Application.ApplicationController.MapSceneLoader
-  name: MapSceneLoader
-  href: api/GhTA.Application.ApplicationController.html#GhTA_Application_ApplicationController_MapSceneLoader
-  commentId: F:GhTA.Application.ApplicationController.MapSceneLoader
-  fullName: GhTA.Application.ApplicationController.MapSceneLoader
-  nameWithType: ApplicationController.MapSceneLoader
-- uid: GhTA.Application.ApplicationController.NetworkController
-  name: NetworkController
-  href: api/GhTA.Application.ApplicationController.html#GhTA_Application_ApplicationController_NetworkController
-  commentId: F:GhTA.Application.ApplicationController.NetworkController
-  fullName: GhTA.Application.ApplicationController.NetworkController
-  nameWithType: ApplicationController.NetworkController
-- uid: GhTA.Application.ApplicationController.PlayerController
-  name: PlayerController
-  href: api/GhTA.Application.ApplicationController.html#GhTA_Application_ApplicationController_PlayerController
-  commentId: F:GhTA.Application.ApplicationController.PlayerController
-  fullName: GhTA.Application.ApplicationController.PlayerController
-  nameWithType: ApplicationController.PlayerController
-- uid: GhTA.Application.ApplicationController.QuitApplication
-  name: QuitApplication()
-  href: api/GhTA.Application.ApplicationController.html#GhTA_Application_ApplicationController_QuitApplication
-  commentId: M:GhTA.Application.ApplicationController.QuitApplication
-  fullName: GhTA.Application.ApplicationController.QuitApplication()
-  nameWithType: ApplicationController.QuitApplication()
-- uid: GhTA.Application.ApplicationController.QuitApplication*
-  name: QuitApplication
-  href: api/GhTA.Application.ApplicationController.html#GhTA_Application_ApplicationController_QuitApplication_
-  commentId: Overload:GhTA.Application.ApplicationController.QuitApplication
-  isSpec: "True"
-  fullName: GhTA.Application.ApplicationController.QuitApplication
-  nameWithType: ApplicationController.QuitApplication
-- uid: GhTA.Application.ApplicationController.TransitionToFlow*
-  name: TransitionToFlow
-  href: api/GhTA.Application.ApplicationController.html#GhTA_Application_ApplicationController_TransitionToFlow_
-  commentId: Overload:GhTA.Application.ApplicationController.TransitionToFlow
-  isSpec: "True"
-  fullName: GhTA.Application.ApplicationController.TransitionToFlow
-  nameWithType: ApplicationController.TransitionToFlow
-- uid: GhTA.Application.ApplicationController.TransitionToFlow``1(GhTA.Application.SimpleFlowController)
-  name: TransitionToFlow<T>(SimpleFlowController)
-  href: api/GhTA.Application.ApplicationController.html#GhTA_Application_ApplicationController_TransitionToFlow__1_GhTA_Application_SimpleFlowController_
-  commentId: M:GhTA.Application.ApplicationController.TransitionToFlow``1(GhTA.Application.SimpleFlowController)
-  name.vb: TransitionToFlow(Of T)(SimpleFlowController)
-  fullName: GhTA.Application.ApplicationController.TransitionToFlow<T>(GhTA.Application.SimpleFlowController)
-  fullName.vb: GhTA.Application.ApplicationController.TransitionToFlow(Of T)(GhTA.Application.SimpleFlowController)
-  nameWithType: ApplicationController.TransitionToFlow<T>(SimpleFlowController)
-  nameWithType.vb: ApplicationController.TransitionToFlow(Of T)(SimpleFlowController)
-- uid: GhTA.Application.ApplicationMode
-  name: ApplicationMode
-  href: api/GhTA.Application.ApplicationMode.html
-  commentId: T:GhTA.Application.ApplicationMode
-  fullName: GhTA.Application.ApplicationMode
-  nameWithType: ApplicationMode
-- uid: GhTA.Application.ApplicationMode.mainmenu
-  name: mainmenu
-  href: api/GhTA.Application.ApplicationMode.html#GhTA_Application_ApplicationMode_mainmenu
-  commentId: F:GhTA.Application.ApplicationMode.mainmenu
-  fullName: GhTA.Application.ApplicationMode.mainmenu
-  nameWithType: ApplicationMode.mainmenu
-- uid: GhTA.Application.ApplicationMode.online
-  name: online
-  href: api/GhTA.Application.ApplicationMode.html#GhTA_Application_ApplicationMode_online
-  commentId: F:GhTA.Application.ApplicationMode.online
-  fullName: GhTA.Application.ApplicationMode.online
-  nameWithType: ApplicationMode.online
-- uid: GhTA.Application.ApplicationMode.singleplayer
-  name: singleplayer
-  href: api/GhTA.Application.ApplicationMode.html#GhTA_Application_ApplicationMode_singleplayer
-  commentId: F:GhTA.Application.ApplicationMode.singleplayer
-  fullName: GhTA.Application.ApplicationMode.singleplayer
-  nameWithType: ApplicationMode.singleplayer
 - uid: GhTA.Application.FlowController
   name: FlowController
   href: api/GhTA.Application.FlowController.html
@@ -1155,51 +1060,6 @@ references:
   isSpec: "True"
   fullName: GhTA.Application.LoadingScreenFlow.Update
   nameWithType: LoadingScreenFlow.Update
-- uid: GhTA.Application.LobbyFlow
-  name: LobbyFlow
-  href: api/GhTA.Application.LobbyFlow.html
-  commentId: T:GhTA.Application.LobbyFlow
-  fullName: GhTA.Application.LobbyFlow
-  nameWithType: LobbyFlow
-- uid: GhTA.Application.LobbyFlow.Begin
-  name: Begin()
-  href: api/GhTA.Application.LobbyFlow.html#GhTA_Application_LobbyFlow_Begin
-  commentId: M:GhTA.Application.LobbyFlow.Begin
-  fullName: GhTA.Application.LobbyFlow.Begin()
-  nameWithType: LobbyFlow.Begin()
-- uid: GhTA.Application.LobbyFlow.Begin*
-  name: Begin
-  href: api/GhTA.Application.LobbyFlow.html#GhTA_Application_LobbyFlow_Begin_
-  commentId: Overload:GhTA.Application.LobbyFlow.Begin
-  isSpec: "True"
-  fullName: GhTA.Application.LobbyFlow.Begin
-  nameWithType: LobbyFlow.Begin
-- uid: GhTA.Application.LobbyFlow.End
-  name: End()
-  href: api/GhTA.Application.LobbyFlow.html#GhTA_Application_LobbyFlow_End
-  commentId: M:GhTA.Application.LobbyFlow.End
-  fullName: GhTA.Application.LobbyFlow.End()
-  nameWithType: LobbyFlow.End()
-- uid: GhTA.Application.LobbyFlow.End*
-  name: End
-  href: api/GhTA.Application.LobbyFlow.html#GhTA_Application_LobbyFlow_End_
-  commentId: Overload:GhTA.Application.LobbyFlow.End
-  isSpec: "True"
-  fullName: GhTA.Application.LobbyFlow.End
-  nameWithType: LobbyFlow.End
-- uid: GhTA.Application.LobbyFlow.OnPlayerNameInput(System.String)
-  name: OnPlayerNameInput(String)
-  href: api/GhTA.Application.LobbyFlow.html#GhTA_Application_LobbyFlow_OnPlayerNameInput_System_String_
-  commentId: M:GhTA.Application.LobbyFlow.OnPlayerNameInput(System.String)
-  fullName: GhTA.Application.LobbyFlow.OnPlayerNameInput(System.String)
-  nameWithType: LobbyFlow.OnPlayerNameInput(String)
-- uid: GhTA.Application.LobbyFlow.OnPlayerNameInput*
-  name: OnPlayerNameInput
-  href: api/GhTA.Application.LobbyFlow.html#GhTA_Application_LobbyFlow_OnPlayerNameInput_
-  commentId: Overload:GhTA.Application.LobbyFlow.OnPlayerNameInput
-  isSpec: "True"
-  fullName: GhTA.Application.LobbyFlow.OnPlayerNameInput
-  nameWithType: LobbyFlow.OnPlayerNameInput
 - uid: GhTA.Application.MapSceneLoader
   name: MapSceneLoader
   href: api/GhTA.Application.MapSceneLoader.html
@@ -1269,19 +1129,6 @@ references:
   isSpec: "True"
   fullName: GhTA.Application.MapSceneLoader.ProcessBatch
   nameWithType: MapSceneLoader.ProcessBatch
-- uid: GhTA.Application.MapSceneLoader.ProcessTile(System.Boolean,System.String)
-  name: ProcessTile(Boolean, String)
-  href: api/GhTA.Application.MapSceneLoader.html#GhTA_Application_MapSceneLoader_ProcessTile_System_Boolean_System_String_
-  commentId: M:GhTA.Application.MapSceneLoader.ProcessTile(System.Boolean,System.String)
-  fullName: GhTA.Application.MapSceneLoader.ProcessTile(System.Boolean, System.String)
-  nameWithType: MapSceneLoader.ProcessTile(Boolean, String)
-- uid: GhTA.Application.MapSceneLoader.ProcessTile*
-  name: ProcessTile
-  href: api/GhTA.Application.MapSceneLoader.html#GhTA_Application_MapSceneLoader_ProcessTile_
-  commentId: Overload:GhTA.Application.MapSceneLoader.ProcessTile
-  isSpec: "True"
-  fullName: GhTA.Application.MapSceneLoader.ProcessTile
-  nameWithType: MapSceneLoader.ProcessTile
 - uid: GhTA.Application.MapSceneLoader.scenesInBuild
   name: scenesInBuild
   href: api/GhTA.Application.MapSceneLoader.html#GhTA_Application_MapSceneLoader_scenesInBuild
@@ -1394,6 +1241,12 @@ references:
   isSpec: "True"
   fullName: GhTA.Application.PlayerController.SpawnAndPosses
   nameWithType: PlayerController.SpawnAndPosses
+- uid: GhTA.Application.PlayerController.TileCoordinates
+  name: TileCoordinates
+  href: api/GhTA.Application.PlayerController.html#GhTA_Application_PlayerController_TileCoordinates
+  commentId: F:GhTA.Application.PlayerController.TileCoordinates
+  fullName: GhTA.Application.PlayerController.TileCoordinates
+  nameWithType: PlayerController.TileCoordinates
 - uid: GhTA.Application.PlayerController.UFO
   name: UFO
   href: api/GhTA.Application.PlayerController.html#GhTA_Application_PlayerController_UFO
@@ -1515,292 +1368,6 @@ references:
   isSpec: "True"
   fullName: GhTA.Application.SettingsFlow.Update
   nameWithType: SettingsFlow.Update
-- uid: GhTA.Application.SimpleFlowController
-  name: SimpleFlowController
-  href: api/GhTA.Application.SimpleFlowController.html
-  commentId: T:GhTA.Application.SimpleFlowController
-  fullName: GhTA.Application.SimpleFlowController
-  nameWithType: SimpleFlowController
-- uid: GhTA.Application.SimpleFlowController.ApplicationController
-  name: ApplicationController
-  href: api/GhTA.Application.SimpleFlowController.html#GhTA_Application_SimpleFlowController_ApplicationController
-  commentId: F:GhTA.Application.SimpleFlowController.ApplicationController
-  fullName: GhTA.Application.SimpleFlowController.ApplicationController
-  nameWithType: SimpleFlowController.ApplicationController
-- uid: GhTA.Application.SimpleFlowController.Begin
-  name: Begin()
-  href: api/GhTA.Application.SimpleFlowController.html#GhTA_Application_SimpleFlowController_Begin
-  commentId: M:GhTA.Application.SimpleFlowController.Begin
-  fullName: GhTA.Application.SimpleFlowController.Begin()
-  nameWithType: SimpleFlowController.Begin()
-- uid: GhTA.Application.SimpleFlowController.Begin*
-  name: Begin
-  href: api/GhTA.Application.SimpleFlowController.html#GhTA_Application_SimpleFlowController_Begin_
-  commentId: Overload:GhTA.Application.SimpleFlowController.Begin
-  isSpec: "True"
-  fullName: GhTA.Application.SimpleFlowController.Begin
-  nameWithType: SimpleFlowController.Begin
-- uid: GhTA.Application.SimpleFlowController.Camera
-  name: Camera
-  href: api/GhTA.Application.SimpleFlowController.html#GhTA_Application_SimpleFlowController_Camera
-  commentId: F:GhTA.Application.SimpleFlowController.Camera
-  fullName: GhTA.Application.SimpleFlowController.Camera
-  nameWithType: SimpleFlowController.Camera
-- uid: GhTA.Application.SimpleFlowController.ChatController
-  name: ChatController
-  href: api/GhTA.Application.SimpleFlowController.html#GhTA_Application_SimpleFlowController_ChatController
-  commentId: F:GhTA.Application.SimpleFlowController.ChatController
-  fullName: GhTA.Application.SimpleFlowController.ChatController
-  nameWithType: SimpleFlowController.ChatController
-- uid: GhTA.Application.SimpleFlowController.End
-  name: End()
-  href: api/GhTA.Application.SimpleFlowController.html#GhTA_Application_SimpleFlowController_End
-  commentId: M:GhTA.Application.SimpleFlowController.End
-  fullName: GhTA.Application.SimpleFlowController.End()
-  nameWithType: SimpleFlowController.End()
-- uid: GhTA.Application.SimpleFlowController.End*
-  name: End
-  href: api/GhTA.Application.SimpleFlowController.html#GhTA_Application_SimpleFlowController_End_
-  commentId: Overload:GhTA.Application.SimpleFlowController.End
-  isSpec: "True"
-  fullName: GhTA.Application.SimpleFlowController.End
-  nameWithType: SimpleFlowController.End
-- uid: GhTA.Application.SimpleFlowController.MapSceneLoader
-  name: MapSceneLoader
-  href: api/GhTA.Application.SimpleFlowController.html#GhTA_Application_SimpleFlowController_MapSceneLoader
-  commentId: F:GhTA.Application.SimpleFlowController.MapSceneLoader
-  fullName: GhTA.Application.SimpleFlowController.MapSceneLoader
-  nameWithType: SimpleFlowController.MapSceneLoader
-- uid: GhTA.Application.SimpleFlowController.NetworkController
-  name: NetworkController
-  href: api/GhTA.Application.SimpleFlowController.html#GhTA_Application_SimpleFlowController_NetworkController
-  commentId: F:GhTA.Application.SimpleFlowController.NetworkController
-  fullName: GhTA.Application.SimpleFlowController.NetworkController
-  nameWithType: SimpleFlowController.NetworkController
-- uid: GhTA.Application.SimpleFlowController.PlayerController
-  name: PlayerController
-  href: api/GhTA.Application.SimpleFlowController.html#GhTA_Application_SimpleFlowController_PlayerController
-  commentId: F:GhTA.Application.SimpleFlowController.PlayerController
-  fullName: GhTA.Application.SimpleFlowController.PlayerController
-  nameWithType: SimpleFlowController.PlayerController
-- uid: GhTA.Application.SimpleFlowController.UIController
-  name: UIController
-  href: api/GhTA.Application.SimpleFlowController.html#GhTA_Application_SimpleFlowController_UIController
-  commentId: F:GhTA.Application.SimpleFlowController.UIController
-  fullName: GhTA.Application.SimpleFlowController.UIController
-  nameWithType: SimpleFlowController.UIController
-- uid: GhTA.Application.SimpleFlowController.Update
-  name: Update()
-  href: api/GhTA.Application.SimpleFlowController.html#GhTA_Application_SimpleFlowController_Update
-  commentId: M:GhTA.Application.SimpleFlowController.Update
-  fullName: GhTA.Application.SimpleFlowController.Update()
-  nameWithType: SimpleFlowController.Update()
-- uid: GhTA.Application.SimpleFlowController.Update*
-  name: Update
-  href: api/GhTA.Application.SimpleFlowController.html#GhTA_Application_SimpleFlowController_Update_
-  commentId: Overload:GhTA.Application.SimpleFlowController.Update
-  isSpec: "True"
-  fullName: GhTA.Application.SimpleFlowController.Update
-  nameWithType: SimpleFlowController.Update
-- uid: GhTA.Application.SimpleGameFlow
-  name: SimpleGameFlow
-  href: api/GhTA.Application.SimpleGameFlow.html
-  commentId: T:GhTA.Application.SimpleGameFlow
-  fullName: GhTA.Application.SimpleGameFlow
-  nameWithType: SimpleGameFlow
-- uid: GhTA.Application.SimpleGameFlow.Begin
-  name: Begin()
-  href: api/GhTA.Application.SimpleGameFlow.html#GhTA_Application_SimpleGameFlow_Begin
-  commentId: M:GhTA.Application.SimpleGameFlow.Begin
-  fullName: GhTA.Application.SimpleGameFlow.Begin()
-  nameWithType: SimpleGameFlow.Begin()
-- uid: GhTA.Application.SimpleGameFlow.Begin*
-  name: Begin
-  href: api/GhTA.Application.SimpleGameFlow.html#GhTA_Application_SimpleGameFlow_Begin_
-  commentId: Overload:GhTA.Application.SimpleGameFlow.Begin
-  isSpec: "True"
-  fullName: GhTA.Application.SimpleGameFlow.Begin
-  nameWithType: SimpleGameFlow.Begin
-- uid: GhTA.Application.SimpleGameFlow.End
-  name: End()
-  href: api/GhTA.Application.SimpleGameFlow.html#GhTA_Application_SimpleGameFlow_End
-  commentId: M:GhTA.Application.SimpleGameFlow.End
-  fullName: GhTA.Application.SimpleGameFlow.End()
-  nameWithType: SimpleGameFlow.End()
-- uid: GhTA.Application.SimpleGameFlow.End*
-  name: End
-  href: api/GhTA.Application.SimpleGameFlow.html#GhTA_Application_SimpleGameFlow_End_
-  commentId: Overload:GhTA.Application.SimpleGameFlow.End
-  isSpec: "True"
-  fullName: GhTA.Application.SimpleGameFlow.End
-  nameWithType: SimpleGameFlow.End
-- uid: GhTA.Application.SimpleGameFlow.Update
-  name: Update()
-  href: api/GhTA.Application.SimpleGameFlow.html#GhTA_Application_SimpleGameFlow_Update
-  commentId: M:GhTA.Application.SimpleGameFlow.Update
-  fullName: GhTA.Application.SimpleGameFlow.Update()
-  nameWithType: SimpleGameFlow.Update()
-- uid: GhTA.Application.SimpleGameFlow.Update*
-  name: Update
-  href: api/GhTA.Application.SimpleGameFlow.html#GhTA_Application_SimpleGameFlow_Update_
-  commentId: Overload:GhTA.Application.SimpleGameFlow.Update
-  isSpec: "True"
-  fullName: GhTA.Application.SimpleGameFlow.Update
-  nameWithType: SimpleGameFlow.Update
-- uid: GhTA.Application.SimpleLoadingFlow
-  name: SimpleLoadingFlow
-  href: api/GhTA.Application.SimpleLoadingFlow.html
-  commentId: T:GhTA.Application.SimpleLoadingFlow
-  fullName: GhTA.Application.SimpleLoadingFlow
-  nameWithType: SimpleLoadingFlow
-- uid: GhTA.Application.SimpleLoadingFlow.Begin
-  name: Begin()
-  href: api/GhTA.Application.SimpleLoadingFlow.html#GhTA_Application_SimpleLoadingFlow_Begin
-  commentId: M:GhTA.Application.SimpleLoadingFlow.Begin
-  fullName: GhTA.Application.SimpleLoadingFlow.Begin()
-  nameWithType: SimpleLoadingFlow.Begin()
-- uid: GhTA.Application.SimpleLoadingFlow.Begin*
-  name: Begin
-  href: api/GhTA.Application.SimpleLoadingFlow.html#GhTA_Application_SimpleLoadingFlow_Begin_
-  commentId: Overload:GhTA.Application.SimpleLoadingFlow.Begin
-  isSpec: "True"
-  fullName: GhTA.Application.SimpleLoadingFlow.Begin
-  nameWithType: SimpleLoadingFlow.Begin
-- uid: GhTA.Application.SimpleLoadingFlow.End
-  name: End()
-  href: api/GhTA.Application.SimpleLoadingFlow.html#GhTA_Application_SimpleLoadingFlow_End
-  commentId: M:GhTA.Application.SimpleLoadingFlow.End
-  fullName: GhTA.Application.SimpleLoadingFlow.End()
-  nameWithType: SimpleLoadingFlow.End()
-- uid: GhTA.Application.SimpleLoadingFlow.End*
-  name: End
-  href: api/GhTA.Application.SimpleLoadingFlow.html#GhTA_Application_SimpleLoadingFlow_End_
-  commentId: Overload:GhTA.Application.SimpleLoadingFlow.End
-  isSpec: "True"
-  fullName: GhTA.Application.SimpleLoadingFlow.End
-  nameWithType: SimpleLoadingFlow.End
-- uid: GhTA.Application.SimpleLoadingFlow.Update
-  name: Update()
-  href: api/GhTA.Application.SimpleLoadingFlow.html#GhTA_Application_SimpleLoadingFlow_Update
-  commentId: M:GhTA.Application.SimpleLoadingFlow.Update
-  fullName: GhTA.Application.SimpleLoadingFlow.Update()
-  nameWithType: SimpleLoadingFlow.Update()
-- uid: GhTA.Application.SimpleLoadingFlow.Update*
-  name: Update
-  href: api/GhTA.Application.SimpleLoadingFlow.html#GhTA_Application_SimpleLoadingFlow_Update_
-  commentId: Overload:GhTA.Application.SimpleLoadingFlow.Update
-  isSpec: "True"
-  fullName: GhTA.Application.SimpleLoadingFlow.Update
-  nameWithType: SimpleLoadingFlow.Update
-- uid: GhTA.Application.SimplePauseFlow
-  name: SimplePauseFlow
-  href: api/GhTA.Application.SimplePauseFlow.html
-  commentId: T:GhTA.Application.SimplePauseFlow
-  fullName: GhTA.Application.SimplePauseFlow
-  nameWithType: SimplePauseFlow
-- uid: GhTA.Application.SimplePauseFlow.Begin
-  name: Begin()
-  href: api/GhTA.Application.SimplePauseFlow.html#GhTA_Application_SimplePauseFlow_Begin
-  commentId: M:GhTA.Application.SimplePauseFlow.Begin
-  fullName: GhTA.Application.SimplePauseFlow.Begin()
-  nameWithType: SimplePauseFlow.Begin()
-- uid: GhTA.Application.SimplePauseFlow.Begin*
-  name: Begin
-  href: api/GhTA.Application.SimplePauseFlow.html#GhTA_Application_SimplePauseFlow_Begin_
-  commentId: Overload:GhTA.Application.SimplePauseFlow.Begin
-  isSpec: "True"
-  fullName: GhTA.Application.SimplePauseFlow.Begin
-  nameWithType: SimplePauseFlow.Begin
-- uid: GhTA.Application.SimplePauseFlow.End
-  name: End()
-  href: api/GhTA.Application.SimplePauseFlow.html#GhTA_Application_SimplePauseFlow_End
-  commentId: M:GhTA.Application.SimplePauseFlow.End
-  fullName: GhTA.Application.SimplePauseFlow.End()
-  nameWithType: SimplePauseFlow.End()
-- uid: GhTA.Application.SimplePauseFlow.End*
-  name: End
-  href: api/GhTA.Application.SimplePauseFlow.html#GhTA_Application_SimplePauseFlow_End_
-  commentId: Overload:GhTA.Application.SimplePauseFlow.End
-  isSpec: "True"
-  fullName: GhTA.Application.SimplePauseFlow.End
-  nameWithType: SimplePauseFlow.End
-- uid: GhTA.Application.SimplePauseFlow.Update
-  name: Update()
-  href: api/GhTA.Application.SimplePauseFlow.html#GhTA_Application_SimplePauseFlow_Update
-  commentId: M:GhTA.Application.SimplePauseFlow.Update
-  fullName: GhTA.Application.SimplePauseFlow.Update()
-  nameWithType: SimplePauseFlow.Update()
-- uid: GhTA.Application.SimplePauseFlow.Update*
-  name: Update
-  href: api/GhTA.Application.SimplePauseFlow.html#GhTA_Application_SimplePauseFlow_Update_
-  commentId: Overload:GhTA.Application.SimplePauseFlow.Update
-  isSpec: "True"
-  fullName: GhTA.Application.SimplePauseFlow.Update
-  nameWithType: SimplePauseFlow.Update
-- uid: GhTA.Application.SimpleQuitFlow
-  name: SimpleQuitFlow
-  href: api/GhTA.Application.SimpleQuitFlow.html
-  commentId: T:GhTA.Application.SimpleQuitFlow
-  fullName: GhTA.Application.SimpleQuitFlow
-  nameWithType: SimpleQuitFlow
-- uid: GhTA.Application.SimpleQuitFlow.Begin
-  name: Begin()
-  href: api/GhTA.Application.SimpleQuitFlow.html#GhTA_Application_SimpleQuitFlow_Begin
-  commentId: M:GhTA.Application.SimpleQuitFlow.Begin
-  fullName: GhTA.Application.SimpleQuitFlow.Begin()
-  nameWithType: SimpleQuitFlow.Begin()
-- uid: GhTA.Application.SimpleQuitFlow.Begin*
-  name: Begin
-  href: api/GhTA.Application.SimpleQuitFlow.html#GhTA_Application_SimpleQuitFlow_Begin_
-  commentId: Overload:GhTA.Application.SimpleQuitFlow.Begin
-  isSpec: "True"
-  fullName: GhTA.Application.SimpleQuitFlow.Begin
-  nameWithType: SimpleQuitFlow.Begin
-- uid: GhTA.Application.SimpleQuitFlow.End
-  name: End()
-  href: api/GhTA.Application.SimpleQuitFlow.html#GhTA_Application_SimpleQuitFlow_End
-  commentId: M:GhTA.Application.SimpleQuitFlow.End
-  fullName: GhTA.Application.SimpleQuitFlow.End()
-  nameWithType: SimpleQuitFlow.End()
-- uid: GhTA.Application.SimpleQuitFlow.End*
-  name: End
-  href: api/GhTA.Application.SimpleQuitFlow.html#GhTA_Application_SimpleQuitFlow_End_
-  commentId: Overload:GhTA.Application.SimpleQuitFlow.End
-  isSpec: "True"
-  fullName: GhTA.Application.SimpleQuitFlow.End
-  nameWithType: SimpleQuitFlow.End
-- uid: GhTA.Application.SimpleSettingsFlow
-  name: SimpleSettingsFlow
-  href: api/GhTA.Application.SimpleSettingsFlow.html
-  commentId: T:GhTA.Application.SimpleSettingsFlow
-  fullName: GhTA.Application.SimpleSettingsFlow
-  nameWithType: SimpleSettingsFlow
-- uid: GhTA.Application.SimpleSettingsFlow.Begin
-  name: Begin()
-  href: api/GhTA.Application.SimpleSettingsFlow.html#GhTA_Application_SimpleSettingsFlow_Begin
-  commentId: M:GhTA.Application.SimpleSettingsFlow.Begin
-  fullName: GhTA.Application.SimpleSettingsFlow.Begin()
-  nameWithType: SimpleSettingsFlow.Begin()
-- uid: GhTA.Application.SimpleSettingsFlow.Begin*
-  name: Begin
-  href: api/GhTA.Application.SimpleSettingsFlow.html#GhTA_Application_SimpleSettingsFlow_Begin_
-  commentId: Overload:GhTA.Application.SimpleSettingsFlow.Begin
-  isSpec: "True"
-  fullName: GhTA.Application.SimpleSettingsFlow.Begin
-  nameWithType: SimpleSettingsFlow.Begin
-- uid: GhTA.Application.SimpleSettingsFlow.End
-  name: End()
-  href: api/GhTA.Application.SimpleSettingsFlow.html#GhTA_Application_SimpleSettingsFlow_End
-  commentId: M:GhTA.Application.SimpleSettingsFlow.End
-  fullName: GhTA.Application.SimpleSettingsFlow.End()
-  nameWithType: SimpleSettingsFlow.End()
-- uid: GhTA.Application.SimpleSettingsFlow.End*
-  name: End
-  href: api/GhTA.Application.SimpleSettingsFlow.html#GhTA_Application_SimpleSettingsFlow_End_
-  commentId: Overload:GhTA.Application.SimpleSettingsFlow.End
-  isSpec: "True"
-  fullName: GhTA.Application.SimpleSettingsFlow.End
-  nameWithType: SimpleSettingsFlow.End
 - uid: GhTA.Application.SpawnMode
   name: SpawnMode
   href: api/GhTA.Application.SpawnMode.html
@@ -1831,38 +1398,6 @@ references:
   commentId: F:GhTA.Application.SpawnMode.UFO
   fullName: GhTA.Application.SpawnMode.UFO
   nameWithType: SpawnMode.UFO
-- uid: GhTA.Application.SplashFlow
-  name: SplashFlow
-  href: api/GhTA.Application.SplashFlow.html
-  commentId: T:GhTA.Application.SplashFlow
-  fullName: GhTA.Application.SplashFlow
-  nameWithType: SplashFlow
-- uid: GhTA.Application.SplashFlow.Begin
-  name: Begin()
-  href: api/GhTA.Application.SplashFlow.html#GhTA_Application_SplashFlow_Begin
-  commentId: M:GhTA.Application.SplashFlow.Begin
-  fullName: GhTA.Application.SplashFlow.Begin()
-  nameWithType: SplashFlow.Begin()
-- uid: GhTA.Application.SplashFlow.Begin*
-  name: Begin
-  href: api/GhTA.Application.SplashFlow.html#GhTA_Application_SplashFlow_Begin_
-  commentId: Overload:GhTA.Application.SplashFlow.Begin
-  isSpec: "True"
-  fullName: GhTA.Application.SplashFlow.Begin
-  nameWithType: SplashFlow.Begin
-- uid: GhTA.Application.SplashFlow.End
-  name: End()
-  href: api/GhTA.Application.SplashFlow.html#GhTA_Application_SplashFlow_End
-  commentId: M:GhTA.Application.SplashFlow.End
-  fullName: GhTA.Application.SplashFlow.End()
-  nameWithType: SplashFlow.End()
-- uid: GhTA.Application.SplashFlow.End*
-  name: End
-  href: api/GhTA.Application.SplashFlow.html#GhTA_Application_SplashFlow_End_
-  commentId: Overload:GhTA.Application.SplashFlow.End
-  isSpec: "True"
-  fullName: GhTA.Application.SplashFlow.End
-  nameWithType: SplashFlow.End
 - uid: GhTA.Application.StartFlow
   name: StartFlow
   href: api/GhTA.Application.StartFlow.html
@@ -1976,12 +1511,12 @@ references:
   commentId: F:GhTA.Celestial.CelestialController.MoonUp
   fullName: GhTA.Celestial.CelestialController.MoonUp
   nameWithType: CelestialController.MoonUp
-- uid: GhTA.Celestial.CelestialController.SetMoonPosition(System.Single,System.Single)
-  name: SetMoonPosition(Single, Single)
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_SetMoonPosition_System_Single_System_Single_
-  commentId: M:GhTA.Celestial.CelestialController.SetMoonPosition(System.Single,System.Single)
-  fullName: GhTA.Celestial.CelestialController.SetMoonPosition(System.Single, System.Single)
-  nameWithType: CelestialController.SetMoonPosition(Single, Single)
+- uid: GhTA.Celestial.CelestialController.SetMoonPosition(System.Double,System.Double)
+  name: SetMoonPosition(Double, Double)
+  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_SetMoonPosition_System_Double_System_Double_
+  commentId: M:GhTA.Celestial.CelestialController.SetMoonPosition(System.Double,System.Double)
+  fullName: GhTA.Celestial.CelestialController.SetMoonPosition(System.Double, System.Double)
+  nameWithType: CelestialController.SetMoonPosition(Double, Double)
 - uid: GhTA.Celestial.CelestialController.SetMoonPosition*
   name: SetMoonPosition
   href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_SetMoonPosition_
@@ -1989,12 +1524,12 @@ references:
   isSpec: "True"
   fullName: GhTA.Celestial.CelestialController.SetMoonPosition
   nameWithType: CelestialController.SetMoonPosition
-- uid: GhTA.Celestial.CelestialController.SetSunPosition(System.Single,System.Single)
-  name: SetSunPosition(Single, Single)
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_SetSunPosition_System_Single_System_Single_
-  commentId: M:GhTA.Celestial.CelestialController.SetSunPosition(System.Single,System.Single)
-  fullName: GhTA.Celestial.CelestialController.SetSunPosition(System.Single, System.Single)
-  nameWithType: CelestialController.SetSunPosition(Single, Single)
+- uid: GhTA.Celestial.CelestialController.SetSunPosition(System.Double,System.Double)
+  name: SetSunPosition(Double, Double)
+  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_SetSunPosition_System_Double_System_Double_
+  commentId: M:GhTA.Celestial.CelestialController.SetSunPosition(System.Double,System.Double)
+  fullName: GhTA.Celestial.CelestialController.SetSunPosition(System.Double, System.Double)
+  nameWithType: CelestialController.SetSunPosition(Double, Double)
 - uid: GhTA.Celestial.CelestialController.SetSunPosition*
   name: SetSunPosition
   href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_SetSunPosition_
@@ -2044,74 +1579,6 @@ references:
   commentId: F:GhTA.Celestial.CelestialController.WorldInfo
   fullName: GhTA.Celestial.CelestialController.WorldInfo
   nameWithType: CelestialController.WorldInfo
-- uid: GhTA.Celestial.CelestialHelper
-  name: CelestialHelper
-  href: api/GhTA.Celestial.CelestialHelper.html
-  commentId: T:GhTA.Celestial.CelestialHelper
-  fullName: GhTA.Celestial.CelestialHelper
-  nameWithType: CelestialHelper
-- uid: GhTA.Celestial.CelestialHelper.Configure(System.Double,System.Double)
-  name: Configure(Double, Double)
-  href: api/GhTA.Celestial.CelestialHelper.html#GhTA_Celestial_CelestialHelper_Configure_System_Double_System_Double_
-  commentId: M:GhTA.Celestial.CelestialHelper.Configure(System.Double,System.Double)
-  fullName: GhTA.Celestial.CelestialHelper.Configure(System.Double, System.Double)
-  nameWithType: CelestialHelper.Configure(Double, Double)
-- uid: GhTA.Celestial.CelestialHelper.Configure*
-  name: Configure
-  href: api/GhTA.Celestial.CelestialHelper.html#GhTA_Celestial_CelestialHelper_Configure_
-  commentId: Overload:GhTA.Celestial.CelestialHelper.Configure
-  isSpec: "True"
-  fullName: GhTA.Celestial.CelestialHelper.Configure
-  nameWithType: CelestialHelper.Configure
-- uid: GhTA.Celestial.CelestialHelper.LunarAltitude
-  name: LunarAltitude
-  href: api/GhTA.Celestial.CelestialHelper.html#GhTA_Celestial_CelestialHelper_LunarAltitude
-  commentId: F:GhTA.Celestial.CelestialHelper.LunarAltitude
-  fullName: GhTA.Celestial.CelestialHelper.LunarAltitude
-  nameWithType: CelestialHelper.LunarAltitude
-- uid: GhTA.Celestial.CelestialHelper.LunarAzimuth
-  name: LunarAzimuth
-  href: api/GhTA.Celestial.CelestialHelper.html#GhTA_Celestial_CelestialHelper_LunarAzimuth
-  commentId: F:GhTA.Celestial.CelestialHelper.LunarAzimuth
-  fullName: GhTA.Celestial.CelestialHelper.LunarAzimuth
-  nameWithType: CelestialHelper.LunarAzimuth
-- uid: GhTA.Celestial.CelestialHelper.SolarAltitude
-  name: SolarAltitude
-  href: api/GhTA.Celestial.CelestialHelper.html#GhTA_Celestial_CelestialHelper_SolarAltitude
-  commentId: F:GhTA.Celestial.CelestialHelper.SolarAltitude
-  fullName: GhTA.Celestial.CelestialHelper.SolarAltitude
-  nameWithType: CelestialHelper.SolarAltitude
-- uid: GhTA.Celestial.CelestialHelper.SolarAzimuth
-  name: SolarAzimuth
-  href: api/GhTA.Celestial.CelestialHelper.html#GhTA_Celestial_CelestialHelper_SolarAzimuth
-  commentId: F:GhTA.Celestial.CelestialHelper.SolarAzimuth
-  fullName: GhTA.Celestial.CelestialHelper.SolarAzimuth
-  nameWithType: CelestialHelper.SolarAzimuth
-- uid: GhTA.Celestial.CelestialHelper.Sunrise
-  name: Sunrise
-  href: api/GhTA.Celestial.CelestialHelper.html#GhTA_Celestial_CelestialHelper_Sunrise
-  commentId: F:GhTA.Celestial.CelestialHelper.Sunrise
-  fullName: GhTA.Celestial.CelestialHelper.Sunrise
-  nameWithType: CelestialHelper.Sunrise
-- uid: GhTA.Celestial.CelestialHelper.Sunset
-  name: Sunset
-  href: api/GhTA.Celestial.CelestialHelper.html#GhTA_Celestial_CelestialHelper_Sunset
-  commentId: F:GhTA.Celestial.CelestialHelper.Sunset
-  fullName: GhTA.Celestial.CelestialHelper.Sunset
-  nameWithType: CelestialHelper.Sunset
-- uid: GhTA.Celestial.CelestialHelper.UpdateTime(System.DateTime)
-  name: UpdateTime(DateTime)
-  href: api/GhTA.Celestial.CelestialHelper.html#GhTA_Celestial_CelestialHelper_UpdateTime_System_DateTime_
-  commentId: M:GhTA.Celestial.CelestialHelper.UpdateTime(System.DateTime)
-  fullName: GhTA.Celestial.CelestialHelper.UpdateTime(System.DateTime)
-  nameWithType: CelestialHelper.UpdateTime(DateTime)
-- uid: GhTA.Celestial.CelestialHelper.UpdateTime*
-  name: UpdateTime
-  href: api/GhTA.Celestial.CelestialHelper.html#GhTA_Celestial_CelestialHelper_UpdateTime_
-  commentId: Overload:GhTA.Celestial.CelestialHelper.UpdateTime
-  isSpec: "True"
-  fullName: GhTA.Celestial.CelestialHelper.UpdateTime
-  nameWithType: CelestialHelper.UpdateTime
 - uid: GhTA.Celestial.DayNightCycle
   name: DayNightCycle
   href: api/GhTA.Celestial.DayNightCycle.html
@@ -6800,18 +6267,6 @@ references:
   commentId: T:GhTA.Maps.MapController
   fullName: GhTA.Maps.MapController
   nameWithType: MapController
-- uid: GhTA.Maps.MapController._reviveLocations
-  name: _reviveLocations
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController__reviveLocations
-  commentId: F:GhTA.Maps.MapController._reviveLocations
-  fullName: GhTA.Maps.MapController._reviveLocations
-  nameWithType: MapController._reviveLocations
-- uid: GhTA.Maps.MapController._tiles
-  name: _tiles
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController__tiles
-  commentId: F:GhTA.Maps.MapController._tiles
-  fullName: GhTA.Maps.MapController._tiles
-  nameWithType: MapController._tiles
 - uid: GhTA.Maps.MapController.Active
   name: Active
   href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_Active
@@ -6830,18 +6285,12 @@ references:
   commentId: F:GhTA.Maps.MapController.DrawWater
   fullName: GhTA.Maps.MapController.DrawWater
   nameWithType: MapController.DrawWater
-- uid: GhTA.Maps.MapController.EmojiLibrary
-  name: EmojiLibrary
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_EmojiLibrary
-  commentId: F:GhTA.Maps.MapController.EmojiLibrary
-  fullName: GhTA.Maps.MapController.EmojiLibrary
-  nameWithType: MapController.EmojiLibrary
-- uid: GhTA.Maps.MapController.HandleTileDistance
-  name: HandleTileDistance()
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_HandleTileDistance
-  commentId: M:GhTA.Maps.MapController.HandleTileDistance
-  fullName: GhTA.Maps.MapController.HandleTileDistance()
-  nameWithType: MapController.HandleTileDistance()
+- uid: GhTA.Maps.MapController.HandleTileDistance(UnityEngine.Vector2Int)
+  name: HandleTileDistance(Vector2Int)
+  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_HandleTileDistance_UnityEngine_Vector2Int_
+  commentId: M:GhTA.Maps.MapController.HandleTileDistance(UnityEngine.Vector2Int)
+  fullName: GhTA.Maps.MapController.HandleTileDistance(UnityEngine.Vector2Int)
+  nameWithType: MapController.HandleTileDistance(Vector2Int)
 - uid: GhTA.Maps.MapController.HandleTileDistance*
   name: HandleTileDistance
   href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_HandleTileDistance_
@@ -6868,19 +6317,6 @@ references:
   isSpec: "True"
   fullName: GhTA.Maps.MapController.LoadMapOneShot
   nameWithType: MapController.LoadMapOneShot
-- uid: GhTA.Maps.MapController.MapLibrary
-  name: MapLibrary
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_MapLibrary
-  commentId: P:GhTA.Maps.MapController.MapLibrary
-  fullName: GhTA.Maps.MapController.MapLibrary
-  nameWithType: MapController.MapLibrary
-- uid: GhTA.Maps.MapController.MapLibrary*
-  name: MapLibrary
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_MapLibrary_
-  commentId: Overload:GhTA.Maps.MapController.MapLibrary
-  isSpec: "True"
-  fullName: GhTA.Maps.MapController.MapLibrary
-  nameWithType: MapController.MapLibrary
 - uid: GhTA.Maps.MapController.SpawnEverything(GhTA.Common.Model.WorldInfo)
   name: SpawnEverything(WorldInfo)
   href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_SpawnEverything_GhTA_Common_Model_WorldInfo_
@@ -6900,38 +6336,18 @@ references:
   commentId: F:GhTA.Maps.MapController.SpawnMiniMap
   fullName: GhTA.Maps.MapController.SpawnMiniMap
   nameWithType: MapController.SpawnMiniMap
-- uid: GhTA.Maps.MapController.SpawnTiles(GhTA.Common.Model.WorldInfo)
-  name: SpawnTiles(WorldInfo)
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_SpawnTiles_GhTA_Common_Model_WorldInfo_
-  commentId: M:GhTA.Maps.MapController.SpawnTiles(GhTA.Common.Model.WorldInfo)
-  fullName: GhTA.Maps.MapController.SpawnTiles(GhTA.Common.Model.WorldInfo)
-  nameWithType: MapController.SpawnTiles(WorldInfo)
-- uid: GhTA.Maps.MapController.SpawnTiles*
-  name: SpawnTiles
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_SpawnTiles_
-  commentId: Overload:GhTA.Maps.MapController.SpawnTiles
-  isSpec: "True"
-  fullName: GhTA.Maps.MapController.SpawnTiles
-  nameWithType: MapController.SpawnTiles
 - uid: GhTA.Maps.MapController.SpawnWater
   name: SpawnWater
   href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_SpawnWater
   commentId: F:GhTA.Maps.MapController.SpawnWater
   fullName: GhTA.Maps.MapController.SpawnWater
   nameWithType: MapController.SpawnWater
-- uid: GhTA.Maps.MapController.SpawnWaterAtTile
-  name: SpawnWaterAtTile()
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_SpawnWaterAtTile
-  commentId: M:GhTA.Maps.MapController.SpawnWaterAtTile
-  fullName: GhTA.Maps.MapController.SpawnWaterAtTile()
-  nameWithType: MapController.SpawnWaterAtTile()
-- uid: GhTA.Maps.MapController.SpawnWaterAtTile*
-  name: SpawnWaterAtTile
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_SpawnWaterAtTile_
-  commentId: Overload:GhTA.Maps.MapController.SpawnWaterAtTile
-  isSpec: "True"
-  fullName: GhTA.Maps.MapController.SpawnWaterAtTile
-  nameWithType: MapController.SpawnWaterAtTile
+- uid: GhTA.Maps.MapController.TileArrayFlat
+  name: TileArrayFlat
+  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_TileArrayFlat
+  commentId: F:GhTA.Maps.MapController.TileArrayFlat
+  fullName: GhTA.Maps.MapController.TileArrayFlat
+  nameWithType: MapController.TileArrayFlat
 - uid: GhTA.Maps.MapController.Tiles
   name: Tiles
   href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_Tiles
@@ -6944,19 +6360,6 @@ references:
   commentId: E:GhTA.Maps.MapController.TilesChangeEvent
   fullName: GhTA.Maps.MapController.TilesChangeEvent
   nameWithType: MapController.TilesChangeEvent
-- uid: GhTA.Maps.MapController.UpdateWater(UnityEngine.Vector2Int)
-  name: UpdateWater(Vector2Int)
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_UpdateWater_UnityEngine_Vector2Int_
-  commentId: M:GhTA.Maps.MapController.UpdateWater(UnityEngine.Vector2Int)
-  fullName: GhTA.Maps.MapController.UpdateWater(UnityEngine.Vector2Int)
-  nameWithType: MapController.UpdateWater(Vector2Int)
-- uid: GhTA.Maps.MapController.UpdateWater*
-  name: UpdateWater
-  href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_UpdateWater_
-  commentId: Overload:GhTA.Maps.MapController.UpdateWater
-  isSpec: "True"
-  fullName: GhTA.Maps.MapController.UpdateWater
-  nameWithType: MapController.UpdateWater
 - uid: GhTA.Maps.MapController.UserLocation
   name: UserLocation
   href: api/GhTA.Maps.MapController.html#GhTA_Maps_MapController_UserLocation
@@ -7026,19 +6429,6 @@ references:
   commentId: F:GhTA.Maps.OpenStreetMapComponent.Keys
   fullName: GhTA.Maps.OpenStreetMapComponent.Keys
   nameWithType: OpenStreetMapComponent.Keys
-- uid: GhTA.Maps.OpenStreetMapComponent.LaunchOSMBrowser
-  name: LaunchOSMBrowser()
-  href: api/GhTA.Maps.OpenStreetMapComponent.html#GhTA_Maps_OpenStreetMapComponent_LaunchOSMBrowser
-  commentId: M:GhTA.Maps.OpenStreetMapComponent.LaunchOSMBrowser
-  fullName: GhTA.Maps.OpenStreetMapComponent.LaunchOSMBrowser()
-  nameWithType: OpenStreetMapComponent.LaunchOSMBrowser()
-- uid: GhTA.Maps.OpenStreetMapComponent.LaunchOSMBrowser*
-  name: LaunchOSMBrowser
-  href: api/GhTA.Maps.OpenStreetMapComponent.html#GhTA_Maps_OpenStreetMapComponent_LaunchOSMBrowser_
-  commentId: Overload:GhTA.Maps.OpenStreetMapComponent.LaunchOSMBrowser
-  isSpec: "True"
-  fullName: GhTA.Maps.OpenStreetMapComponent.LaunchOSMBrowser
-  nameWithType: OpenStreetMapComponent.LaunchOSMBrowser
 - uid: GhTA.Maps.OpenStreetMapComponent.Node
   name: Node
   href: api/GhTA.Maps.OpenStreetMapComponent.html#GhTA_Maps_OpenStreetMapComponent_Node
@@ -7386,12 +6776,12 @@ references:
   isSpec: "True"
   fullName: GhTA.Maps.TerrainComponent.ConfigureTerrainLayers
   nameWithType: TerrainComponent.ConfigureTerrainLayers
-- uid: GhTA.Maps.TerrainComponent.Initialize(UnityEngine.Vector2Int,UnityEngine.Material)
-  name: Initialize(Vector2Int, Material)
-  href: api/GhTA.Maps.TerrainComponent.html#GhTA_Maps_TerrainComponent_Initialize_UnityEngine_Vector2Int_UnityEngine_Material_
-  commentId: M:GhTA.Maps.TerrainComponent.Initialize(UnityEngine.Vector2Int,UnityEngine.Material)
-  fullName: GhTA.Maps.TerrainComponent.Initialize(UnityEngine.Vector2Int, UnityEngine.Material)
-  nameWithType: TerrainComponent.Initialize(Vector2Int, Material)
+- uid: GhTA.Maps.TerrainComponent.Initialize(UnityEngine.Vector2Int)
+  name: Initialize(Vector2Int)
+  href: api/GhTA.Maps.TerrainComponent.html#GhTA_Maps_TerrainComponent_Initialize_UnityEngine_Vector2Int_
+  commentId: M:GhTA.Maps.TerrainComponent.Initialize(UnityEngine.Vector2Int)
+  fullName: GhTA.Maps.TerrainComponent.Initialize(UnityEngine.Vector2Int)
+  nameWithType: TerrainComponent.Initialize(Vector2Int)
 - uid: GhTA.Maps.TerrainComponent.Initialize*
   name: Initialize
   href: api/GhTA.Maps.TerrainComponent.html#GhTA_Maps_TerrainComponent_Initialize_
@@ -10149,477 +9539,6 @@ references:
   isSpec: "True"
   fullName: GhTA.Pawns.TopDownPawn.TogglePawnActive
   nameWithType: TopDownPawn.TogglePawnActive
-- uid: GhTA.Photon
-  name: GhTA.Photon
-  href: api/GhTA.Photon.html
-  commentId: N:GhTA.Photon
-  fullName: GhTA.Photon
-  nameWithType: GhTA.Photon
-- uid: GhTA.Photon.ChatController
-  name: ChatController
-  href: api/GhTA.Photon.ChatController.html
-  commentId: T:GhTA.Photon.ChatController
-  fullName: GhTA.Photon.ChatController
-  nameWithType: ChatController
-- uid: GhTA.Photon.ChatController.DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String)
-  name: DebugReturn(DebugLevel, String)
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_DebugReturn_ExitGames_Client_Photon_DebugLevel_System_String_
-  commentId: M:GhTA.Photon.ChatController.DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String)
-  fullName: GhTA.Photon.ChatController.DebugReturn(ExitGames.Client.Photon.DebugLevel, System.String)
-  nameWithType: ChatController.DebugReturn(DebugLevel, String)
-- uid: GhTA.Photon.ChatController.DebugReturn*
-  name: DebugReturn
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_DebugReturn_
-  commentId: Overload:GhTA.Photon.ChatController.DebugReturn
-  isSpec: "True"
-  fullName: GhTA.Photon.ChatController.DebugReturn
-  nameWithType: ChatController.DebugReturn
-- uid: GhTA.Photon.ChatController.OnChatStateChange(Photon.Chat.ChatState)
-  name: OnChatStateChange(ChatState)
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnChatStateChange_Photon_Chat_ChatState_
-  commentId: M:GhTA.Photon.ChatController.OnChatStateChange(Photon.Chat.ChatState)
-  fullName: GhTA.Photon.ChatController.OnChatStateChange(Photon.Chat.ChatState)
-  nameWithType: ChatController.OnChatStateChange(ChatState)
-- uid: GhTA.Photon.ChatController.OnChatStateChange*
-  name: OnChatStateChange
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnChatStateChange_
-  commentId: Overload:GhTA.Photon.ChatController.OnChatStateChange
-  isSpec: "True"
-  fullName: GhTA.Photon.ChatController.OnChatStateChange
-  nameWithType: ChatController.OnChatStateChange
-- uid: GhTA.Photon.ChatController.OnConnected
-  name: OnConnected()
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnConnected
-  commentId: M:GhTA.Photon.ChatController.OnConnected
-  fullName: GhTA.Photon.ChatController.OnConnected()
-  nameWithType: ChatController.OnConnected()
-- uid: GhTA.Photon.ChatController.OnConnected*
-  name: OnConnected
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnConnected_
-  commentId: Overload:GhTA.Photon.ChatController.OnConnected
-  isSpec: "True"
-  fullName: GhTA.Photon.ChatController.OnConnected
-  nameWithType: ChatController.OnConnected
-- uid: GhTA.Photon.ChatController.OnDisconnected
-  name: OnDisconnected()
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnDisconnected
-  commentId: M:GhTA.Photon.ChatController.OnDisconnected
-  fullName: GhTA.Photon.ChatController.OnDisconnected()
-  nameWithType: ChatController.OnDisconnected()
-- uid: GhTA.Photon.ChatController.OnDisconnected*
-  name: OnDisconnected
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnDisconnected_
-  commentId: Overload:GhTA.Photon.ChatController.OnDisconnected
-  isSpec: "True"
-  fullName: GhTA.Photon.ChatController.OnDisconnected
-  nameWithType: ChatController.OnDisconnected
-- uid: GhTA.Photon.ChatController.OnGetMessages(System.String,System.String[],System.Object[])
-  name: OnGetMessages(String, String[], Object[])
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnGetMessages_System_String_System_String___System_Object___
-  commentId: M:GhTA.Photon.ChatController.OnGetMessages(System.String,System.String[],System.Object[])
-  name.vb: OnGetMessages(String, String(), Object())
-  fullName: GhTA.Photon.ChatController.OnGetMessages(System.String, System.String[], System.Object[])
-  fullName.vb: GhTA.Photon.ChatController.OnGetMessages(System.String, System.String(), System.Object())
-  nameWithType: ChatController.OnGetMessages(String, String[], Object[])
-  nameWithType.vb: ChatController.OnGetMessages(String, String(), Object())
-- uid: GhTA.Photon.ChatController.OnGetMessages*
-  name: OnGetMessages
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnGetMessages_
-  commentId: Overload:GhTA.Photon.ChatController.OnGetMessages
-  isSpec: "True"
-  fullName: GhTA.Photon.ChatController.OnGetMessages
-  nameWithType: ChatController.OnGetMessages
-- uid: GhTA.Photon.ChatController.OnNewChatMessage
-  name: OnNewChatMessage
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnNewChatMessage
-  commentId: F:GhTA.Photon.ChatController.OnNewChatMessage
-  fullName: GhTA.Photon.ChatController.OnNewChatMessage
-  nameWithType: ChatController.OnNewChatMessage
-- uid: GhTA.Photon.ChatController.OnPrivateMessage(System.String,System.Object,System.String)
-  name: OnPrivateMessage(String, Object, String)
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnPrivateMessage_System_String_System_Object_System_String_
-  commentId: M:GhTA.Photon.ChatController.OnPrivateMessage(System.String,System.Object,System.String)
-  fullName: GhTA.Photon.ChatController.OnPrivateMessage(System.String, System.Object, System.String)
-  nameWithType: ChatController.OnPrivateMessage(String, Object, String)
-- uid: GhTA.Photon.ChatController.OnPrivateMessage*
-  name: OnPrivateMessage
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnPrivateMessage_
-  commentId: Overload:GhTA.Photon.ChatController.OnPrivateMessage
-  isSpec: "True"
-  fullName: GhTA.Photon.ChatController.OnPrivateMessage
-  nameWithType: ChatController.OnPrivateMessage
-- uid: GhTA.Photon.ChatController.OnStatusUpdate(System.String,System.Int32,System.Boolean,System.Object)
-  name: OnStatusUpdate(String, Int32, Boolean, Object)
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnStatusUpdate_System_String_System_Int32_System_Boolean_System_Object_
-  commentId: M:GhTA.Photon.ChatController.OnStatusUpdate(System.String,System.Int32,System.Boolean,System.Object)
-  fullName: GhTA.Photon.ChatController.OnStatusUpdate(System.String, System.Int32, System.Boolean, System.Object)
-  nameWithType: ChatController.OnStatusUpdate(String, Int32, Boolean, Object)
-- uid: GhTA.Photon.ChatController.OnStatusUpdate*
-  name: OnStatusUpdate
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnStatusUpdate_
-  commentId: Overload:GhTA.Photon.ChatController.OnStatusUpdate
-  isSpec: "True"
-  fullName: GhTA.Photon.ChatController.OnStatusUpdate
-  nameWithType: ChatController.OnStatusUpdate
-- uid: GhTA.Photon.ChatController.OnSubscribed(System.String[],System.Boolean[])
-  name: OnSubscribed(String[], Boolean[])
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnSubscribed_System_String___System_Boolean___
-  commentId: M:GhTA.Photon.ChatController.OnSubscribed(System.String[],System.Boolean[])
-  name.vb: OnSubscribed(String(), Boolean())
-  fullName: GhTA.Photon.ChatController.OnSubscribed(System.String[], System.Boolean[])
-  fullName.vb: GhTA.Photon.ChatController.OnSubscribed(System.String(), System.Boolean())
-  nameWithType: ChatController.OnSubscribed(String[], Boolean[])
-  nameWithType.vb: ChatController.OnSubscribed(String(), Boolean())
-- uid: GhTA.Photon.ChatController.OnSubscribed*
-  name: OnSubscribed
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnSubscribed_
-  commentId: Overload:GhTA.Photon.ChatController.OnSubscribed
-  isSpec: "True"
-  fullName: GhTA.Photon.ChatController.OnSubscribed
-  nameWithType: ChatController.OnSubscribed
-- uid: GhTA.Photon.ChatController.OnUnsubscribed(System.String[])
-  name: OnUnsubscribed(String[])
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnUnsubscribed_System_String___
-  commentId: M:GhTA.Photon.ChatController.OnUnsubscribed(System.String[])
-  name.vb: OnUnsubscribed(String())
-  fullName: GhTA.Photon.ChatController.OnUnsubscribed(System.String[])
-  fullName.vb: GhTA.Photon.ChatController.OnUnsubscribed(System.String())
-  nameWithType: ChatController.OnUnsubscribed(String[])
-  nameWithType.vb: ChatController.OnUnsubscribed(String())
-- uid: GhTA.Photon.ChatController.OnUnsubscribed*
-  name: OnUnsubscribed
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnUnsubscribed_
-  commentId: Overload:GhTA.Photon.ChatController.OnUnsubscribed
-  isSpec: "True"
-  fullName: GhTA.Photon.ChatController.OnUnsubscribed
-  nameWithType: ChatController.OnUnsubscribed
-- uid: GhTA.Photon.ChatController.OnUserSubscribed(System.String,System.String)
-  name: OnUserSubscribed(String, String)
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnUserSubscribed_System_String_System_String_
-  commentId: M:GhTA.Photon.ChatController.OnUserSubscribed(System.String,System.String)
-  fullName: GhTA.Photon.ChatController.OnUserSubscribed(System.String, System.String)
-  nameWithType: ChatController.OnUserSubscribed(String, String)
-- uid: GhTA.Photon.ChatController.OnUserSubscribed*
-  name: OnUserSubscribed
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnUserSubscribed_
-  commentId: Overload:GhTA.Photon.ChatController.OnUserSubscribed
-  isSpec: "True"
-  fullName: GhTA.Photon.ChatController.OnUserSubscribed
-  nameWithType: ChatController.OnUserSubscribed
-- uid: GhTA.Photon.ChatController.OnUserUnsubscribed(System.String,System.String)
-  name: OnUserUnsubscribed(String, String)
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnUserUnsubscribed_System_String_System_String_
-  commentId: M:GhTA.Photon.ChatController.OnUserUnsubscribed(System.String,System.String)
-  fullName: GhTA.Photon.ChatController.OnUserUnsubscribed(System.String, System.String)
-  nameWithType: ChatController.OnUserUnsubscribed(String, String)
-- uid: GhTA.Photon.ChatController.OnUserUnsubscribed*
-  name: OnUserUnsubscribed
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_OnUserUnsubscribed_
-  commentId: Overload:GhTA.Photon.ChatController.OnUserUnsubscribed
-  isSpec: "True"
-  fullName: GhTA.Photon.ChatController.OnUserUnsubscribed
-  nameWithType: ChatController.OnUserUnsubscribed
-- uid: GhTA.Photon.ChatController.SendToPublicChat(System.String)
-  name: SendToPublicChat(String)
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_SendToPublicChat_System_String_
-  commentId: M:GhTA.Photon.ChatController.SendToPublicChat(System.String)
-  fullName: GhTA.Photon.ChatController.SendToPublicChat(System.String)
-  nameWithType: ChatController.SendToPublicChat(String)
-- uid: GhTA.Photon.ChatController.SendToPublicChat*
-  name: SendToPublicChat
-  href: api/GhTA.Photon.ChatController.html#GhTA_Photon_ChatController_SendToPublicChat_
-  commentId: Overload:GhTA.Photon.ChatController.SendToPublicChat
-  isSpec: "True"
-  fullName: GhTA.Photon.ChatController.SendToPublicChat
-  nameWithType: ChatController.SendToPublicChat
-- uid: GhTA.Photon.GameSetupController
-  name: GameSetupController
-  href: api/GhTA.Photon.GameSetupController.html
-  commentId: T:GhTA.Photon.GameSetupController
-  fullName: GhTA.Photon.GameSetupController
-  nameWithType: GameSetupController
-- uid: GhTA.Photon.GameSetupController.CreatePlayer
-  name: CreatePlayer()
-  href: api/GhTA.Photon.GameSetupController.html#GhTA_Photon_GameSetupController_CreatePlayer
-  commentId: M:GhTA.Photon.GameSetupController.CreatePlayer
-  fullName: GhTA.Photon.GameSetupController.CreatePlayer()
-  nameWithType: GameSetupController.CreatePlayer()
-- uid: GhTA.Photon.GameSetupController.CreatePlayer*
-  name: CreatePlayer
-  href: api/GhTA.Photon.GameSetupController.html#GhTA_Photon_GameSetupController_CreatePlayer_
-  commentId: Overload:GhTA.Photon.GameSetupController.CreatePlayer
-  isSpec: "True"
-  fullName: GhTA.Photon.GameSetupController.CreatePlayer
-  nameWithType: GameSetupController.CreatePlayer
-- uid: GhTA.Photon.GameSetupController.GameCamera
-  name: GameCamera
-  href: api/GhTA.Photon.GameSetupController.html#GhTA_Photon_GameSetupController_GameCamera
-  commentId: F:GhTA.Photon.GameSetupController.GameCamera
-  fullName: GhTA.Photon.GameSetupController.GameCamera
-  nameWithType: GameSetupController.GameCamera
-- uid: GhTA.Photon.GameSetupController.GS
-  name: GS
-  href: api/GhTA.Photon.GameSetupController.html#GhTA_Photon_GameSetupController_GS
-  commentId: F:GhTA.Photon.GameSetupController.GS
-  fullName: GhTA.Photon.GameSetupController.GS
-  nameWithType: GameSetupController.GS
-- uid: GhTA.Photon.GameSetupController.OnEnable
-  name: OnEnable()
-  href: api/GhTA.Photon.GameSetupController.html#GhTA_Photon_GameSetupController_OnEnable
-  commentId: M:GhTA.Photon.GameSetupController.OnEnable
-  fullName: GhTA.Photon.GameSetupController.OnEnable()
-  nameWithType: GameSetupController.OnEnable()
-- uid: GhTA.Photon.GameSetupController.OnEnable*
-  name: OnEnable
-  href: api/GhTA.Photon.GameSetupController.html#GhTA_Photon_GameSetupController_OnEnable_
-  commentId: Overload:GhTA.Photon.GameSetupController.OnEnable
-  isSpec: "True"
-  fullName: GhTA.Photon.GameSetupController.OnEnable
-  nameWithType: GameSetupController.OnEnable
-- uid: GhTA.Photon.GameSetupController.Paused
-  name: Paused
-  href: api/GhTA.Photon.GameSetupController.html#GhTA_Photon_GameSetupController_Paused
-  commentId: F:GhTA.Photon.GameSetupController.Paused
-  fullName: GhTA.Photon.GameSetupController.Paused
-  nameWithType: GameSetupController.Paused
-- uid: GhTA.Photon.GameSetupController.spawnPoints
-  name: spawnPoints
-  href: api/GhTA.Photon.GameSetupController.html#GhTA_Photon_GameSetupController_spawnPoints
-  commentId: F:GhTA.Photon.GameSetupController.spawnPoints
-  fullName: GhTA.Photon.GameSetupController.spawnPoints
-  nameWithType: GameSetupController.spawnPoints
-- uid: GhTA.Photon.GameSetupController.WaterFollow
-  name: WaterFollow
-  href: api/GhTA.Photon.GameSetupController.html#GhTA_Photon_GameSetupController_WaterFollow
-  commentId: F:GhTA.Photon.GameSetupController.WaterFollow
-  fullName: GhTA.Photon.GameSetupController.WaterFollow
-  nameWithType: GameSetupController.WaterFollow
-- uid: GhTA.Photon.NetworkController
-  name: NetworkController
-  href: api/GhTA.Photon.NetworkController.html
-  commentId: T:GhTA.Photon.NetworkController
-  fullName: GhTA.Photon.NetworkController
-  nameWithType: NetworkController
-- uid: GhTA.Photon.NetworkController.Cancel
-  name: Cancel()
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_Cancel
-  commentId: M:GhTA.Photon.NetworkController.Cancel
-  fullName: GhTA.Photon.NetworkController.Cancel()
-  nameWithType: NetworkController.Cancel()
-- uid: GhTA.Photon.NetworkController.Cancel*
-  name: Cancel
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_Cancel_
-  commentId: Overload:GhTA.Photon.NetworkController.Cancel
-  isSpec: "True"
-  fullName: GhTA.Photon.NetworkController.Cancel
-  nameWithType: NetworkController.Cancel
-- uid: GhTA.Photon.NetworkController.ConnectionEstablished
-  name: ConnectionEstablished
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_ConnectionEstablished
-  commentId: F:GhTA.Photon.NetworkController.ConnectionEstablished
-  fullName: GhTA.Photon.NetworkController.ConnectionEstablished
-  nameWithType: NetworkController.ConnectionEstablished
-- uid: GhTA.Photon.NetworkController.ConnectToMaster
-  name: ConnectToMaster()
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_ConnectToMaster
-  commentId: M:GhTA.Photon.NetworkController.ConnectToMaster
-  fullName: GhTA.Photon.NetworkController.ConnectToMaster()
-  nameWithType: NetworkController.ConnectToMaster()
-- uid: GhTA.Photon.NetworkController.ConnectToMaster*
-  name: ConnectToMaster
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_ConnectToMaster_
-  commentId: Overload:GhTA.Photon.NetworkController.ConnectToMaster
-  isSpec: "True"
-  fullName: GhTA.Photon.NetworkController.ConnectToMaster
-  nameWithType: NetworkController.ConnectToMaster
-- uid: GhTA.Photon.NetworkController.NewPlayerJoinedRoom
-  name: NewPlayerJoinedRoom
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_NewPlayerJoinedRoom
-  commentId: F:GhTA.Photon.NetworkController.NewPlayerJoinedRoom
-  fullName: GhTA.Photon.NetworkController.NewPlayerJoinedRoom
-  nameWithType: NetworkController.NewPlayerJoinedRoom
-- uid: GhTA.Photon.NetworkController.OnConnectedToMaster
-  name: OnConnectedToMaster()
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_OnConnectedToMaster
-  commentId: M:GhTA.Photon.NetworkController.OnConnectedToMaster
-  fullName: GhTA.Photon.NetworkController.OnConnectedToMaster()
-  nameWithType: NetworkController.OnConnectedToMaster()
-- uid: GhTA.Photon.NetworkController.OnConnectedToMaster*
-  name: OnConnectedToMaster
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_OnConnectedToMaster_
-  commentId: Overload:GhTA.Photon.NetworkController.OnConnectedToMaster
-  isSpec: "True"
-  fullName: GhTA.Photon.NetworkController.OnConnectedToMaster
-  nameWithType: NetworkController.OnConnectedToMaster
-- uid: GhTA.Photon.NetworkController.OnCreateRoomFailed(System.Int16,System.String)
-  name: OnCreateRoomFailed(Int16, String)
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_OnCreateRoomFailed_System_Int16_System_String_
-  commentId: M:GhTA.Photon.NetworkController.OnCreateRoomFailed(System.Int16,System.String)
-  fullName: GhTA.Photon.NetworkController.OnCreateRoomFailed(System.Int16, System.String)
-  nameWithType: NetworkController.OnCreateRoomFailed(Int16, String)
-- uid: GhTA.Photon.NetworkController.OnCreateRoomFailed*
-  name: OnCreateRoomFailed
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_OnCreateRoomFailed_
-  commentId: Overload:GhTA.Photon.NetworkController.OnCreateRoomFailed
-  isSpec: "True"
-  fullName: GhTA.Photon.NetworkController.OnCreateRoomFailed
-  nameWithType: NetworkController.OnCreateRoomFailed
-- uid: GhTA.Photon.NetworkController.OnJoinedRoom
-  name: OnJoinedRoom()
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_OnJoinedRoom
-  commentId: M:GhTA.Photon.NetworkController.OnJoinedRoom
-  fullName: GhTA.Photon.NetworkController.OnJoinedRoom()
-  nameWithType: NetworkController.OnJoinedRoom()
-- uid: GhTA.Photon.NetworkController.OnJoinedRoom*
-  name: OnJoinedRoom
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_OnJoinedRoom_
-  commentId: Overload:GhTA.Photon.NetworkController.OnJoinedRoom
-  isSpec: "True"
-  fullName: GhTA.Photon.NetworkController.OnJoinedRoom
-  nameWithType: NetworkController.OnJoinedRoom
-- uid: GhTA.Photon.NetworkController.OnJoinRandomFailed(System.Int16,System.String)
-  name: OnJoinRandomFailed(Int16, String)
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_OnJoinRandomFailed_System_Int16_System_String_
-  commentId: M:GhTA.Photon.NetworkController.OnJoinRandomFailed(System.Int16,System.String)
-  fullName: GhTA.Photon.NetworkController.OnJoinRandomFailed(System.Int16, System.String)
-  nameWithType: NetworkController.OnJoinRandomFailed(Int16, String)
-- uid: GhTA.Photon.NetworkController.OnJoinRandomFailed*
-  name: OnJoinRandomFailed
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_OnJoinRandomFailed_
-  commentId: Overload:GhTA.Photon.NetworkController.OnJoinRandomFailed
-  isSpec: "True"
-  fullName: GhTA.Photon.NetworkController.OnJoinRandomFailed
-  nameWithType: NetworkController.OnJoinRandomFailed
-- uid: GhTA.Photon.NetworkController.OnPlayerDisconnectedFromGame
-  name: OnPlayerDisconnectedFromGame
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_OnPlayerDisconnectedFromGame
-  commentId: F:GhTA.Photon.NetworkController.OnPlayerDisconnectedFromGame
-  fullName: GhTA.Photon.NetworkController.OnPlayerDisconnectedFromGame
-  nameWithType: NetworkController.OnPlayerDisconnectedFromGame
-- uid: GhTA.Photon.NetworkController.OnPlayerEnteredRoom(Photon.Realtime.Player)
-  name: OnPlayerEnteredRoom(Player)
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_OnPlayerEnteredRoom_Photon_Realtime_Player_
-  commentId: M:GhTA.Photon.NetworkController.OnPlayerEnteredRoom(Photon.Realtime.Player)
-  fullName: GhTA.Photon.NetworkController.OnPlayerEnteredRoom(Photon.Realtime.Player)
-  nameWithType: NetworkController.OnPlayerEnteredRoom(Player)
-- uid: GhTA.Photon.NetworkController.OnPlayerEnteredRoom*
-  name: OnPlayerEnteredRoom
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_OnPlayerEnteredRoom_
-  commentId: Overload:GhTA.Photon.NetworkController.OnPlayerEnteredRoom
-  isSpec: "True"
-  fullName: GhTA.Photon.NetworkController.OnPlayerEnteredRoom
-  nameWithType: NetworkController.OnPlayerEnteredRoom
-- uid: GhTA.Photon.NetworkController.OnPlayerLeftRoom(Photon.Realtime.Player)
-  name: OnPlayerLeftRoom(Player)
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_OnPlayerLeftRoom_Photon_Realtime_Player_
-  commentId: M:GhTA.Photon.NetworkController.OnPlayerLeftRoom(Photon.Realtime.Player)
-  fullName: GhTA.Photon.NetworkController.OnPlayerLeftRoom(Photon.Realtime.Player)
-  nameWithType: NetworkController.OnPlayerLeftRoom(Player)
-- uid: GhTA.Photon.NetworkController.OnPlayerLeftRoom*
-  name: OnPlayerLeftRoom
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_OnPlayerLeftRoom_
-  commentId: Overload:GhTA.Photon.NetworkController.OnPlayerLeftRoom
-  isSpec: "True"
-  fullName: GhTA.Photon.NetworkController.OnPlayerLeftRoom
-  nameWithType: NetworkController.OnPlayerLeftRoom
-- uid: GhTA.Photon.NetworkController.QuickStart
-  name: QuickStart()
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_QuickStart
-  commentId: M:GhTA.Photon.NetworkController.QuickStart
-  fullName: GhTA.Photon.NetworkController.QuickStart()
-  nameWithType: NetworkController.QuickStart()
-- uid: GhTA.Photon.NetworkController.QuickStart*
-  name: QuickStart
-  href: api/GhTA.Photon.NetworkController.html#GhTA_Photon_NetworkController_QuickStart_
-  commentId: Overload:GhTA.Photon.NetworkController.QuickStart
-  isSpec: "True"
-  fullName: GhTA.Photon.NetworkController.QuickStart
-  nameWithType: NetworkController.QuickStart
-- uid: GhTA.Photon.PhotonPlayer
-  name: PhotonPlayer
-  href: api/GhTA.Photon.PhotonPlayer.html
-  commentId: T:GhTA.Photon.PhotonPlayer
-  fullName: GhTA.Photon.PhotonPlayer
-  nameWithType: PhotonPlayer
-- uid: GhTA.Photon.PhotonPlayer.localAvatar
-  name: localAvatar
-  href: api/GhTA.Photon.PhotonPlayer.html#GhTA_Photon_PhotonPlayer_localAvatar
-  commentId: F:GhTA.Photon.PhotonPlayer.localAvatar
-  fullName: GhTA.Photon.PhotonPlayer.localAvatar
-  nameWithType: PhotonPlayer.localAvatar
-- uid: GhTA.Photon.PlayerInfo
-  name: PlayerInfo
-  href: api/GhTA.Photon.PlayerInfo.html
-  commentId: T:GhTA.Photon.PlayerInfo
-  fullName: GhTA.Photon.PlayerInfo
-  nameWithType: PlayerInfo
-- uid: GhTA.Photon.PlayerInfo.PI
-  name: PI
-  href: api/GhTA.Photon.PlayerInfo.html#GhTA_Photon_PlayerInfo_PI
-  commentId: F:GhTA.Photon.PlayerInfo.PI
-  fullName: GhTA.Photon.PlayerInfo.PI
-  nameWithType: PlayerInfo.PI
-- uid: GhTA.Photon.PlayerInfo.PlayerName
-  name: PlayerName
-  href: api/GhTA.Photon.PlayerInfo.html#GhTA_Photon_PlayerInfo_PlayerName
-  commentId: F:GhTA.Photon.PlayerInfo.PlayerName
-  fullName: GhTA.Photon.PlayerInfo.PlayerName
-  nameWithType: PlayerInfo.PlayerName
-- uid: GhTA.Photon.PlayerMovement
-  name: PlayerMovement
-  href: api/GhTA.Photon.PlayerMovement.html
-  commentId: T:GhTA.Photon.PlayerMovement
-  fullName: GhTA.Photon.PlayerMovement
-  nameWithType: PlayerMovement
-- uid: GhTA.Photon.PlayerMovement.BoomLength
-  name: BoomLength
-  href: api/GhTA.Photon.PlayerMovement.html#GhTA_Photon_PlayerMovement_BoomLength
-  commentId: F:GhTA.Photon.PlayerMovement.BoomLength
-  fullName: GhTA.Photon.PlayerMovement.BoomLength
-  nameWithType: PlayerMovement.BoomLength
-- uid: GhTA.Photon.PlayerMovement.Camera
-  name: Camera
-  href: api/GhTA.Photon.PlayerMovement.html#GhTA_Photon_PlayerMovement_Camera
-  commentId: F:GhTA.Photon.PlayerMovement.Camera
-  fullName: GhTA.Photon.PlayerMovement.Camera
-  nameWithType: PlayerMovement.Camera
-- uid: GhTA.Photon.PlayerMovement.Head
-  name: Head
-  href: api/GhTA.Photon.PlayerMovement.html#GhTA_Photon_PlayerMovement_Head
-  commentId: F:GhTA.Photon.PlayerMovement.Head
-  fullName: GhTA.Photon.PlayerMovement.Head
-  nameWithType: PlayerMovement.Head
-- uid: GhTA.Photon.PlayerMovement.MovementSpeed
-  name: MovementSpeed
-  href: api/GhTA.Photon.PlayerMovement.html#GhTA_Photon_PlayerMovement_MovementSpeed
-  commentId: F:GhTA.Photon.PlayerMovement.MovementSpeed
-  fullName: GhTA.Photon.PlayerMovement.MovementSpeed
-  nameWithType: PlayerMovement.MovementSpeed
-- uid: GhTA.Photon.PlayerMovement.PlayerLabel
-  name: PlayerLabel
-  href: api/GhTA.Photon.PlayerMovement.html#GhTA_Photon_PlayerMovement_PlayerLabel
-  commentId: P:GhTA.Photon.PlayerMovement.PlayerLabel
-  fullName: GhTA.Photon.PlayerMovement.PlayerLabel
-  nameWithType: PlayerMovement.PlayerLabel
-- uid: GhTA.Photon.PlayerMovement.PlayerLabel*
-  name: PlayerLabel
-  href: api/GhTA.Photon.PlayerMovement.html#GhTA_Photon_PlayerMovement_PlayerLabel_
-  commentId: Overload:GhTA.Photon.PlayerMovement.PlayerLabel
-  isSpec: "True"
-  fullName: GhTA.Photon.PlayerMovement.PlayerLabel
-  nameWithType: PlayerMovement.PlayerLabel
-- uid: GhTA.Photon.PlayerMovement.PlayerName
-  name: PlayerName
-  href: api/GhTA.Photon.PlayerMovement.html#GhTA_Photon_PlayerMovement_PlayerName
-  commentId: F:GhTA.Photon.PlayerMovement.PlayerName
-  fullName: GhTA.Photon.PlayerMovement.PlayerName
-  nameWithType: PlayerMovement.PlayerName
-- uid: GhTA.Photon.PlayerMovement.RotationSpeed
-  name: RotationSpeed
-  href: api/GhTA.Photon.PlayerMovement.html#GhTA_Photon_PlayerMovement_RotationSpeed
-  commentId: F:GhTA.Photon.PlayerMovement.RotationSpeed
-  fullName: GhTA.Photon.PlayerMovement.RotationSpeed
-  nameWithType: PlayerMovement.RotationSpeed
 - uid: GhTA.Player
   name: GhTA.Player
   href: api/GhTA.Player.html
@@ -10681,6 +9600,12 @@ references:
   commentId: F:GhTA.Player.PlayerController.Stats
   fullName: GhTA.Player.PlayerController.Stats
   nameWithType: PlayerController.Stats
+- uid: GhTA.Player.PlayerController.TileCoordinates
+  name: TileCoordinates
+  href: api/GhTA.Player.PlayerController.html#GhTA_Player_PlayerController_TileCoordinates
+  commentId: F:GhTA.Player.PlayerController.TileCoordinates
+  fullName: GhTA.Player.PlayerController.TileCoordinates
+  nameWithType: PlayerController.TileCoordinates
 - uid: GhTA.Player.PlayerController.UFO
   name: UFO
   href: api/GhTA.Player.PlayerController.html#GhTA_Player_PlayerController_UFO
@@ -12778,16 +11703,9 @@ references:
   fullName: GhTA.Time.TimeHelper.ToUnixTime
   nameWithType: TimeHelper.ToUnixTime
 - uid: GhTA.Time.TimeHelper.UTCOffset
-  name: UTCOffset()
-  href: api/GhTA.Time.TimeHelper.html#GhTA_Time_TimeHelper_UTCOffset
-  commentId: M:GhTA.Time.TimeHelper.UTCOffset
-  fullName: GhTA.Time.TimeHelper.UTCOffset()
-  nameWithType: TimeHelper.UTCOffset()
-- uid: GhTA.Time.TimeHelper.UTCOffset*
   name: UTCOffset
-  href: api/GhTA.Time.TimeHelper.html#GhTA_Time_TimeHelper_UTCOffset_
-  commentId: Overload:GhTA.Time.TimeHelper.UTCOffset
-  isSpec: "True"
+  href: api/GhTA.Time.TimeHelper.html#GhTA_Time_TimeHelper_UTCOffset
+  commentId: F:GhTA.Time.TimeHelper.UTCOffset
   fullName: GhTA.Time.TimeHelper.UTCOffset
   nameWithType: TimeHelper.UTCOffset
 - uid: GhTA.Time.TimeInfo
@@ -14673,6 +13591,18 @@ references:
   commentId: F:GhTA.Utility.TileHelper.TileMeshSquareKilometer
   fullName: GhTA.Utility.TileHelper.TileMeshSquareKilometer
   nameWithType: TileHelper.TileMeshSquareKilometer
+- uid: GhTA.Utility.TileHelper.TileOffset
+  name: TileOffset
+  href: api/GhTA.Utility.TileHelper.html#GhTA_Utility_TileHelper_TileOffset
+  commentId: F:GhTA.Utility.TileHelper.TileOffset
+  fullName: GhTA.Utility.TileHelper.TileOffset
+  nameWithType: TileHelper.TileOffset
+- uid: GhTA.Utility.TileHelper.TileSize
+  name: TileSize
+  href: api/GhTA.Utility.TileHelper.html#GhTA_Utility_TileHelper_TileSize
+  commentId: F:GhTA.Utility.TileHelper.TileSize
+  fullName: GhTA.Utility.TileHelper.TileSize
+  nameWithType: TileHelper.TileSize
 - uid: GhTA.Utility.Triangulator
   name: Triangulator
   href: api/GhTA.Utility.Triangulator.html
@@ -16345,25 +15275,6 @@ references:
   fullName.vb: ''
   nameWithType: Global
   nameWithType.vb: ''
-- uid: Global.AppSettingsExtensions
-  name: AppSettingsExtensions
-  href: api/Global.AppSettingsExtensions.html
-  commentId: T:Global.AppSettingsExtensions
-  fullName: AppSettingsExtensions
-  nameWithType: AppSettingsExtensions
-- uid: Global.AppSettingsExtensions.GetChatSettings(Photon.Realtime.AppSettings)
-  name: GetChatSettings(AppSettings)
-  href: api/Global.AppSettingsExtensions.html#Global_AppSettingsExtensions_GetChatSettings_Photon_Realtime_AppSettings_
-  commentId: M:Global.AppSettingsExtensions.GetChatSettings(Photon.Realtime.AppSettings)
-  fullName: AppSettingsExtensions.GetChatSettings(Photon.Realtime.AppSettings)
-  nameWithType: AppSettingsExtensions.GetChatSettings(AppSettings)
-- uid: Global.AppSettingsExtensions.GetChatSettings*
-  name: GetChatSettings
-  href: api/Global.AppSettingsExtensions.html#Global_AppSettingsExtensions_GetChatSettings_
-  commentId: Overload:Global.AppSettingsExtensions.GetChatSettings
-  isSpec: "True"
-  fullName: AppSettingsExtensions.GetChatSettings
-  nameWithType: AppSettingsExtensions.GetChatSettings
 - uid: Global.Belfort
   name: Belfort
   href: api/Global.Belfort.html
@@ -16382,503 +15293,6 @@ references:
   commentId: F:Global.Carrousel.Paardjes
   fullName: Carrousel.Paardjes
   nameWithType: Carrousel.Paardjes
-- uid: Global.ChangeColor
-  name: ChangeColor
-  href: api/Global.ChangeColor.html
-  commentId: T:Global.ChangeColor
-  fullName: ChangeColor
-  nameWithType: ChangeColor
-- uid: Global.ChangeName
-  name: ChangeName
-  href: api/Global.ChangeName.html
-  commentId: T:Global.ChangeName
-  fullName: ChangeName
-  nameWithType: ChangeName
-- uid: Global.ChannelSelector
-  name: ChannelSelector
-  href: api/Global.ChannelSelector.html
-  commentId: T:Global.ChannelSelector
-  fullName: ChannelSelector
-  nameWithType: ChannelSelector
-- uid: Global.ChannelSelector.Channel
-  name: Channel
-  href: api/Global.ChannelSelector.html#Global_ChannelSelector_Channel
-  commentId: F:Global.ChannelSelector.Channel
-  fullName: ChannelSelector.Channel
-  nameWithType: ChannelSelector.Channel
-- uid: Global.ChannelSelector.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
-  name: OnPointerClick(PointerEventData)
-  href: api/Global.ChannelSelector.html#Global_ChannelSelector_OnPointerClick_UnityEngine_EventSystems_PointerEventData_
-  commentId: M:Global.ChannelSelector.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
-  fullName: ChannelSelector.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
-  nameWithType: ChannelSelector.OnPointerClick(PointerEventData)
-- uid: Global.ChannelSelector.OnPointerClick*
-  name: OnPointerClick
-  href: api/Global.ChannelSelector.html#Global_ChannelSelector_OnPointerClick_
-  commentId: Overload:Global.ChannelSelector.OnPointerClick
-  isSpec: "True"
-  fullName: ChannelSelector.OnPointerClick
-  nameWithType: ChannelSelector.OnPointerClick
-- uid: Global.ChannelSelector.SetChannel(System.String)
-  name: SetChannel(String)
-  href: api/Global.ChannelSelector.html#Global_ChannelSelector_SetChannel_System_String_
-  commentId: M:Global.ChannelSelector.SetChannel(System.String)
-  fullName: ChannelSelector.SetChannel(System.String)
-  nameWithType: ChannelSelector.SetChannel(String)
-- uid: Global.ChannelSelector.SetChannel*
-  name: SetChannel
-  href: api/Global.ChannelSelector.html#Global_ChannelSelector_SetChannel_
-  commentId: Overload:Global.ChannelSelector.SetChannel
-  isSpec: "True"
-  fullName: ChannelSelector.SetChannel
-  nameWithType: ChannelSelector.SetChannel
-- uid: Global.ChatAppIdCheckerUI
-  name: ChatAppIdCheckerUI
-  href: api/Global.ChatAppIdCheckerUI.html
-  commentId: T:Global.ChatAppIdCheckerUI
-  fullName: ChatAppIdCheckerUI
-  nameWithType: ChatAppIdCheckerUI
-- uid: Global.ChatAppIdCheckerUI.Description
-  name: Description
-  href: api/Global.ChatAppIdCheckerUI.html#Global_ChatAppIdCheckerUI_Description
-  commentId: F:Global.ChatAppIdCheckerUI.Description
-  fullName: ChatAppIdCheckerUI.Description
-  nameWithType: ChatAppIdCheckerUI.Description
-- uid: Global.ChatAppIdCheckerUI.Update
-  name: Update()
-  href: api/Global.ChatAppIdCheckerUI.html#Global_ChatAppIdCheckerUI_Update
-  commentId: M:Global.ChatAppIdCheckerUI.Update
-  fullName: ChatAppIdCheckerUI.Update()
-  nameWithType: ChatAppIdCheckerUI.Update()
-- uid: Global.ChatAppIdCheckerUI.Update*
-  name: Update
-  href: api/Global.ChatAppIdCheckerUI.html#Global_ChatAppIdCheckerUI_Update_
-  commentId: Overload:Global.ChatAppIdCheckerUI.Update
-  isSpec: "True"
-  fullName: ChatAppIdCheckerUI.Update
-  nameWithType: ChatAppIdCheckerUI.Update
-- uid: Global.ChatGui
-  name: ChatGui
-  href: api/Global.ChatGui.html
-  commentId: T:Global.ChatGui
-  fullName: ChatGui
-  nameWithType: ChatGui
-- uid: Global.ChatGui.AddMessageToSelectedChannel(System.String)
-  name: AddMessageToSelectedChannel(String)
-  href: api/Global.ChatGui.html#Global_ChatGui_AddMessageToSelectedChannel_System_String_
-  commentId: M:Global.ChatGui.AddMessageToSelectedChannel(System.String)
-  fullName: ChatGui.AddMessageToSelectedChannel(System.String)
-  nameWithType: ChatGui.AddMessageToSelectedChannel(String)
-- uid: Global.ChatGui.AddMessageToSelectedChannel*
-  name: AddMessageToSelectedChannel
-  href: api/Global.ChatGui.html#Global_ChatGui_AddMessageToSelectedChannel_
-  commentId: Overload:Global.ChatGui.AddMessageToSelectedChannel
-  isSpec: "True"
-  fullName: ChatGui.AddMessageToSelectedChannel
-  nameWithType: ChatGui.AddMessageToSelectedChannel
-- uid: Global.ChatGui.ChannelsToJoinOnConnect
-  name: ChannelsToJoinOnConnect
-  href: api/Global.ChatGui.html#Global_ChatGui_ChannelsToJoinOnConnect
-  commentId: F:Global.ChatGui.ChannelsToJoinOnConnect
-  fullName: ChatGui.ChannelsToJoinOnConnect
-  nameWithType: ChatGui.ChannelsToJoinOnConnect
-- uid: Global.ChatGui.ChannelToggleToInstantiate
-  name: ChannelToggleToInstantiate
-  href: api/Global.ChatGui.html#Global_ChatGui_ChannelToggleToInstantiate
-  commentId: F:Global.ChatGui.ChannelToggleToInstantiate
-  fullName: ChatGui.ChannelToggleToInstantiate
-  nameWithType: ChatGui.ChannelToggleToInstantiate
-- uid: Global.ChatGui.chatAppSettings
-  name: chatAppSettings
-  href: api/Global.ChatGui.html#Global_ChatGui_chatAppSettings
-  commentId: F:Global.ChatGui.chatAppSettings
-  fullName: ChatGui.chatAppSettings
-  nameWithType: ChatGui.chatAppSettings
-- uid: Global.ChatGui.chatClient
-  name: chatClient
-  href: api/Global.ChatGui.html#Global_ChatGui_chatClient
-  commentId: F:Global.ChatGui.chatClient
-  fullName: ChatGui.chatClient
-  nameWithType: ChatGui.chatClient
-- uid: Global.ChatGui.ChatPanel
-  name: ChatPanel
-  href: api/Global.ChatGui.html#Global_ChatGui_ChatPanel
-  commentId: F:Global.ChatGui.ChatPanel
-  fullName: ChatGui.ChatPanel
-  nameWithType: ChatGui.ChatPanel
-- uid: Global.ChatGui.Connect
-  name: Connect()
-  href: api/Global.ChatGui.html#Global_ChatGui_Connect
-  commentId: M:Global.ChatGui.Connect
-  fullName: ChatGui.Connect()
-  nameWithType: ChatGui.Connect()
-- uid: Global.ChatGui.Connect*
-  name: Connect
-  href: api/Global.ChatGui.html#Global_ChatGui_Connect_
-  commentId: Overload:Global.ChatGui.Connect
-  isSpec: "True"
-  fullName: ChatGui.Connect
-  nameWithType: ChatGui.Connect
-- uid: Global.ChatGui.ConnectingLabel
-  name: ConnectingLabel
-  href: api/Global.ChatGui.html#Global_ChatGui_ConnectingLabel
-  commentId: F:Global.ChatGui.ConnectingLabel
-  fullName: ChatGui.ConnectingLabel
-  nameWithType: ChatGui.ConnectingLabel
-- uid: Global.ChatGui.CurrentChannelText
-  name: CurrentChannelText
-  href: api/Global.ChatGui.html#Global_ChatGui_CurrentChannelText
-  commentId: F:Global.ChatGui.CurrentChannelText
-  fullName: ChatGui.CurrentChannelText
-  nameWithType: ChatGui.CurrentChannelText
-- uid: Global.ChatGui.DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String)
-  name: DebugReturn(DebugLevel, String)
-  href: api/Global.ChatGui.html#Global_ChatGui_DebugReturn_ExitGames_Client_Photon_DebugLevel_System_String_
-  commentId: M:Global.ChatGui.DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String)
-  fullName: ChatGui.DebugReturn(ExitGames.Client.Photon.DebugLevel, System.String)
-  nameWithType: ChatGui.DebugReturn(DebugLevel, String)
-- uid: Global.ChatGui.DebugReturn*
-  name: DebugReturn
-  href: api/Global.ChatGui.html#Global_ChatGui_DebugReturn_
-  commentId: Overload:Global.ChatGui.DebugReturn
-  isSpec: "True"
-  fullName: ChatGui.DebugReturn
-  nameWithType: ChatGui.DebugReturn
-- uid: Global.ChatGui.FriendListUiItemtoInstantiate
-  name: FriendListUiItemtoInstantiate
-  href: api/Global.ChatGui.html#Global_ChatGui_FriendListUiItemtoInstantiate
-  commentId: F:Global.ChatGui.FriendListUiItemtoInstantiate
-  fullName: ChatGui.FriendListUiItemtoInstantiate
-  nameWithType: ChatGui.FriendListUiItemtoInstantiate
-- uid: Global.ChatGui.FriendsList
-  name: FriendsList
-  href: api/Global.ChatGui.html#Global_ChatGui_FriendsList
-  commentId: F:Global.ChatGui.FriendsList
-  fullName: ChatGui.FriendsList
-  nameWithType: ChatGui.FriendsList
-- uid: Global.ChatGui.HistoryLengthToFetch
-  name: HistoryLengthToFetch
-  href: api/Global.ChatGui.html#Global_ChatGui_HistoryLengthToFetch
-  commentId: F:Global.ChatGui.HistoryLengthToFetch
-  fullName: ChatGui.HistoryLengthToFetch
-  nameWithType: ChatGui.HistoryLengthToFetch
-- uid: Global.ChatGui.InputFieldChat
-  name: InputFieldChat
-  href: api/Global.ChatGui.html#Global_ChatGui_InputFieldChat
-  commentId: F:Global.ChatGui.InputFieldChat
-  fullName: ChatGui.InputFieldChat
-  nameWithType: ChatGui.InputFieldChat
-- uid: Global.ChatGui.missingAppIdErrorPanel
-  name: missingAppIdErrorPanel
-  href: api/Global.ChatGui.html#Global_ChatGui_missingAppIdErrorPanel
-  commentId: F:Global.ChatGui.missingAppIdErrorPanel
-  fullName: ChatGui.missingAppIdErrorPanel
-  nameWithType: ChatGui.missingAppIdErrorPanel
-- uid: Global.ChatGui.OnApplicationQuit
-  name: OnApplicationQuit()
-  href: api/Global.ChatGui.html#Global_ChatGui_OnApplicationQuit
-  commentId: M:Global.ChatGui.OnApplicationQuit
-  fullName: ChatGui.OnApplicationQuit()
-  nameWithType: ChatGui.OnApplicationQuit()
-- uid: Global.ChatGui.OnApplicationQuit*
-  name: OnApplicationQuit
-  href: api/Global.ChatGui.html#Global_ChatGui_OnApplicationQuit_
-  commentId: Overload:Global.ChatGui.OnApplicationQuit
-  isSpec: "True"
-  fullName: ChatGui.OnApplicationQuit
-  nameWithType: ChatGui.OnApplicationQuit
-- uid: Global.ChatGui.OnChatStateChange(Photon.Chat.ChatState)
-  name: OnChatStateChange(ChatState)
-  href: api/Global.ChatGui.html#Global_ChatGui_OnChatStateChange_Photon_Chat_ChatState_
-  commentId: M:Global.ChatGui.OnChatStateChange(Photon.Chat.ChatState)
-  fullName: ChatGui.OnChatStateChange(Photon.Chat.ChatState)
-  nameWithType: ChatGui.OnChatStateChange(ChatState)
-- uid: Global.ChatGui.OnChatStateChange*
-  name: OnChatStateChange
-  href: api/Global.ChatGui.html#Global_ChatGui_OnChatStateChange_
-  commentId: Overload:Global.ChatGui.OnChatStateChange
-  isSpec: "True"
-  fullName: ChatGui.OnChatStateChange
-  nameWithType: ChatGui.OnChatStateChange
-- uid: Global.ChatGui.OnClickSend
-  name: OnClickSend()
-  href: api/Global.ChatGui.html#Global_ChatGui_OnClickSend
-  commentId: M:Global.ChatGui.OnClickSend
-  fullName: ChatGui.OnClickSend()
-  nameWithType: ChatGui.OnClickSend()
-- uid: Global.ChatGui.OnClickSend*
-  name: OnClickSend
-  href: api/Global.ChatGui.html#Global_ChatGui_OnClickSend_
-  commentId: Overload:Global.ChatGui.OnClickSend
-  isSpec: "True"
-  fullName: ChatGui.OnClickSend
-  nameWithType: ChatGui.OnClickSend
-- uid: Global.ChatGui.OnConnected
-  name: OnConnected()
-  href: api/Global.ChatGui.html#Global_ChatGui_OnConnected
-  commentId: M:Global.ChatGui.OnConnected
-  fullName: ChatGui.OnConnected()
-  nameWithType: ChatGui.OnConnected()
-- uid: Global.ChatGui.OnConnected*
-  name: OnConnected
-  href: api/Global.ChatGui.html#Global_ChatGui_OnConnected_
-  commentId: Overload:Global.ChatGui.OnConnected
-  isSpec: "True"
-  fullName: ChatGui.OnConnected
-  nameWithType: ChatGui.OnConnected
-- uid: Global.ChatGui.OnDestroy
-  name: OnDestroy()
-  href: api/Global.ChatGui.html#Global_ChatGui_OnDestroy
-  commentId: M:Global.ChatGui.OnDestroy
-  fullName: ChatGui.OnDestroy()
-  nameWithType: ChatGui.OnDestroy()
-- uid: Global.ChatGui.OnDestroy*
-  name: OnDestroy
-  href: api/Global.ChatGui.html#Global_ChatGui_OnDestroy_
-  commentId: Overload:Global.ChatGui.OnDestroy
-  isSpec: "True"
-  fullName: ChatGui.OnDestroy
-  nameWithType: ChatGui.OnDestroy
-- uid: Global.ChatGui.OnDisconnected
-  name: OnDisconnected()
-  href: api/Global.ChatGui.html#Global_ChatGui_OnDisconnected
-  commentId: M:Global.ChatGui.OnDisconnected
-  fullName: ChatGui.OnDisconnected()
-  nameWithType: ChatGui.OnDisconnected()
-- uid: Global.ChatGui.OnDisconnected*
-  name: OnDisconnected
-  href: api/Global.ChatGui.html#Global_ChatGui_OnDisconnected_
-  commentId: Overload:Global.ChatGui.OnDisconnected
-  isSpec: "True"
-  fullName: ChatGui.OnDisconnected
-  nameWithType: ChatGui.OnDisconnected
-- uid: Global.ChatGui.OnEnterSend
-  name: OnEnterSend()
-  href: api/Global.ChatGui.html#Global_ChatGui_OnEnterSend
-  commentId: M:Global.ChatGui.OnEnterSend
-  fullName: ChatGui.OnEnterSend()
-  nameWithType: ChatGui.OnEnterSend()
-- uid: Global.ChatGui.OnEnterSend*
-  name: OnEnterSend
-  href: api/Global.ChatGui.html#Global_ChatGui_OnEnterSend_
-  commentId: Overload:Global.ChatGui.OnEnterSend
-  isSpec: "True"
-  fullName: ChatGui.OnEnterSend
-  nameWithType: ChatGui.OnEnterSend
-- uid: Global.ChatGui.OnGetMessages(System.String,System.String[],System.Object[])
-  name: OnGetMessages(String, String[], Object[])
-  href: api/Global.ChatGui.html#Global_ChatGui_OnGetMessages_System_String_System_String___System_Object___
-  commentId: M:Global.ChatGui.OnGetMessages(System.String,System.String[],System.Object[])
-  name.vb: OnGetMessages(String, String(), Object())
-  fullName: ChatGui.OnGetMessages(System.String, System.String[], System.Object[])
-  fullName.vb: ChatGui.OnGetMessages(System.String, System.String(), System.Object())
-  nameWithType: ChatGui.OnGetMessages(String, String[], Object[])
-  nameWithType.vb: ChatGui.OnGetMessages(String, String(), Object())
-- uid: Global.ChatGui.OnGetMessages*
-  name: OnGetMessages
-  href: api/Global.ChatGui.html#Global_ChatGui_OnGetMessages_
-  commentId: Overload:Global.ChatGui.OnGetMessages
-  isSpec: "True"
-  fullName: ChatGui.OnGetMessages
-  nameWithType: ChatGui.OnGetMessages
-- uid: Global.ChatGui.OnPrivateMessage(System.String,System.Object,System.String)
-  name: OnPrivateMessage(String, Object, String)
-  href: api/Global.ChatGui.html#Global_ChatGui_OnPrivateMessage_System_String_System_Object_System_String_
-  commentId: M:Global.ChatGui.OnPrivateMessage(System.String,System.Object,System.String)
-  fullName: ChatGui.OnPrivateMessage(System.String, System.Object, System.String)
-  nameWithType: ChatGui.OnPrivateMessage(String, Object, String)
-- uid: Global.ChatGui.OnPrivateMessage*
-  name: OnPrivateMessage
-  href: api/Global.ChatGui.html#Global_ChatGui_OnPrivateMessage_
-  commentId: Overload:Global.ChatGui.OnPrivateMessage
-  isSpec: "True"
-  fullName: ChatGui.OnPrivateMessage
-  nameWithType: ChatGui.OnPrivateMessage
-- uid: Global.ChatGui.OnStatusUpdate(System.String,System.Int32,System.Boolean,System.Object)
-  name: OnStatusUpdate(String, Int32, Boolean, Object)
-  href: api/Global.ChatGui.html#Global_ChatGui_OnStatusUpdate_System_String_System_Int32_System_Boolean_System_Object_
-  commentId: M:Global.ChatGui.OnStatusUpdate(System.String,System.Int32,System.Boolean,System.Object)
-  fullName: ChatGui.OnStatusUpdate(System.String, System.Int32, System.Boolean, System.Object)
-  nameWithType: ChatGui.OnStatusUpdate(String, Int32, Boolean, Object)
-- uid: Global.ChatGui.OnStatusUpdate*
-  name: OnStatusUpdate
-  href: api/Global.ChatGui.html#Global_ChatGui_OnStatusUpdate_
-  commentId: Overload:Global.ChatGui.OnStatusUpdate
-  isSpec: "True"
-  fullName: ChatGui.OnStatusUpdate
-  nameWithType: ChatGui.OnStatusUpdate
-- uid: Global.ChatGui.OnSubscribed(System.String[],System.Boolean[])
-  name: OnSubscribed(String[], Boolean[])
-  href: api/Global.ChatGui.html#Global_ChatGui_OnSubscribed_System_String___System_Boolean___
-  commentId: M:Global.ChatGui.OnSubscribed(System.String[],System.Boolean[])
-  name.vb: OnSubscribed(String(), Boolean())
-  fullName: ChatGui.OnSubscribed(System.String[], System.Boolean[])
-  fullName.vb: ChatGui.OnSubscribed(System.String(), System.Boolean())
-  nameWithType: ChatGui.OnSubscribed(String[], Boolean[])
-  nameWithType.vb: ChatGui.OnSubscribed(String(), Boolean())
-- uid: Global.ChatGui.OnSubscribed*
-  name: OnSubscribed
-  href: api/Global.ChatGui.html#Global_ChatGui_OnSubscribed_
-  commentId: Overload:Global.ChatGui.OnSubscribed
-  isSpec: "True"
-  fullName: ChatGui.OnSubscribed
-  nameWithType: ChatGui.OnSubscribed
-- uid: Global.ChatGui.OnUnsubscribed(System.String[])
-  name: OnUnsubscribed(String[])
-  href: api/Global.ChatGui.html#Global_ChatGui_OnUnsubscribed_System_String___
-  commentId: M:Global.ChatGui.OnUnsubscribed(System.String[])
-  name.vb: OnUnsubscribed(String())
-  fullName: ChatGui.OnUnsubscribed(System.String[])
-  fullName.vb: ChatGui.OnUnsubscribed(System.String())
-  nameWithType: ChatGui.OnUnsubscribed(String[])
-  nameWithType.vb: ChatGui.OnUnsubscribed(String())
-- uid: Global.ChatGui.OnUnsubscribed*
-  name: OnUnsubscribed
-  href: api/Global.ChatGui.html#Global_ChatGui_OnUnsubscribed_
-  commentId: Overload:Global.ChatGui.OnUnsubscribed
-  isSpec: "True"
-  fullName: ChatGui.OnUnsubscribed
-  nameWithType: ChatGui.OnUnsubscribed
-- uid: Global.ChatGui.OnUserSubscribed(System.String,System.String)
-  name: OnUserSubscribed(String, String)
-  href: api/Global.ChatGui.html#Global_ChatGui_OnUserSubscribed_System_String_System_String_
-  commentId: M:Global.ChatGui.OnUserSubscribed(System.String,System.String)
-  fullName: ChatGui.OnUserSubscribed(System.String, System.String)
-  nameWithType: ChatGui.OnUserSubscribed(String, String)
-- uid: Global.ChatGui.OnUserSubscribed*
-  name: OnUserSubscribed
-  href: api/Global.ChatGui.html#Global_ChatGui_OnUserSubscribed_
-  commentId: Overload:Global.ChatGui.OnUserSubscribed
-  isSpec: "True"
-  fullName: ChatGui.OnUserSubscribed
-  nameWithType: ChatGui.OnUserSubscribed
-- uid: Global.ChatGui.OnUserUnsubscribed(System.String,System.String)
-  name: OnUserUnsubscribed(String, String)
-  href: api/Global.ChatGui.html#Global_ChatGui_OnUserUnsubscribed_System_String_System_String_
-  commentId: M:Global.ChatGui.OnUserUnsubscribed(System.String,System.String)
-  fullName: ChatGui.OnUserUnsubscribed(System.String, System.String)
-  nameWithType: ChatGui.OnUserUnsubscribed(String, String)
-- uid: Global.ChatGui.OnUserUnsubscribed*
-  name: OnUserUnsubscribed
-  href: api/Global.ChatGui.html#Global_ChatGui_OnUserUnsubscribed_
-  commentId: Overload:Global.ChatGui.OnUserUnsubscribed
-  isSpec: "True"
-  fullName: ChatGui.OnUserUnsubscribed
-  nameWithType: ChatGui.OnUserUnsubscribed
-- uid: Global.ChatGui.OpenDashboard
-  name: OpenDashboard()
-  href: api/Global.ChatGui.html#Global_ChatGui_OpenDashboard
-  commentId: M:Global.ChatGui.OpenDashboard
-  fullName: ChatGui.OpenDashboard()
-  nameWithType: ChatGui.OpenDashboard()
-- uid: Global.ChatGui.OpenDashboard*
-  name: OpenDashboard
-  href: api/Global.ChatGui.html#Global_ChatGui_OpenDashboard_
-  commentId: Overload:Global.ChatGui.OpenDashboard
-  isSpec: "True"
-  fullName: ChatGui.OpenDashboard
-  nameWithType: ChatGui.OpenDashboard
-- uid: Global.ChatGui.PostHelpToCurrentChannel
-  name: PostHelpToCurrentChannel()
-  href: api/Global.ChatGui.html#Global_ChatGui_PostHelpToCurrentChannel
-  commentId: M:Global.ChatGui.PostHelpToCurrentChannel
-  fullName: ChatGui.PostHelpToCurrentChannel()
-  nameWithType: ChatGui.PostHelpToCurrentChannel()
-- uid: Global.ChatGui.PostHelpToCurrentChannel*
-  name: PostHelpToCurrentChannel
-  href: api/Global.ChatGui.html#Global_ChatGui_PostHelpToCurrentChannel_
-  commentId: Overload:Global.ChatGui.PostHelpToCurrentChannel
-  isSpec: "True"
-  fullName: ChatGui.PostHelpToCurrentChannel
-  nameWithType: ChatGui.PostHelpToCurrentChannel
-- uid: Global.ChatGui.ShowChannel(System.String)
-  name: ShowChannel(String)
-  href: api/Global.ChatGui.html#Global_ChatGui_ShowChannel_System_String_
-  commentId: M:Global.ChatGui.ShowChannel(System.String)
-  fullName: ChatGui.ShowChannel(System.String)
-  nameWithType: ChatGui.ShowChannel(String)
-- uid: Global.ChatGui.ShowChannel*
-  name: ShowChannel
-  href: api/Global.ChatGui.html#Global_ChatGui_ShowChannel_
-  commentId: Overload:Global.ChatGui.ShowChannel
-  isSpec: "True"
-  fullName: ChatGui.ShowChannel
-  nameWithType: ChatGui.ShowChannel
-- uid: Global.ChatGui.ShowState
-  name: ShowState
-  href: api/Global.ChatGui.html#Global_ChatGui_ShowState
-  commentId: F:Global.ChatGui.ShowState
-  fullName: ChatGui.ShowState
-  nameWithType: ChatGui.ShowState
-- uid: Global.ChatGui.Start
-  name: Start()
-  href: api/Global.ChatGui.html#Global_ChatGui_Start
-  commentId: M:Global.ChatGui.Start
-  fullName: ChatGui.Start()
-  nameWithType: ChatGui.Start()
-- uid: Global.ChatGui.Start*
-  name: Start
-  href: api/Global.ChatGui.html#Global_ChatGui_Start_
-  commentId: Overload:Global.ChatGui.Start
-  isSpec: "True"
-  fullName: ChatGui.Start
-  nameWithType: ChatGui.Start
-- uid: Global.ChatGui.StateText
-  name: StateText
-  href: api/Global.ChatGui.html#Global_ChatGui_StateText
-  commentId: F:Global.ChatGui.StateText
-  fullName: ChatGui.StateText
-  nameWithType: ChatGui.StateText
-- uid: Global.ChatGui.TestLength
-  name: TestLength
-  href: api/Global.ChatGui.html#Global_ChatGui_TestLength
-  commentId: F:Global.ChatGui.TestLength
-  fullName: ChatGui.TestLength
-  nameWithType: ChatGui.TestLength
-- uid: Global.ChatGui.Title
-  name: Title
-  href: api/Global.ChatGui.html#Global_ChatGui_Title
-  commentId: F:Global.ChatGui.Title
-  fullName: ChatGui.Title
-  nameWithType: ChatGui.Title
-- uid: Global.ChatGui.Update
-  name: Update()
-  href: api/Global.ChatGui.html#Global_ChatGui_Update
-  commentId: M:Global.ChatGui.Update
-  fullName: ChatGui.Update()
-  nameWithType: ChatGui.Update()
-- uid: Global.ChatGui.Update*
-  name: Update
-  href: api/Global.ChatGui.html#Global_ChatGui_Update_
-  commentId: Overload:Global.ChatGui.Update
-  isSpec: "True"
-  fullName: ChatGui.Update
-  nameWithType: ChatGui.Update
-- uid: Global.ChatGui.UserIdFormPanel
-  name: UserIdFormPanel
-  href: api/Global.ChatGui.html#Global_ChatGui_UserIdFormPanel
-  commentId: F:Global.ChatGui.UserIdFormPanel
-  fullName: ChatGui.UserIdFormPanel
-  nameWithType: ChatGui.UserIdFormPanel
-- uid: Global.ChatGui.UserIdText
-  name: UserIdText
-  href: api/Global.ChatGui.html#Global_ChatGui_UserIdText
-  commentId: F:Global.ChatGui.UserIdText
-  fullName: ChatGui.UserIdText
-  nameWithType: ChatGui.UserIdText
-- uid: Global.ChatGui.UserName
-  name: UserName
-  href: api/Global.ChatGui.html#Global_ChatGui_UserName
-  commentId: P:Global.ChatGui.UserName
-  fullName: ChatGui.UserName
-  nameWithType: ChatGui.UserName
-- uid: Global.ChatGui.UserName*
-  name: UserName
-  href: api/Global.ChatGui.html#Global_ChatGui_UserName_
-  commentId: Overload:Global.ChatGui.UserName
-  isSpec: "True"
-  fullName: ChatGui.UserName
-  nameWithType: ChatGui.UserName
 - uid: Global.Entity
   name: Entity
   href: api/Global.Entity.html
@@ -16935,25 +15349,6 @@ references:
   isSpec: "True"
   fullName: Entity.TakeHit
   nameWithType: Entity.TakeHit
-- uid: Global.ExitPlayModeOnScriptCompile
-  name: ExitPlayModeOnScriptCompile
-  href: api/Global.ExitPlayModeOnScriptCompile.html
-  commentId: T:Global.ExitPlayModeOnScriptCompile
-  fullName: ExitPlayModeOnScriptCompile
-  nameWithType: ExitPlayModeOnScriptCompile
-- uid: Global.ExitPlayModeOnScriptCompile.Finalize
-  name: Finalize()
-  href: api/Global.ExitPlayModeOnScriptCompile.html#Global_ExitPlayModeOnScriptCompile_Finalize
-  commentId: M:Global.ExitPlayModeOnScriptCompile.Finalize
-  fullName: ExitPlayModeOnScriptCompile.Finalize()
-  nameWithType: ExitPlayModeOnScriptCompile.Finalize()
-- uid: Global.ExitPlayModeOnScriptCompile.Finalize*
-  name: Finalize
-  href: api/Global.ExitPlayModeOnScriptCompile.html#Global_ExitPlayModeOnScriptCompile_Finalize_
-  commentId: Overload:Global.ExitPlayModeOnScriptCompile.Finalize
-  isSpec: "True"
-  fullName: ExitPlayModeOnScriptCompile.Finalize
-  nameWithType: ExitPlayModeOnScriptCompile.Finalize
 - uid: Global.FontLoader
   name: FontLoader
   href: api/Global.FontLoader.html
@@ -17011,69 +15406,6 @@ references:
   isSpec: "True"
   fullName: FontLoader.SetSize
   nameWithType: FontLoader.SetSize
-- uid: Global.FriendItem
-  name: FriendItem
-  href: api/Global.FriendItem.html
-  commentId: T:Global.FriendItem
-  fullName: FriendItem
-  nameWithType: FriendItem
-- uid: Global.FriendItem.Awake
-  name: Awake()
-  href: api/Global.FriendItem.html#Global_FriendItem_Awake
-  commentId: M:Global.FriendItem.Awake
-  fullName: FriendItem.Awake()
-  nameWithType: FriendItem.Awake()
-- uid: Global.FriendItem.Awake*
-  name: Awake
-  href: api/Global.FriendItem.html#Global_FriendItem_Awake_
-  commentId: Overload:Global.FriendItem.Awake
-  isSpec: "True"
-  fullName: FriendItem.Awake
-  nameWithType: FriendItem.Awake
-- uid: Global.FriendItem.FriendId
-  name: FriendId
-  href: api/Global.FriendItem.html#Global_FriendItem_FriendId
-  commentId: P:Global.FriendItem.FriendId
-  fullName: FriendItem.FriendId
-  nameWithType: FriendItem.FriendId
-- uid: Global.FriendItem.FriendId*
-  name: FriendId
-  href: api/Global.FriendItem.html#Global_FriendItem_FriendId_
-  commentId: Overload:Global.FriendItem.FriendId
-  isSpec: "True"
-  fullName: FriendItem.FriendId
-  nameWithType: FriendItem.FriendId
-- uid: Global.FriendItem.Health
-  name: Health
-  href: api/Global.FriendItem.html#Global_FriendItem_Health
-  commentId: F:Global.FriendItem.Health
-  fullName: FriendItem.Health
-  nameWithType: FriendItem.Health
-- uid: Global.FriendItem.NameLabel
-  name: NameLabel
-  href: api/Global.FriendItem.html#Global_FriendItem_NameLabel
-  commentId: F:Global.FriendItem.NameLabel
-  fullName: FriendItem.NameLabel
-  nameWithType: FriendItem.NameLabel
-- uid: Global.FriendItem.OnFriendStatusUpdate(System.Int32,System.Boolean,System.Object)
-  name: OnFriendStatusUpdate(Int32, Boolean, Object)
-  href: api/Global.FriendItem.html#Global_FriendItem_OnFriendStatusUpdate_System_Int32_System_Boolean_System_Object_
-  commentId: M:Global.FriendItem.OnFriendStatusUpdate(System.Int32,System.Boolean,System.Object)
-  fullName: FriendItem.OnFriendStatusUpdate(System.Int32, System.Boolean, System.Object)
-  nameWithType: FriendItem.OnFriendStatusUpdate(Int32, Boolean, Object)
-- uid: Global.FriendItem.OnFriendStatusUpdate*
-  name: OnFriendStatusUpdate
-  href: api/Global.FriendItem.html#Global_FriendItem_OnFriendStatusUpdate_
-  commentId: Overload:Global.FriendItem.OnFriendStatusUpdate
-  isSpec: "True"
-  fullName: FriendItem.OnFriendStatusUpdate
-  nameWithType: FriendItem.OnFriendStatusUpdate
-- uid: Global.FriendItem.StatusLabel
-  name: StatusLabel
-  href: api/Global.FriendItem.html#Global_FriendItem_StatusLabel
-  commentId: F:Global.FriendItem.StatusLabel
-  fullName: FriendItem.StatusLabel
-  nameWithType: FriendItem.StatusLabel
 - uid: Global.IDamageable
   name: IDamageable
   href: api/Global.IDamageable.html
@@ -17093,25 +15425,6 @@ references:
   isSpec: "True"
   fullName: IDamageable.TakeHit
   nameWithType: IDamageable.TakeHit
-- uid: Global.IgnoreUiRaycastWhenInactive
-  name: IgnoreUiRaycastWhenInactive
-  href: api/Global.IgnoreUiRaycastWhenInactive.html
-  commentId: T:Global.IgnoreUiRaycastWhenInactive
-  fullName: IgnoreUiRaycastWhenInactive
-  nameWithType: IgnoreUiRaycastWhenInactive
-- uid: Global.IgnoreUiRaycastWhenInactive.IsRaycastLocationValid(Vector2,Camera)
-  name: IsRaycastLocationValid(Vector2, Camera)
-  href: api/Global.IgnoreUiRaycastWhenInactive.html#Global_IgnoreUiRaycastWhenInactive_IsRaycastLocationValid_Vector2_Camera_
-  commentId: M:Global.IgnoreUiRaycastWhenInactive.IsRaycastLocationValid(Vector2,Camera)
-  fullName: IgnoreUiRaycastWhenInactive.IsRaycastLocationValid(Vector2, Camera)
-  nameWithType: IgnoreUiRaycastWhenInactive.IsRaycastLocationValid(Vector2, Camera)
-- uid: Global.IgnoreUiRaycastWhenInactive.IsRaycastLocationValid*
-  name: IsRaycastLocationValid
-  href: api/Global.IgnoreUiRaycastWhenInactive.html#Global_IgnoreUiRaycastWhenInactive_IsRaycastLocationValid_
-  commentId: Overload:Global.IgnoreUiRaycastWhenInactive.IsRaycastLocationValid
-  isSpec: "True"
-  fullName: IgnoreUiRaycastWhenInactive.IsRaycastLocationValid
-  nameWithType: IgnoreUiRaycastWhenInactive.IsRaycastLocationValid
 - uid: Global.LedUnit
   name: LedUnit
   href: api/Global.LedUnit.html
@@ -17142,137 +15455,6 @@ references:
   commentId: F:Global.LedUnit.PreviousState
   fullName: LedUnit.PreviousState
   nameWithType: LedUnit.PreviousState
-- uid: Global.MouseLookHelper
-  name: MouseLookHelper
-  href: api/Global.MouseLookHelper.html
-  commentId: T:Global.MouseLookHelper
-  fullName: MouseLookHelper
-  nameWithType: MouseLookHelper
-- uid: Global.MouseLookHelper.clampVerticalRotation
-  name: clampVerticalRotation
-  href: api/Global.MouseLookHelper.html#Global_MouseLookHelper_clampVerticalRotation
-  commentId: F:Global.MouseLookHelper.clampVerticalRotation
-  fullName: MouseLookHelper.clampVerticalRotation
-  nameWithType: MouseLookHelper.clampVerticalRotation
-- uid: Global.MouseLookHelper.Init(UnityEngine.Transform,UnityEngine.Transform)
-  name: Init(Transform, Transform)
-  href: api/Global.MouseLookHelper.html#Global_MouseLookHelper_Init_UnityEngine_Transform_UnityEngine_Transform_
-  commentId: M:Global.MouseLookHelper.Init(UnityEngine.Transform,UnityEngine.Transform)
-  fullName: MouseLookHelper.Init(UnityEngine.Transform, UnityEngine.Transform)
-  nameWithType: MouseLookHelper.Init(Transform, Transform)
-- uid: Global.MouseLookHelper.Init*
-  name: Init
-  href: api/Global.MouseLookHelper.html#Global_MouseLookHelper_Init_
-  commentId: Overload:Global.MouseLookHelper.Init
-  isSpec: "True"
-  fullName: MouseLookHelper.Init
-  nameWithType: MouseLookHelper.Init
-- uid: Global.MouseLookHelper.LookRotation(UnityEngine.Transform,UnityEngine.Transform)
-  name: LookRotation(Transform, Transform)
-  href: api/Global.MouseLookHelper.html#Global_MouseLookHelper_LookRotation_UnityEngine_Transform_UnityEngine_Transform_
-  commentId: M:Global.MouseLookHelper.LookRotation(UnityEngine.Transform,UnityEngine.Transform)
-  fullName: MouseLookHelper.LookRotation(UnityEngine.Transform, UnityEngine.Transform)
-  nameWithType: MouseLookHelper.LookRotation(Transform, Transform)
-- uid: Global.MouseLookHelper.LookRotation*
-  name: LookRotation
-  href: api/Global.MouseLookHelper.html#Global_MouseLookHelper_LookRotation_
-  commentId: Overload:Global.MouseLookHelper.LookRotation
-  isSpec: "True"
-  fullName: MouseLookHelper.LookRotation
-  nameWithType: MouseLookHelper.LookRotation
-- uid: Global.MouseLookHelper.MaximumX
-  name: MaximumX
-  href: api/Global.MouseLookHelper.html#Global_MouseLookHelper_MaximumX
-  commentId: F:Global.MouseLookHelper.MaximumX
-  fullName: MouseLookHelper.MaximumX
-  nameWithType: MouseLookHelper.MaximumX
-- uid: Global.MouseLookHelper.MinimumX
-  name: MinimumX
-  href: api/Global.MouseLookHelper.html#Global_MouseLookHelper_MinimumX
-  commentId: F:Global.MouseLookHelper.MinimumX
-  fullName: MouseLookHelper.MinimumX
-  nameWithType: MouseLookHelper.MinimumX
-- uid: Global.MouseLookHelper.smooth
-  name: smooth
-  href: api/Global.MouseLookHelper.html#Global_MouseLookHelper_smooth
-  commentId: F:Global.MouseLookHelper.smooth
-  fullName: MouseLookHelper.smooth
-  nameWithType: MouseLookHelper.smooth
-- uid: Global.MouseLookHelper.smoothTime
-  name: smoothTime
-  href: api/Global.MouseLookHelper.html#Global_MouseLookHelper_smoothTime
-  commentId: F:Global.MouseLookHelper.smoothTime
-  fullName: MouseLookHelper.smoothTime
-  nameWithType: MouseLookHelper.smoothTime
-- uid: Global.MouseLookHelper.XSensitivity
-  name: XSensitivity
-  href: api/Global.MouseLookHelper.html#Global_MouseLookHelper_XSensitivity
-  commentId: F:Global.MouseLookHelper.XSensitivity
-  fullName: MouseLookHelper.XSensitivity
-  nameWithType: MouseLookHelper.XSensitivity
-- uid: Global.MouseLookHelper.YSensitivity
-  name: YSensitivity
-  href: api/Global.MouseLookHelper.html#Global_MouseLookHelper_YSensitivity
-  commentId: F:Global.MouseLookHelper.YSensitivity
-  fullName: MouseLookHelper.YSensitivity
-  nameWithType: MouseLookHelper.YSensitivity
-- uid: Global.NamePickGui
-  name: NamePickGui
-  href: api/Global.NamePickGui.html
-  commentId: T:Global.NamePickGui
-  fullName: NamePickGui
-  nameWithType: NamePickGui
-- uid: Global.NamePickGui.chatNewComponent
-  name: chatNewComponent
-  href: api/Global.NamePickGui.html#Global_NamePickGui_chatNewComponent
-  commentId: F:Global.NamePickGui.chatNewComponent
-  fullName: NamePickGui.chatNewComponent
-  nameWithType: NamePickGui.chatNewComponent
-- uid: Global.NamePickGui.EndEditOnEnter
-  name: EndEditOnEnter()
-  href: api/Global.NamePickGui.html#Global_NamePickGui_EndEditOnEnter
-  commentId: M:Global.NamePickGui.EndEditOnEnter
-  fullName: NamePickGui.EndEditOnEnter()
-  nameWithType: NamePickGui.EndEditOnEnter()
-- uid: Global.NamePickGui.EndEditOnEnter*
-  name: EndEditOnEnter
-  href: api/Global.NamePickGui.html#Global_NamePickGui_EndEditOnEnter_
-  commentId: Overload:Global.NamePickGui.EndEditOnEnter
-  isSpec: "True"
-  fullName: NamePickGui.EndEditOnEnter
-  nameWithType: NamePickGui.EndEditOnEnter
-- uid: Global.NamePickGui.idInput
-  name: idInput
-  href: api/Global.NamePickGui.html#Global_NamePickGui_idInput
-  commentId: F:Global.NamePickGui.idInput
-  fullName: NamePickGui.idInput
-  nameWithType: NamePickGui.idInput
-- uid: Global.NamePickGui.Start
-  name: Start()
-  href: api/Global.NamePickGui.html#Global_NamePickGui_Start
-  commentId: M:Global.NamePickGui.Start
-  fullName: NamePickGui.Start()
-  nameWithType: NamePickGui.Start()
-- uid: Global.NamePickGui.Start*
-  name: Start
-  href: api/Global.NamePickGui.html#Global_NamePickGui_Start_
-  commentId: Overload:Global.NamePickGui.Start
-  isSpec: "True"
-  fullName: NamePickGui.Start
-  nameWithType: NamePickGui.Start
-- uid: Global.NamePickGui.StartChat
-  name: StartChat()
-  href: api/Global.NamePickGui.html#Global_NamePickGui_StartChat
-  commentId: M:Global.NamePickGui.StartChat
-  fullName: NamePickGui.StartChat()
-  nameWithType: NamePickGui.StartChat()
-- uid: Global.NamePickGui.StartChat*
-  name: StartChat
-  href: api/Global.NamePickGui.html#Global_NamePickGui_StartChat_
-  commentId: Overload:Global.NamePickGui.StartChat
-  isSpec: "True"
-  fullName: NamePickGui.StartChat
-  nameWithType: NamePickGui.StartChat
 - uid: Global.PanelGenerator
   name: PanelGenerator
   href: api/Global.PanelGenerator.html
@@ -17452,132 +15634,12 @@ references:
   isSpec: "True"
   fullName: PointDisplay.Display
   nameWithType: PointDisplay.Display
-- uid: Global.PointersController
-  name: PointersController
-  href: api/Global.PointersController.html
-  commentId: T:Global.PointersController
-  fullName: PointersController
-  nameWithType: PointersController
-- uid: Global.ProximityVoiceTrigger
-  name: ProximityVoiceTrigger
-  href: api/Global.ProximityVoiceTrigger.html
-  commentId: T:Global.ProximityVoiceTrigger
-  fullName: ProximityVoiceTrigger
-  nameWithType: ProximityVoiceTrigger
-- uid: Global.ProximityVoiceTrigger.Awake
-  name: Awake()
-  href: api/Global.ProximityVoiceTrigger.html#Global_ProximityVoiceTrigger_Awake
-  commentId: M:Global.ProximityVoiceTrigger.Awake
-  fullName: ProximityVoiceTrigger.Awake()
-  nameWithType: ProximityVoiceTrigger.Awake()
-- uid: Global.ProximityVoiceTrigger.Awake*
-  name: Awake
-  href: api/Global.ProximityVoiceTrigger.html#Global_ProximityVoiceTrigger_Awake_
-  commentId: Overload:Global.ProximityVoiceTrigger.Awake
-  isSpec: "True"
-  fullName: ProximityVoiceTrigger.Awake
-  nameWithType: ProximityVoiceTrigger.Awake
-- uid: Global.ProximityVoiceTrigger.TargetInterestGroup
-  name: TargetInterestGroup
-  href: api/Global.ProximityVoiceTrigger.html#Global_ProximityVoiceTrigger_TargetInterestGroup
-  commentId: P:Global.ProximityVoiceTrigger.TargetInterestGroup
-  fullName: ProximityVoiceTrigger.TargetInterestGroup
-  nameWithType: ProximityVoiceTrigger.TargetInterestGroup
-- uid: Global.ProximityVoiceTrigger.TargetInterestGroup*
-  name: TargetInterestGroup
-  href: api/Global.ProximityVoiceTrigger.html#Global_ProximityVoiceTrigger_TargetInterestGroup_
-  commentId: Overload:Global.ProximityVoiceTrigger.TargetInterestGroup
-  isSpec: "True"
-  fullName: ProximityVoiceTrigger.TargetInterestGroup
-  nameWithType: ProximityVoiceTrigger.TargetInterestGroup
 - uid: Global.RoadParent
   name: RoadParent
   href: api/Global.RoadParent.html
   commentId: T:Global.RoadParent
   fullName: RoadParent
   nameWithType: RoadParent
-- uid: Global.ServerSettingsInspector
-  name: ServerSettingsInspector
-  href: api/Global.ServerSettingsInspector.html
-  commentId: T:Global.ServerSettingsInspector
-  fullName: ServerSettingsInspector
-  nameWithType: ServerSettingsInspector
-- uid: Global.ServerSettingsInspector.Awake
-  name: Awake()
-  href: api/Global.ServerSettingsInspector.html#Global_ServerSettingsInspector_Awake
-  commentId: M:Global.ServerSettingsInspector.Awake
-  fullName: ServerSettingsInspector.Awake()
-  nameWithType: ServerSettingsInspector.Awake()
-- uid: Global.ServerSettingsInspector.Awake*
-  name: Awake
-  href: api/Global.ServerSettingsInspector.html#Global_ServerSettingsInspector_Awake_
-  commentId: Overload:Global.ServerSettingsInspector.Awake
-  isSpec: "True"
-  fullName: ServerSettingsInspector.Awake
-  nameWithType: ServerSettingsInspector.Awake
-- uid: Global.ServerSettingsInspector.OnInspectorGUI
-  name: OnInspectorGUI()
-  href: api/Global.ServerSettingsInspector.html#Global_ServerSettingsInspector_OnInspectorGUI
-  commentId: M:Global.ServerSettingsInspector.OnInspectorGUI
-  fullName: ServerSettingsInspector.OnInspectorGUI()
-  nameWithType: ServerSettingsInspector.OnInspectorGUI()
-- uid: Global.ServerSettingsInspector.OnInspectorGUI*
-  name: OnInspectorGUI
-  href: api/Global.ServerSettingsInspector.html#Global_ServerSettingsInspector_OnInspectorGUI_
-  commentId: Overload:Global.ServerSettingsInspector.OnInspectorGUI
-  isSpec: "True"
-  fullName: ServerSettingsInspector.OnInspectorGUI
-  nameWithType: ServerSettingsInspector.OnInspectorGUI
-- uid: Global.ServerSettingsInspector.SearchForSNSOnce
-  name: SearchForSNSOnce
-  href: api/Global.ServerSettingsInspector.html#Global_ServerSettingsInspector_SearchForSNSOnce
-  commentId: F:Global.ServerSettingsInspector.SearchForSNSOnce
-  fullName: ServerSettingsInspector.SearchForSNSOnce
-  nameWithType: ServerSettingsInspector.SearchForSNSOnce
-- uid: Global.SoundsForJoinAndLeave
-  name: SoundsForJoinAndLeave
-  href: api/Global.SoundsForJoinAndLeave.html
-  commentId: T:Global.SoundsForJoinAndLeave
-  fullName: SoundsForJoinAndLeave
-  nameWithType: SoundsForJoinAndLeave
-- uid: Global.SoundsForJoinAndLeave.JoinClip
-  name: JoinClip
-  href: api/Global.SoundsForJoinAndLeave.html#Global_SoundsForJoinAndLeave_JoinClip
-  commentId: F:Global.SoundsForJoinAndLeave.JoinClip
-  fullName: SoundsForJoinAndLeave.JoinClip
-  nameWithType: SoundsForJoinAndLeave.JoinClip
-- uid: Global.SoundsForJoinAndLeave.LeaveClip
-  name: LeaveClip
-  href: api/Global.SoundsForJoinAndLeave.html#Global_SoundsForJoinAndLeave_LeaveClip
-  commentId: F:Global.SoundsForJoinAndLeave.LeaveClip
-  fullName: SoundsForJoinAndLeave.LeaveClip
-  nameWithType: SoundsForJoinAndLeave.LeaveClip
-- uid: Global.SoundsForJoinAndLeave.OnPlayerEnteredRoom(Photon.Realtime.Player)
-  name: OnPlayerEnteredRoom(Player)
-  href: api/Global.SoundsForJoinAndLeave.html#Global_SoundsForJoinAndLeave_OnPlayerEnteredRoom_Photon_Realtime_Player_
-  commentId: M:Global.SoundsForJoinAndLeave.OnPlayerEnteredRoom(Photon.Realtime.Player)
-  fullName: SoundsForJoinAndLeave.OnPlayerEnteredRoom(Photon.Realtime.Player)
-  nameWithType: SoundsForJoinAndLeave.OnPlayerEnteredRoom(Player)
-- uid: Global.SoundsForJoinAndLeave.OnPlayerEnteredRoom*
-  name: OnPlayerEnteredRoom
-  href: api/Global.SoundsForJoinAndLeave.html#Global_SoundsForJoinAndLeave_OnPlayerEnteredRoom_
-  commentId: Overload:Global.SoundsForJoinAndLeave.OnPlayerEnteredRoom
-  isSpec: "True"
-  fullName: SoundsForJoinAndLeave.OnPlayerEnteredRoom
-  nameWithType: SoundsForJoinAndLeave.OnPlayerEnteredRoom
-- uid: Global.SoundsForJoinAndLeave.OnPlayerLeftRoom(Photon.Realtime.Player)
-  name: OnPlayerLeftRoom(Player)
-  href: api/Global.SoundsForJoinAndLeave.html#Global_SoundsForJoinAndLeave_OnPlayerLeftRoom_Photon_Realtime_Player_
-  commentId: M:Global.SoundsForJoinAndLeave.OnPlayerLeftRoom(Photon.Realtime.Player)
-  fullName: SoundsForJoinAndLeave.OnPlayerLeftRoom(Photon.Realtime.Player)
-  nameWithType: SoundsForJoinAndLeave.OnPlayerLeftRoom(Player)
-- uid: Global.SoundsForJoinAndLeave.OnPlayerLeftRoom*
-  name: OnPlayerLeftRoom
-  href: api/Global.SoundsForJoinAndLeave.html#Global_SoundsForJoinAndLeave_OnPlayerLeftRoom_
-  commentId: Overload:Global.SoundsForJoinAndLeave.OnPlayerLeftRoom
-  isSpec: "True"
-  fullName: SoundsForJoinAndLeave.OnPlayerLeftRoom
-  nameWithType: SoundsForJoinAndLeave.OnPlayerLeftRoom
 - uid: Global.TrainDepartureDrawer
   name: TrainDepartureDrawer
   href: api/Global.TrainDepartureDrawer.html
