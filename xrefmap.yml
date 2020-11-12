@@ -884,6 +884,12 @@ references:
   commentId: F:GhTA.Application.FlowController.Camera
   fullName: GhTA.Application.FlowController.Camera
   nameWithType: FlowController.Camera
+- uid: GhTA.Application.FlowController.Celestial
+  name: Celestial
+  href: api/GhTA.Application.FlowController.html#GhTA_Application_FlowController_Celestial
+  commentId: F:GhTA.Application.FlowController.Celestial
+  fullName: GhTA.Application.FlowController.Celestial
+  nameWithType: FlowController.Celestial
 - uid: GhTA.Application.FlowController.End
   name: End()
   href: api/GhTA.Application.FlowController.html#GhTA_Application_FlowController_End
@@ -1487,18 +1493,6 @@ references:
   commentId: T:GhTA.Celestial.CelestialController
   fullName: GhTA.Celestial.CelestialController
   nameWithType: CelestialController
-- uid: GhTA.Celestial.CelestialController.DebugSunrise
-  name: DebugSunrise
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_DebugSunrise
-  commentId: F:GhTA.Celestial.CelestialController.DebugSunrise
-  fullName: GhTA.Celestial.CelestialController.DebugSunrise
-  nameWithType: CelestialController.DebugSunrise
-- uid: GhTA.Celestial.CelestialController.DebugSunset
-  name: DebugSunset
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_DebugSunset
-  commentId: F:GhTA.Celestial.CelestialController.DebugSunset
-  fullName: GhTA.Celestial.CelestialController.DebugSunset
-  nameWithType: CelestialController.DebugSunset
 - uid: GhTA.Celestial.CelestialController.Moon
   name: Moon
   href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_Moon
@@ -1511,32 +1505,19 @@ references:
   commentId: F:GhTA.Celestial.CelestialController.MoonUp
   fullName: GhTA.Celestial.CelestialController.MoonUp
   nameWithType: CelestialController.MoonUp
-- uid: GhTA.Celestial.CelestialController.SetMoonPosition(System.Double,System.Double)
-  name: SetMoonPosition(Double, Double)
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_SetMoonPosition_System_Double_System_Double_
-  commentId: M:GhTA.Celestial.CelestialController.SetMoonPosition(System.Double,System.Double)
-  fullName: GhTA.Celestial.CelestialController.SetMoonPosition(System.Double, System.Double)
-  nameWithType: CelestialController.SetMoonPosition(Double, Double)
-- uid: GhTA.Celestial.CelestialController.SetMoonPosition*
-  name: SetMoonPosition
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_SetMoonPosition_
-  commentId: Overload:GhTA.Celestial.CelestialController.SetMoonPosition
+- uid: GhTA.Celestial.CelestialController.SetCelestialLocation(System.Single,System.Single)
+  name: SetCelestialLocation(Single, Single)
+  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_SetCelestialLocation_System_Single_System_Single_
+  commentId: M:GhTA.Celestial.CelestialController.SetCelestialLocation(System.Single,System.Single)
+  fullName: GhTA.Celestial.CelestialController.SetCelestialLocation(System.Single, System.Single)
+  nameWithType: CelestialController.SetCelestialLocation(Single, Single)
+- uid: GhTA.Celestial.CelestialController.SetCelestialLocation*
+  name: SetCelestialLocation
+  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_SetCelestialLocation_
+  commentId: Overload:GhTA.Celestial.CelestialController.SetCelestialLocation
   isSpec: "True"
-  fullName: GhTA.Celestial.CelestialController.SetMoonPosition
-  nameWithType: CelestialController.SetMoonPosition
-- uid: GhTA.Celestial.CelestialController.SetSunPosition(System.Double,System.Double)
-  name: SetSunPosition(Double, Double)
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_SetSunPosition_System_Double_System_Double_
-  commentId: M:GhTA.Celestial.CelestialController.SetSunPosition(System.Double,System.Double)
-  fullName: GhTA.Celestial.CelestialController.SetSunPosition(System.Double, System.Double)
-  nameWithType: CelestialController.SetSunPosition(Double, Double)
-- uid: GhTA.Celestial.CelestialController.SetSunPosition*
-  name: SetSunPosition
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_SetSunPosition_
-  commentId: Overload:GhTA.Celestial.CelestialController.SetSunPosition
-  isSpec: "True"
-  fullName: GhTA.Celestial.CelestialController.SetSunPosition
-  nameWithType: CelestialController.SetSunPosition
+  fullName: GhTA.Celestial.CelestialController.SetCelestialLocation
+  nameWithType: CelestialController.SetCelestialLocation
 - uid: GhTA.Celestial.CelestialController.Sun
   name: Sun
   href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_Sun
@@ -1567,18 +1548,19 @@ references:
   commentId: F:GhTA.Celestial.CelestialController.SunUp
   fullName: GhTA.Celestial.CelestialController.SunUp
   nameWithType: CelestialController.SunUp
-- uid: GhTA.Celestial.CelestialController.TimeInfo
-  name: TimeInfo
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_TimeInfo
-  commentId: F:GhTA.Celestial.CelestialController.TimeInfo
-  fullName: GhTA.Celestial.CelestialController.TimeInfo
-  nameWithType: CelestialController.TimeInfo
-- uid: GhTA.Celestial.CelestialController.WorldInfo
-  name: WorldInfo
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_WorldInfo
-  commentId: F:GhTA.Celestial.CelestialController.WorldInfo
-  fullName: GhTA.Celestial.CelestialController.WorldInfo
-  nameWithType: CelestialController.WorldInfo
+- uid: GhTA.Celestial.CelestialController.UpdateCelestialTime(System.DateTime,System.Int32)
+  name: UpdateCelestialTime(DateTime, Int32)
+  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_UpdateCelestialTime_System_DateTime_System_Int32_
+  commentId: M:GhTA.Celestial.CelestialController.UpdateCelestialTime(System.DateTime,System.Int32)
+  fullName: GhTA.Celestial.CelestialController.UpdateCelestialTime(System.DateTime, System.Int32)
+  nameWithType: CelestialController.UpdateCelestialTime(DateTime, Int32)
+- uid: GhTA.Celestial.CelestialController.UpdateCelestialTime*
+  name: UpdateCelestialTime
+  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_UpdateCelestialTime_
+  commentId: Overload:GhTA.Celestial.CelestialController.UpdateCelestialTime
+  isSpec: "True"
+  fullName: GhTA.Celestial.CelestialController.UpdateCelestialTime
+  nameWithType: CelestialController.UpdateCelestialTime
 - uid: GhTA.Celestial.DayNightCycle
   name: DayNightCycle
   href: api/GhTA.Celestial.DayNightCycle.html
@@ -1597,6 +1579,12 @@ references:
   commentId: F:GhTA.Celestial.DayNightCycle.AmbientIntensity
   fullName: GhTA.Celestial.DayNightCycle.AmbientIntensity
   nameWithType: DayNightCycle.AmbientIntensity
+- uid: GhTA.Celestial.DayNightCycle.CurrentTimeOfDay
+  name: CurrentTimeOfDay
+  href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_CurrentTimeOfDay
+  commentId: F:GhTA.Celestial.DayNightCycle.CurrentTimeOfDay
+  fullName: GhTA.Celestial.DayNightCycle.CurrentTimeOfDay
+  nameWithType: DayNightCycle.CurrentTimeOfDay
 - uid: GhTA.Celestial.DayNightCycle.DayAtmosphereThickness
   name: DayAtmosphereThickness
   href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_DayAtmosphereThickness
@@ -1657,12 +1645,19 @@ references:
   commentId: F:GhTA.Celestial.DayNightCycle.NightDayFogColor
   fullName: GhTA.Celestial.DayNightCycle.NightDayFogColor
   nameWithType: DayNightCycle.NightDayFogColor
-- uid: GhTA.Celestial.DayNightCycle.TimeInfo
-  name: TimeInfo
-  href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_TimeInfo
-  commentId: F:GhTA.Celestial.DayNightCycle.TimeInfo
-  fullName: GhTA.Celestial.DayNightCycle.TimeInfo
-  nameWithType: DayNightCycle.TimeInfo
+- uid: GhTA.Celestial.DayNightCycle.UpdateSky(System.Single)
+  name: UpdateSky(Single)
+  href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_UpdateSky_System_Single_
+  commentId: M:GhTA.Celestial.DayNightCycle.UpdateSky(System.Single)
+  fullName: GhTA.Celestial.DayNightCycle.UpdateSky(System.Single)
+  nameWithType: DayNightCycle.UpdateSky(Single)
+- uid: GhTA.Celestial.DayNightCycle.UpdateSky*
+  name: UpdateSky
+  href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_UpdateSky_
+  commentId: Overload:GhTA.Celestial.DayNightCycle.UpdateSky
+  isSpec: "True"
+  fullName: GhTA.Celestial.DayNightCycle.UpdateSky
+  nameWithType: DayNightCycle.UpdateSky
 - uid: GhTA.Celestial.Moon
   name: Moon
   href: api/GhTA.Celestial.Moon.html
@@ -1682,32 +1677,19 @@ references:
   isSpec: "True"
   fullName: GhTA.Celestial.Moon.Configure
   nameWithType: Moon.Configure
-- uid: GhTA.Celestial.Moon.LightComponent
-  name: LightComponent
-  href: api/GhTA.Celestial.Moon.html#GhTA_Celestial_Moon_LightComponent
-  commentId: P:GhTA.Celestial.Moon.LightComponent
-  fullName: GhTA.Celestial.Moon.LightComponent
-  nameWithType: Moon.LightComponent
-- uid: GhTA.Celestial.Moon.LightComponent*
-  name: LightComponent
-  href: api/GhTA.Celestial.Moon.html#GhTA_Celestial_Moon_LightComponent_
-  commentId: Overload:GhTA.Celestial.Moon.LightComponent
+- uid: GhTA.Celestial.Moon.SetMoonPosition(System.Double,System.Double,System.Single)
+  name: SetMoonPosition(Double, Double, Single)
+  href: api/GhTA.Celestial.Moon.html#GhTA_Celestial_Moon_SetMoonPosition_System_Double_System_Double_System_Single_
+  commentId: M:GhTA.Celestial.Moon.SetMoonPosition(System.Double,System.Double,System.Single)
+  fullName: GhTA.Celestial.Moon.SetMoonPosition(System.Double, System.Double, System.Single)
+  nameWithType: Moon.SetMoonPosition(Double, Double, Single)
+- uid: GhTA.Celestial.Moon.SetMoonPosition*
+  name: SetMoonPosition
+  href: api/GhTA.Celestial.Moon.html#GhTA_Celestial_Moon_SetMoonPosition_
+  commentId: Overload:GhTA.Celestial.Moon.SetMoonPosition
   isSpec: "True"
-  fullName: GhTA.Celestial.Moon.LightComponent
-  nameWithType: Moon.LightComponent
-- uid: GhTA.Celestial.Moon.SetIntensity(System.Single)
-  name: SetIntensity(Single)
-  href: api/GhTA.Celestial.Moon.html#GhTA_Celestial_Moon_SetIntensity_System_Single_
-  commentId: M:GhTA.Celestial.Moon.SetIntensity(System.Single)
-  fullName: GhTA.Celestial.Moon.SetIntensity(System.Single)
-  nameWithType: Moon.SetIntensity(Single)
-- uid: GhTA.Celestial.Moon.SetIntensity*
-  name: SetIntensity
-  href: api/GhTA.Celestial.Moon.html#GhTA_Celestial_Moon_SetIntensity_
-  commentId: Overload:GhTA.Celestial.Moon.SetIntensity
-  isSpec: "True"
-  fullName: GhTA.Celestial.Moon.SetIntensity
-  nameWithType: Moon.SetIntensity
+  fullName: GhTA.Celestial.Moon.SetMoonPosition
+  nameWithType: Moon.SetMoonPosition
 - uid: GhTA.Celestial.Sun
   name: Sun
   href: api/GhTA.Celestial.Sun.html
@@ -1727,38 +1709,19 @@ references:
   isSpec: "True"
   fullName: GhTA.Celestial.Sun.Configure
   nameWithType: Sun.Configure
-- uid: GhTA.Celestial.Sun.LightComponent
-  name: LightComponent
-  href: api/GhTA.Celestial.Sun.html#GhTA_Celestial_Sun_LightComponent
-  commentId: P:GhTA.Celestial.Sun.LightComponent
-  fullName: GhTA.Celestial.Sun.LightComponent
-  nameWithType: Sun.LightComponent
-- uid: GhTA.Celestial.Sun.LightComponent*
-  name: LightComponent
-  href: api/GhTA.Celestial.Sun.html#GhTA_Celestial_Sun_LightComponent_
-  commentId: Overload:GhTA.Celestial.Sun.LightComponent
+- uid: GhTA.Celestial.Sun.UpdateSolarSettings(System.Double,System.Double,System.Single)
+  name: UpdateSolarSettings(Double, Double, Single)
+  href: api/GhTA.Celestial.Sun.html#GhTA_Celestial_Sun_UpdateSolarSettings_System_Double_System_Double_System_Single_
+  commentId: M:GhTA.Celestial.Sun.UpdateSolarSettings(System.Double,System.Double,System.Single)
+  fullName: GhTA.Celestial.Sun.UpdateSolarSettings(System.Double, System.Double, System.Single)
+  nameWithType: Sun.UpdateSolarSettings(Double, Double, Single)
+- uid: GhTA.Celestial.Sun.UpdateSolarSettings*
+  name: UpdateSolarSettings
+  href: api/GhTA.Celestial.Sun.html#GhTA_Celestial_Sun_UpdateSolarSettings_
+  commentId: Overload:GhTA.Celestial.Sun.UpdateSolarSettings
   isSpec: "True"
-  fullName: GhTA.Celestial.Sun.LightComponent
-  nameWithType: Sun.LightComponent
-- uid: GhTA.Celestial.Sun.SetIntensity(System.Single)
-  name: SetIntensity(Single)
-  href: api/GhTA.Celestial.Sun.html#GhTA_Celestial_Sun_SetIntensity_System_Single_
-  commentId: M:GhTA.Celestial.Sun.SetIntensity(System.Single)
-  fullName: GhTA.Celestial.Sun.SetIntensity(System.Single)
-  nameWithType: Sun.SetIntensity(Single)
-- uid: GhTA.Celestial.Sun.SetIntensity*
-  name: SetIntensity
-  href: api/GhTA.Celestial.Sun.html#GhTA_Celestial_Sun_SetIntensity_
-  commentId: Overload:GhTA.Celestial.Sun.SetIntensity
-  isSpec: "True"
-  fullName: GhTA.Celestial.Sun.SetIntensity
-  nameWithType: Sun.SetIntensity
-- uid: GhTA.Celestial.Sun.TimeInfo
-  name: TimeInfo
-  href: api/GhTA.Celestial.Sun.html#GhTA_Celestial_Sun_TimeInfo
-  commentId: F:GhTA.Celestial.Sun.TimeInfo
-  fullName: GhTA.Celestial.Sun.TimeInfo
-  nameWithType: Sun.TimeInfo
+  fullName: GhTA.Celestial.Sun.UpdateSolarSettings
+  nameWithType: Sun.UpdateSolarSettings
 - uid: GhTA.Climate
   name: GhTA.Climate
   href: api/GhTA.Climate.html
@@ -1904,6 +1867,12 @@ references:
   commentId: N:GhTA.Common.Editor
   fullName: GhTA.Common.Editor
   nameWithType: GhTA.Common.Editor
+- uid: GhTA.Common.Editor.CleanEmptyFoldersEditorExtension
+  name: CleanEmptyFoldersEditorExtension
+  href: api/GhTA.Common.Editor.CleanEmptyFoldersEditorExtension.html
+  commentId: T:GhTA.Common.Editor.CleanEmptyFoldersEditorExtension
+  fullName: GhTA.Common.Editor.CleanEmptyFoldersEditorExtension
+  nameWithType: CleanEmptyFoldersEditorExtension
 - uid: GhTA.Common.Editor.EditorHelper
   name: EditorHelper
   href: api/GhTA.Common.Editor.EditorHelper.html
