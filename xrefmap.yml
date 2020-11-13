@@ -1204,86 +1204,6 @@ references:
   isSpec: "True"
   fullName: GhTA.Application.PauseFlow.Update
   nameWithType: PauseFlow.Update
-- uid: GhTA.Application.PlayerController
-  name: PlayerController
-  href: api/GhTA.Application.PlayerController.html
-  commentId: T:GhTA.Application.PlayerController
-  fullName: GhTA.Application.PlayerController
-  nameWithType: PlayerController
-- uid: GhTA.Application.PlayerController.LastLocation
-  name: LastLocation
-  href: api/GhTA.Application.PlayerController.html#GhTA_Application_PlayerController_LastLocation
-  commentId: F:GhTA.Application.PlayerController.LastLocation
-  fullName: GhTA.Application.PlayerController.LastLocation
-  nameWithType: PlayerController.LastLocation
-- uid: GhTA.Application.PlayerController.Mode
-  name: Mode
-  href: api/GhTA.Application.PlayerController.html#GhTA_Application_PlayerController_Mode
-  commentId: F:GhTA.Application.PlayerController.Mode
-  fullName: GhTA.Application.PlayerController.Mode
-  nameWithType: PlayerController.Mode
-- uid: GhTA.Application.PlayerController.OnPlayerDeath
-  name: OnPlayerDeath
-  href: api/GhTA.Application.PlayerController.html#GhTA_Application_PlayerController_OnPlayerDeath
-  commentId: F:GhTA.Application.PlayerController.OnPlayerDeath
-  fullName: GhTA.Application.PlayerController.OnPlayerDeath
-  nameWithType: PlayerController.OnPlayerDeath
-- uid: GhTA.Application.PlayerController.Pawn
-  name: Pawn
-  href: api/GhTA.Application.PlayerController.html#GhTA_Application_PlayerController_Pawn
-  commentId: F:GhTA.Application.PlayerController.Pawn
-  fullName: GhTA.Application.PlayerController.Pawn
-  nameWithType: PlayerController.Pawn
-- uid: GhTA.Application.PlayerController.SpawnAndPosses(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
-  name: SpawnAndPosses(Vector3, Vector3, Single)
-  href: api/GhTA.Application.PlayerController.html#GhTA_Application_PlayerController_SpawnAndPosses_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_
-  commentId: M:GhTA.Application.PlayerController.SpawnAndPosses(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
-  fullName: GhTA.Application.PlayerController.SpawnAndPosses(UnityEngine.Vector3, UnityEngine.Vector3, System.Single)
-  nameWithType: PlayerController.SpawnAndPosses(Vector3, Vector3, Single)
-- uid: GhTA.Application.PlayerController.SpawnAndPosses*
-  name: SpawnAndPosses
-  href: api/GhTA.Application.PlayerController.html#GhTA_Application_PlayerController_SpawnAndPosses_
-  commentId: Overload:GhTA.Application.PlayerController.SpawnAndPosses
-  isSpec: "True"
-  fullName: GhTA.Application.PlayerController.SpawnAndPosses
-  nameWithType: PlayerController.SpawnAndPosses
-- uid: GhTA.Application.PlayerController.TileCoordinates
-  name: TileCoordinates
-  href: api/GhTA.Application.PlayerController.html#GhTA_Application_PlayerController_TileCoordinates
-  commentId: F:GhTA.Application.PlayerController.TileCoordinates
-  fullName: GhTA.Application.PlayerController.TileCoordinates
-  nameWithType: PlayerController.TileCoordinates
-- uid: GhTA.Application.PlayerController.UFO
-  name: UFO
-  href: api/GhTA.Application.PlayerController.html#GhTA_Application_PlayerController_UFO
-  commentId: F:GhTA.Application.PlayerController.UFO
-  fullName: GhTA.Application.PlayerController.UFO
-  nameWithType: PlayerController.UFO
-- uid: GhTA.Application.PlayerController.UFORig
-  name: UFORig
-  href: api/GhTA.Application.PlayerController.html#GhTA_Application_PlayerController_UFORig
-  commentId: F:GhTA.Application.PlayerController.UFORig
-  fullName: GhTA.Application.PlayerController.UFORig
-  nameWithType: PlayerController.UFORig
-- uid: GhTA.Application.PlayerController.UnpossesAndDespawn
-  name: UnpossesAndDespawn()
-  href: api/GhTA.Application.PlayerController.html#GhTA_Application_PlayerController_UnpossesAndDespawn
-  commentId: M:GhTA.Application.PlayerController.UnpossesAndDespawn
-  fullName: GhTA.Application.PlayerController.UnpossesAndDespawn()
-  nameWithType: PlayerController.UnpossesAndDespawn()
-- uid: GhTA.Application.PlayerController.UnpossesAndDespawn*
-  name: UnpossesAndDespawn
-  href: api/GhTA.Application.PlayerController.html#GhTA_Application_PlayerController_UnpossesAndDespawn_
-  commentId: Overload:GhTA.Application.PlayerController.UnpossesAndDespawn
-  isSpec: "True"
-  fullName: GhTA.Application.PlayerController.UnpossesAndDespawn
-  nameWithType: PlayerController.UnpossesAndDespawn
-- uid: GhTA.Application.PlayerController.VRPawn
-  name: VRPawn
-  href: api/GhTA.Application.PlayerController.html#GhTA_Application_PlayerController_VRPawn
-  commentId: F:GhTA.Application.PlayerController.VRPawn
-  fullName: GhTA.Application.PlayerController.VRPawn
-  nameWithType: PlayerController.VRPawn
 - uid: GhTA.Application.QuitFlow
   name: QuitFlow
   href: api/GhTA.Application.QuitFlow.html
@@ -1374,36 +1294,6 @@ references:
   isSpec: "True"
   fullName: GhTA.Application.SettingsFlow.Update
   nameWithType: SettingsFlow.Update
-- uid: GhTA.Application.SpawnMode
-  name: SpawnMode
-  href: api/GhTA.Application.SpawnMode.html
-  commentId: T:GhTA.Application.SpawnMode
-  fullName: GhTA.Application.SpawnMode
-  nameWithType: SpawnMode
-- uid: GhTA.Application.SpawnMode.FirstPerson
-  name: FirstPerson
-  href: api/GhTA.Application.SpawnMode.html#GhTA_Application_SpawnMode_FirstPerson
-  commentId: F:GhTA.Application.SpawnMode.FirstPerson
-  fullName: GhTA.Application.SpawnMode.FirstPerson
-  nameWithType: SpawnMode.FirstPerson
-- uid: GhTA.Application.SpawnMode.FreeLook
-  name: FreeLook
-  href: api/GhTA.Application.SpawnMode.html#GhTA_Application_SpawnMode_FreeLook
-  commentId: F:GhTA.Application.SpawnMode.FreeLook
-  fullName: GhTA.Application.SpawnMode.FreeLook
-  nameWithType: SpawnMode.FreeLook
-- uid: GhTA.Application.SpawnMode.TopDown
-  name: TopDown
-  href: api/GhTA.Application.SpawnMode.html#GhTA_Application_SpawnMode_TopDown
-  commentId: F:GhTA.Application.SpawnMode.TopDown
-  fullName: GhTA.Application.SpawnMode.TopDown
-  nameWithType: SpawnMode.TopDown
-- uid: GhTA.Application.SpawnMode.UFO
-  name: UFO
-  href: api/GhTA.Application.SpawnMode.html#GhTA_Application_SpawnMode_UFO
-  commentId: F:GhTA.Application.SpawnMode.UFO
-  fullName: GhTA.Application.SpawnMode.UFO
-  nameWithType: SpawnMode.UFO
 - uid: GhTA.Application.StartFlow
   name: StartFlow
   href: api/GhTA.Application.StartFlow.html
@@ -1493,6 +1383,12 @@ references:
   commentId: T:GhTA.Celestial.CelestialController
   fullName: GhTA.Celestial.CelestialController
   nameWithType: CelestialController
+- uid: GhTA.Celestial.CelestialController.AmbientIntensity
+  name: AmbientIntensity
+  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_AmbientIntensity
+  commentId: F:GhTA.Celestial.CelestialController.AmbientIntensity
+  fullName: GhTA.Celestial.CelestialController.AmbientIntensity
+  nameWithType: CelestialController.AmbientIntensity
 - uid: GhTA.Celestial.CelestialController.Moon
   name: Moon
   href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_Moon
@@ -1505,6 +1401,12 @@ references:
   commentId: F:GhTA.Celestial.CelestialController.MoonUp
   fullName: GhTA.Celestial.CelestialController.MoonUp
   nameWithType: CelestialController.MoonUp
+- uid: GhTA.Celestial.CelestialController.NightDayColor
+  name: NightDayColor
+  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_NightDayColor
+  commentId: F:GhTA.Celestial.CelestialController.NightDayColor
+  fullName: GhTA.Celestial.CelestialController.NightDayColor
+  nameWithType: CelestialController.NightDayColor
 - uid: GhTA.Celestial.CelestialController.SetCelestialLocation(System.Single,System.Single)
   name: SetCelestialLocation(Single, Single)
   href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_SetCelestialLocation_System_Single_System_Single_
@@ -1561,103 +1463,19 @@ references:
   isSpec: "True"
   fullName: GhTA.Celestial.CelestialController.UpdateCelestialTime
   nameWithType: CelestialController.UpdateCelestialTime
-- uid: GhTA.Celestial.DayNightCycle
-  name: DayNightCycle
-  href: api/GhTA.Celestial.DayNightCycle.html
-  commentId: T:GhTA.Celestial.DayNightCycle
-  fullName: GhTA.Celestial.DayNightCycle
-  nameWithType: DayNightCycle
-- uid: GhTA.Celestial.DayNightCycle._skyMat
-  name: _skyMat
-  href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle__skyMat
-  commentId: F:GhTA.Celestial.DayNightCycle._skyMat
-  fullName: GhTA.Celestial.DayNightCycle._skyMat
-  nameWithType: DayNightCycle._skyMat
-- uid: GhTA.Celestial.DayNightCycle.AmbientIntensity
-  name: AmbientIntensity
-  href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_AmbientIntensity
-  commentId: F:GhTA.Celestial.DayNightCycle.AmbientIntensity
-  fullName: GhTA.Celestial.DayNightCycle.AmbientIntensity
-  nameWithType: DayNightCycle.AmbientIntensity
-- uid: GhTA.Celestial.DayNightCycle.CurrentTimeOfDay
-  name: CurrentTimeOfDay
-  href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_CurrentTimeOfDay
-  commentId: F:GhTA.Celestial.DayNightCycle.CurrentTimeOfDay
-  fullName: GhTA.Celestial.DayNightCycle.CurrentTimeOfDay
-  nameWithType: DayNightCycle.CurrentTimeOfDay
-- uid: GhTA.Celestial.DayNightCycle.DayAtmosphereThickness
-  name: DayAtmosphereThickness
-  href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_DayAtmosphereThickness
-  commentId: F:GhTA.Celestial.DayNightCycle.DayAtmosphereThickness
-  fullName: GhTA.Celestial.DayNightCycle.DayAtmosphereThickness
-  nameWithType: DayNightCycle.DayAtmosphereThickness
-- uid: GhTA.Celestial.DayNightCycle.FogDensityCurve
-  name: FogDensityCurve
-  href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_FogDensityCurve
-  commentId: F:GhTA.Celestial.DayNightCycle.FogDensityCurve
-  fullName: GhTA.Celestial.DayNightCycle.FogDensityCurve
-  nameWithType: DayNightCycle.FogDensityCurve
-- uid: GhTA.Celestial.DayNightCycle.FogScale
-  name: FogScale
-  href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_FogScale
-  commentId: F:GhTA.Celestial.DayNightCycle.FogScale
-  fullName: GhTA.Celestial.DayNightCycle.FogScale
-  nameWithType: DayNightCycle.FogScale
-- uid: GhTA.Celestial.DayNightCycle.MaxAmbient
-  name: MaxAmbient
-  href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_MaxAmbient
-  commentId: F:GhTA.Celestial.DayNightCycle.MaxAmbient
-  fullName: GhTA.Celestial.DayNightCycle.MaxAmbient
-  nameWithType: DayNightCycle.MaxAmbient
-- uid: GhTA.Celestial.DayNightCycle.MaxIntensity
-  name: MaxIntensity
-  href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_MaxIntensity
-  commentId: F:GhTA.Celestial.DayNightCycle.MaxIntensity
-  fullName: GhTA.Celestial.DayNightCycle.MaxIntensity
-  nameWithType: DayNightCycle.MaxIntensity
-- uid: GhTA.Celestial.DayNightCycle.MinAmbient
-  name: MinAmbient
-  href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_MinAmbient
-  commentId: F:GhTA.Celestial.DayNightCycle.MinAmbient
-  fullName: GhTA.Celestial.DayNightCycle.MinAmbient
-  nameWithType: DayNightCycle.MinAmbient
-- uid: GhTA.Celestial.DayNightCycle.MinIntensity
-  name: MinIntensity
-  href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_MinIntensity
-  commentId: F:GhTA.Celestial.DayNightCycle.MinIntensity
-  fullName: GhTA.Celestial.DayNightCycle.MinIntensity
-  nameWithType: DayNightCycle.MinIntensity
-- uid: GhTA.Celestial.DayNightCycle.NightAtmosphereThickness
-  name: NightAtmosphereThickness
-  href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_NightAtmosphereThickness
-  commentId: F:GhTA.Celestial.DayNightCycle.NightAtmosphereThickness
-  fullName: GhTA.Celestial.DayNightCycle.NightAtmosphereThickness
-  nameWithType: DayNightCycle.NightAtmosphereThickness
-- uid: GhTA.Celestial.DayNightCycle.NightDayColor
-  name: NightDayColor
-  href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_NightDayColor
-  commentId: F:GhTA.Celestial.DayNightCycle.NightDayColor
-  fullName: GhTA.Celestial.DayNightCycle.NightDayColor
-  nameWithType: DayNightCycle.NightDayColor
-- uid: GhTA.Celestial.DayNightCycle.NightDayFogColor
-  name: NightDayFogColor
-  href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_NightDayFogColor
-  commentId: F:GhTA.Celestial.DayNightCycle.NightDayFogColor
-  fullName: GhTA.Celestial.DayNightCycle.NightDayFogColor
-  nameWithType: DayNightCycle.NightDayFogColor
-- uid: GhTA.Celestial.DayNightCycle.UpdateSky(System.Single)
+- uid: GhTA.Celestial.CelestialController.UpdateSky(System.Single)
   name: UpdateSky(Single)
-  href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_UpdateSky_System_Single_
-  commentId: M:GhTA.Celestial.DayNightCycle.UpdateSky(System.Single)
-  fullName: GhTA.Celestial.DayNightCycle.UpdateSky(System.Single)
-  nameWithType: DayNightCycle.UpdateSky(Single)
-- uid: GhTA.Celestial.DayNightCycle.UpdateSky*
+  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_UpdateSky_System_Single_
+  commentId: M:GhTA.Celestial.CelestialController.UpdateSky(System.Single)
+  fullName: GhTA.Celestial.CelestialController.UpdateSky(System.Single)
+  nameWithType: CelestialController.UpdateSky(Single)
+- uid: GhTA.Celestial.CelestialController.UpdateSky*
   name: UpdateSky
-  href: api/GhTA.Celestial.DayNightCycle.html#GhTA_Celestial_DayNightCycle_UpdateSky_
-  commentId: Overload:GhTA.Celestial.DayNightCycle.UpdateSky
+  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_UpdateSky_
+  commentId: Overload:GhTA.Celestial.CelestialController.UpdateSky
   isSpec: "True"
-  fullName: GhTA.Celestial.DayNightCycle.UpdateSky
-  nameWithType: DayNightCycle.UpdateSky
+  fullName: GhTA.Celestial.CelestialController.UpdateSky
+  nameWithType: CelestialController.UpdateSky
 - uid: GhTA.Celestial.Moon
   name: Moon
   href: api/GhTA.Celestial.Moon.html
@@ -2429,115 +2247,21 @@ references:
   commentId: N:GhTA.Common.Runtime
   fullName: GhTA.Common.Runtime
   nameWithType: GhTA.Common.Runtime
-- uid: GhTA.Common.Runtime.Collectible
-  name: Collectible
-  href: api/GhTA.Common.Runtime.Collectible.html
-  commentId: T:GhTA.Common.Runtime.Collectible
-  fullName: GhTA.Common.Runtime.Collectible
-  nameWithType: Collectible
-- uid: GhTA.Common.Runtime.Collectible.Pickup
-  name: Pickup()
-  href: api/GhTA.Common.Runtime.Collectible.html#GhTA_Common_Runtime_Collectible_Pickup
-  commentId: M:GhTA.Common.Runtime.Collectible.Pickup
-  fullName: GhTA.Common.Runtime.Collectible.Pickup()
-  nameWithType: Collectible.Pickup()
-- uid: GhTA.Common.Runtime.Collectible.Pickup*
-  name: Pickup
-  href: api/GhTA.Common.Runtime.Collectible.html#GhTA_Common_Runtime_Collectible_Pickup_
-  commentId: Overload:GhTA.Common.Runtime.Collectible.Pickup
-  isSpec: "True"
-  fullName: GhTA.Common.Runtime.Collectible.Pickup
-  nameWithType: Collectible.Pickup
-- uid: GhTA.Common.Runtime.Collectible.PickupType
-  name: PickupType
-  href: api/GhTA.Common.Runtime.Collectible.html#GhTA_Common_Runtime_Collectible_PickupType
-  commentId: F:GhTA.Common.Runtime.Collectible.PickupType
-  fullName: GhTA.Common.Runtime.Collectible.PickupType
-  nameWithType: Collectible.PickupType
-- uid: GhTA.Common.Runtime.IPickup
-  name: IPickup
-  href: api/GhTA.Common.Runtime.IPickup.html
-  commentId: T:GhTA.Common.Runtime.IPickup
-  fullName: GhTA.Common.Runtime.IPickup
-  nameWithType: IPickup
-- uid: GhTA.Common.Runtime.IPickup.Pickup
-  name: Pickup()
-  href: api/GhTA.Common.Runtime.IPickup.html#GhTA_Common_Runtime_IPickup_Pickup
-  commentId: M:GhTA.Common.Runtime.IPickup.Pickup
-  fullName: GhTA.Common.Runtime.IPickup.Pickup()
-  nameWithType: IPickup.Pickup()
-- uid: GhTA.Common.Runtime.IPickup.Pickup*
-  name: Pickup
-  href: api/GhTA.Common.Runtime.IPickup.html#GhTA_Common_Runtime_IPickup_Pickup_
-  commentId: Overload:GhTA.Common.Runtime.IPickup.Pickup
-  isSpec: "True"
-  fullName: GhTA.Common.Runtime.IPickup.Pickup
-  nameWithType: IPickup.Pickup
-- uid: GhTA.Common.Runtime.Money
-  name: Money
-  href: api/GhTA.Common.Runtime.Money.html
-  commentId: T:GhTA.Common.Runtime.Money
-  fullName: GhTA.Common.Runtime.Money
-  nameWithType: Money
-- uid: GhTA.Common.Runtime.Money.Amount
-  name: Amount
-  href: api/GhTA.Common.Runtime.Money.html#GhTA_Common_Runtime_Money_Amount
-  commentId: F:GhTA.Common.Runtime.Money.Amount
-  fullName: GhTA.Common.Runtime.Money.Amount
-  nameWithType: Money.Amount
-- uid: GhTA.Common.Runtime.Money.Pickup
-  name: Pickup()
-  href: api/GhTA.Common.Runtime.Money.html#GhTA_Common_Runtime_Money_Pickup
-  commentId: M:GhTA.Common.Runtime.Money.Pickup
-  fullName: GhTA.Common.Runtime.Money.Pickup()
-  nameWithType: Money.Pickup()
-- uid: GhTA.Common.Runtime.Money.Pickup*
-  name: Pickup
-  href: api/GhTA.Common.Runtime.Money.html#GhTA_Common_Runtime_Money_Pickup_
-  commentId: Overload:GhTA.Common.Runtime.Money.Pickup
-  isSpec: "True"
-  fullName: GhTA.Common.Runtime.Money.Pickup
-  nameWithType: Money.Pickup
-- uid: GhTA.Common.Runtime.MoneyCollectible
-  name: MoneyCollectible
-  href: api/GhTA.Common.Runtime.MoneyCollectible.html
-  commentId: T:GhTA.Common.Runtime.MoneyCollectible
-  fullName: GhTA.Common.Runtime.MoneyCollectible
-  nameWithType: MoneyCollectible
-- uid: GhTA.Common.Runtime.MoneyCollectible.Amount
-  name: Amount
-  href: api/GhTA.Common.Runtime.MoneyCollectible.html#GhTA_Common_Runtime_MoneyCollectible_Amount
-  commentId: F:GhTA.Common.Runtime.MoneyCollectible.Amount
-  fullName: GhTA.Common.Runtime.MoneyCollectible.Amount
-  nameWithType: MoneyCollectible.Amount
-- uid: GhTA.Common.Runtime.MoneyCollectible.Pickup
-  name: Pickup()
-  href: api/GhTA.Common.Runtime.MoneyCollectible.html#GhTA_Common_Runtime_MoneyCollectible_Pickup
-  commentId: M:GhTA.Common.Runtime.MoneyCollectible.Pickup
-  fullName: GhTA.Common.Runtime.MoneyCollectible.Pickup()
-  nameWithType: MoneyCollectible.Pickup()
-- uid: GhTA.Common.Runtime.MoneyCollectible.Pickup*
-  name: Pickup
-  href: api/GhTA.Common.Runtime.MoneyCollectible.html#GhTA_Common_Runtime_MoneyCollectible_Pickup_
-  commentId: Overload:GhTA.Common.Runtime.MoneyCollectible.Pickup
-  isSpec: "True"
-  fullName: GhTA.Common.Runtime.MoneyCollectible.Pickup
-  nameWithType: MoneyCollectible.Pickup
 - uid: GhTA.Common.Runtime.PickupENUM
   name: PickupENUM
-  href: api/GhTA.Common.Runtime.PickupENUM.html
+  href: api/GhTA.Common.Runtime.PickupENUM_1.html
   commentId: T:GhTA.Common.Runtime.PickupENUM
   fullName: GhTA.Common.Runtime.PickupENUM
   nameWithType: PickupENUM
 - uid: GhTA.Common.Runtime.PickupENUM.ammo
   name: ammo
-  href: api/GhTA.Common.Runtime.PickupENUM.html#GhTA_Common_Runtime_PickupENUM_ammo
+  href: api/GhTA.Common.Runtime.PickupENUM_1.html#GhTA_Common_Runtime_PickupENUM_ammo
   commentId: F:GhTA.Common.Runtime.PickupENUM.ammo
   fullName: GhTA.Common.Runtime.PickupENUM.ammo
   nameWithType: PickupENUM.ammo
 - uid: GhTA.Common.Runtime.PickupENUM.money
   name: money
-  href: api/GhTA.Common.Runtime.PickupENUM.html#GhTA_Common_Runtime_PickupENUM_money
+  href: api/GhTA.Common.Runtime.PickupENUM_1.html#GhTA_Common_Runtime_PickupENUM_money
   commentId: F:GhTA.Common.Runtime.PickupENUM.money
   fullName: GhTA.Common.Runtime.PickupENUM.money
   nameWithType: PickupENUM.money
@@ -8369,12 +8093,6 @@ references:
   isSpec: "True"
   fullName: GhTA.NPC.FleeBehaviour.OnStateUpdate
   nameWithType: FleeBehaviour.OnStateUpdate
-- uid: GhTA.NPC.ItemPickup
-  name: ItemPickup
-  href: api/GhTA.NPC.ItemPickup.html
-  commentId: T:GhTA.NPC.ItemPickup
-  fullName: GhTA.NPC.ItemPickup
-  nameWithType: ItemPickup
 - uid: GhTA.NPC.NPC
   name: NPC
   href: api/GhTA.NPC.NPC.html
@@ -9350,57 +9068,6 @@ references:
   isSpec: "True"
   fullName: GhTA.Pawns.FreeLookPawn.Update
   nameWithType: FreeLookPawn.Update
-- uid: GhTA.Pawns.Pawn
-  name: Pawn
-  href: api/GhTA.Pawns.Pawn.html
-  commentId: T:GhTA.Pawns.Pawn
-  fullName: GhTA.Pawns.Pawn
-  nameWithType: Pawn
-- uid: GhTA.Pawns.Pawn.Active
-  name: Active
-  href: api/GhTA.Pawns.Pawn.html#GhTA_Pawns_Pawn_Active
-  commentId: P:GhTA.Pawns.Pawn.Active
-  fullName: GhTA.Pawns.Pawn.Active
-  nameWithType: Pawn.Active
-- uid: GhTA.Pawns.Pawn.Active*
-  name: Active
-  href: api/GhTA.Pawns.Pawn.html#GhTA_Pawns_Pawn_Active_
-  commentId: Overload:GhTA.Pawns.Pawn.Active
-  isSpec: "True"
-  fullName: GhTA.Pawns.Pawn.Active
-  nameWithType: Pawn.Active
-- uid: GhTA.Pawns.Pawn.Bounds
-  name: Bounds
-  href: api/GhTA.Pawns.Pawn.html#GhTA_Pawns_Pawn_Bounds
-  commentId: F:GhTA.Pawns.Pawn.Bounds
-  fullName: GhTA.Pawns.Pawn.Bounds
-  nameWithType: Pawn.Bounds
-- uid: GhTA.Pawns.Pawn.Configure(System.Single)
-  name: Configure(Single)
-  href: api/GhTA.Pawns.Pawn.html#GhTA_Pawns_Pawn_Configure_System_Single_
-  commentId: M:GhTA.Pawns.Pawn.Configure(System.Single)
-  fullName: GhTA.Pawns.Pawn.Configure(System.Single)
-  nameWithType: Pawn.Configure(Single)
-- uid: GhTA.Pawns.Pawn.Configure*
-  name: Configure
-  href: api/GhTA.Pawns.Pawn.html#GhTA_Pawns_Pawn_Configure_
-  commentId: Overload:GhTA.Pawns.Pawn.Configure
-  isSpec: "True"
-  fullName: GhTA.Pawns.Pawn.Configure
-  nameWithType: Pawn.Configure
-- uid: GhTA.Pawns.Pawn.TogglePawnActive(System.Boolean)
-  name: TogglePawnActive(Boolean)
-  href: api/GhTA.Pawns.Pawn.html#GhTA_Pawns_Pawn_TogglePawnActive_System_Boolean_
-  commentId: M:GhTA.Pawns.Pawn.TogglePawnActive(System.Boolean)
-  fullName: GhTA.Pawns.Pawn.TogglePawnActive(System.Boolean)
-  nameWithType: Pawn.TogglePawnActive(Boolean)
-- uid: GhTA.Pawns.Pawn.TogglePawnActive*
-  name: TogglePawnActive
-  href: api/GhTA.Pawns.Pawn.html#GhTA_Pawns_Pawn_TogglePawnActive_
-  commentId: Overload:GhTA.Pawns.Pawn.TogglePawnActive
-  isSpec: "True"
-  fullName: GhTA.Pawns.Pawn.TogglePawnActive
-  nameWithType: Pawn.TogglePawnActive
 - uid: GhTA.Pawns.ThirdPersonPawn
   name: ThirdPersonPawn
   href: api/GhTA.Pawns.ThirdPersonPawn.html
@@ -9514,12 +9181,175 @@ references:
   commentId: N:GhTA.Player
   fullName: GhTA.Player
   nameWithType: GhTA.Player
+- uid: GhTA.Player.Collectible
+  name: Collectible
+  href: api/GhTA.Player.Collectible.html
+  commentId: T:GhTA.Player.Collectible
+  fullName: GhTA.Player.Collectible
+  nameWithType: Collectible
+- uid: GhTA.Player.Collectible.Pickup
+  name: Pickup()
+  href: api/GhTA.Player.Collectible.html#GhTA_Player_Collectible_Pickup
+  commentId: M:GhTA.Player.Collectible.Pickup
+  fullName: GhTA.Player.Collectible.Pickup()
+  nameWithType: Collectible.Pickup()
+- uid: GhTA.Player.Collectible.Pickup*
+  name: Pickup
+  href: api/GhTA.Player.Collectible.html#GhTA_Player_Collectible_Pickup_
+  commentId: Overload:GhTA.Player.Collectible.Pickup
+  isSpec: "True"
+  fullName: GhTA.Player.Collectible.Pickup
+  nameWithType: Collectible.Pickup
+- uid: GhTA.Player.Collectible.PickupType
+  name: PickupType
+  href: api/GhTA.Player.Collectible.html#GhTA_Player_Collectible_PickupType
+  commentId: F:GhTA.Player.Collectible.PickupType
+  fullName: GhTA.Player.Collectible.PickupType
+  nameWithType: Collectible.PickupType
+- uid: GhTA.Player.IPickup
+  name: IPickup
+  href: api/GhTA.Player.IPickup.html
+  commentId: T:GhTA.Player.IPickup
+  fullName: GhTA.Player.IPickup
+  nameWithType: IPickup
+- uid: GhTA.Player.IPickup.Pickup
+  name: Pickup()
+  href: api/GhTA.Player.IPickup.html#GhTA_Player_IPickup_Pickup
+  commentId: M:GhTA.Player.IPickup.Pickup
+  fullName: GhTA.Player.IPickup.Pickup()
+  nameWithType: IPickup.Pickup()
+- uid: GhTA.Player.IPickup.Pickup*
+  name: Pickup
+  href: api/GhTA.Player.IPickup.html#GhTA_Player_IPickup_Pickup_
+  commentId: Overload:GhTA.Player.IPickup.Pickup
+  isSpec: "True"
+  fullName: GhTA.Player.IPickup.Pickup
+  nameWithType: IPickup.Pickup
+- uid: GhTA.Player.ItemPickup
+  name: ItemPickup
+  href: api/GhTA.Player.ItemPickup.html
+  commentId: T:GhTA.Player.ItemPickup
+  fullName: GhTA.Player.ItemPickup
+  nameWithType: ItemPickup
 - uid: GhTA.Player.Money
   name: Money
   href: api/GhTA.Player.Money.html
   commentId: T:GhTA.Player.Money
   fullName: GhTA.Player.Money
   nameWithType: Money
+- uid: GhTA.Player.Money.Amount
+  name: Amount
+  href: api/GhTA.Player.Money.html#GhTA_Player_Money_Amount
+  commentId: F:GhTA.Player.Money.Amount
+  fullName: GhTA.Player.Money.Amount
+  nameWithType: Money.Amount
+- uid: GhTA.Player.Money.Pickup
+  name: Pickup()
+  href: api/GhTA.Player.Money.html#GhTA_Player_Money_Pickup
+  commentId: M:GhTA.Player.Money.Pickup
+  fullName: GhTA.Player.Money.Pickup()
+  nameWithType: Money.Pickup()
+- uid: GhTA.Player.Money.Pickup*
+  name: Pickup
+  href: api/GhTA.Player.Money.html#GhTA_Player_Money_Pickup_
+  commentId: Overload:GhTA.Player.Money.Pickup
+  isSpec: "True"
+  fullName: GhTA.Player.Money.Pickup
+  nameWithType: Money.Pickup
+- uid: GhTA.Player.MoneyCollectible
+  name: MoneyCollectible
+  href: api/GhTA.Player.MoneyCollectible.html
+  commentId: T:GhTA.Player.MoneyCollectible
+  fullName: GhTA.Player.MoneyCollectible
+  nameWithType: MoneyCollectible
+- uid: GhTA.Player.MoneyCollectible.Amount
+  name: Amount
+  href: api/GhTA.Player.MoneyCollectible.html#GhTA_Player_MoneyCollectible_Amount
+  commentId: F:GhTA.Player.MoneyCollectible.Amount
+  fullName: GhTA.Player.MoneyCollectible.Amount
+  nameWithType: MoneyCollectible.Amount
+- uid: GhTA.Player.MoneyCollectible.Pickup
+  name: Pickup()
+  href: api/GhTA.Player.MoneyCollectible.html#GhTA_Player_MoneyCollectible_Pickup
+  commentId: M:GhTA.Player.MoneyCollectible.Pickup
+  fullName: GhTA.Player.MoneyCollectible.Pickup()
+  nameWithType: MoneyCollectible.Pickup()
+- uid: GhTA.Player.MoneyCollectible.Pickup*
+  name: Pickup
+  href: api/GhTA.Player.MoneyCollectible.html#GhTA_Player_MoneyCollectible_Pickup_
+  commentId: Overload:GhTA.Player.MoneyCollectible.Pickup
+  isSpec: "True"
+  fullName: GhTA.Player.MoneyCollectible.Pickup
+  nameWithType: MoneyCollectible.Pickup
+- uid: GhTA.Player.Pawn
+  name: Pawn
+  href: api/GhTA.Player.Pawn.html
+  commentId: T:GhTA.Player.Pawn
+  fullName: GhTA.Player.Pawn
+  nameWithType: Pawn
+- uid: GhTA.Player.Pawn.Active
+  name: Active
+  href: api/GhTA.Player.Pawn.html#GhTA_Player_Pawn_Active
+  commentId: P:GhTA.Player.Pawn.Active
+  fullName: GhTA.Player.Pawn.Active
+  nameWithType: Pawn.Active
+- uid: GhTA.Player.Pawn.Active*
+  name: Active
+  href: api/GhTA.Player.Pawn.html#GhTA_Player_Pawn_Active_
+  commentId: Overload:GhTA.Player.Pawn.Active
+  isSpec: "True"
+  fullName: GhTA.Player.Pawn.Active
+  nameWithType: Pawn.Active
+- uid: GhTA.Player.Pawn.Bounds
+  name: Bounds
+  href: api/GhTA.Player.Pawn.html#GhTA_Player_Pawn_Bounds
+  commentId: F:GhTA.Player.Pawn.Bounds
+  fullName: GhTA.Player.Pawn.Bounds
+  nameWithType: Pawn.Bounds
+- uid: GhTA.Player.Pawn.Configure(System.Single)
+  name: Configure(Single)
+  href: api/GhTA.Player.Pawn.html#GhTA_Player_Pawn_Configure_System_Single_
+  commentId: M:GhTA.Player.Pawn.Configure(System.Single)
+  fullName: GhTA.Player.Pawn.Configure(System.Single)
+  nameWithType: Pawn.Configure(Single)
+- uid: GhTA.Player.Pawn.Configure*
+  name: Configure
+  href: api/GhTA.Player.Pawn.html#GhTA_Player_Pawn_Configure_
+  commentId: Overload:GhTA.Player.Pawn.Configure
+  isSpec: "True"
+  fullName: GhTA.Player.Pawn.Configure
+  nameWithType: Pawn.Configure
+- uid: GhTA.Player.Pawn.TogglePawnActive(System.Boolean)
+  name: TogglePawnActive(Boolean)
+  href: api/GhTA.Player.Pawn.html#GhTA_Player_Pawn_TogglePawnActive_System_Boolean_
+  commentId: M:GhTA.Player.Pawn.TogglePawnActive(System.Boolean)
+  fullName: GhTA.Player.Pawn.TogglePawnActive(System.Boolean)
+  nameWithType: Pawn.TogglePawnActive(Boolean)
+- uid: GhTA.Player.Pawn.TogglePawnActive*
+  name: TogglePawnActive
+  href: api/GhTA.Player.Pawn.html#GhTA_Player_Pawn_TogglePawnActive_
+  commentId: Overload:GhTA.Player.Pawn.TogglePawnActive
+  isSpec: "True"
+  fullName: GhTA.Player.Pawn.TogglePawnActive
+  nameWithType: Pawn.TogglePawnActive
+- uid: GhTA.Player.PickupENUM
+  name: PickupENUM
+  href: api/GhTA.Player.PickupENUM.html
+  commentId: T:GhTA.Player.PickupENUM
+  fullName: GhTA.Player.PickupENUM
+  nameWithType: PickupENUM
+- uid: GhTA.Player.PickupENUM.ammo
+  name: ammo
+  href: api/GhTA.Player.PickupENUM.html#GhTA_Player_PickupENUM_ammo
+  commentId: F:GhTA.Player.PickupENUM.ammo
+  fullName: GhTA.Player.PickupENUM.ammo
+  nameWithType: PickupENUM.ammo
+- uid: GhTA.Player.PickupENUM.money
+  name: money
+  href: api/GhTA.Player.PickupENUM.html#GhTA_Player_PickupENUM_money
+  commentId: F:GhTA.Player.PickupENUM.money
+  fullName: GhTA.Player.PickupENUM.money
+  nameWithType: PickupENUM.money
 - uid: GhTA.Player.PlayerController
   name: PlayerController
   href: api/GhTA.Player.PlayerController.html
@@ -9563,18 +9393,6 @@ references:
   isSpec: "True"
   fullName: GhTA.Player.PlayerController.SpawnAndPosses
   nameWithType: PlayerController.SpawnAndPosses
-- uid: GhTA.Player.PlayerController.Stats
-  name: Stats
-  href: api/GhTA.Player.PlayerController.html#GhTA_Player_PlayerController_Stats
-  commentId: F:GhTA.Player.PlayerController.Stats
-  fullName: GhTA.Player.PlayerController.Stats
-  nameWithType: PlayerController.Stats
-- uid: GhTA.Player.PlayerController.TileCoordinates
-  name: TileCoordinates
-  href: api/GhTA.Player.PlayerController.html#GhTA_Player_PlayerController_TileCoordinates
-  commentId: F:GhTA.Player.PlayerController.TileCoordinates
-  fullName: GhTA.Player.PlayerController.TileCoordinates
-  nameWithType: PlayerController.TileCoordinates
 - uid: GhTA.Player.PlayerController.UFO
   name: UFO
   href: api/GhTA.Player.PlayerController.html#GhTA_Player_PlayerController_UFO
@@ -13912,12 +13730,12 @@ references:
   commentId: T:GhTA.Vehicles.MouseFlightController
   fullName: GhTA.Vehicles.MouseFlightController
   nameWithType: MouseFlightController
-- uid: GhTA.Vehicles.MouseFlightController.aircraft
-  name: aircraft
-  href: api/GhTA.Vehicles.MouseFlightController.html#GhTA_Vehicles_MouseFlightController_aircraft
-  commentId: F:GhTA.Vehicles.MouseFlightController.aircraft
-  fullName: GhTA.Vehicles.MouseFlightController.aircraft
-  nameWithType: MouseFlightController.aircraft
+- uid: GhTA.Vehicles.MouseFlightController.Aircraft
+  name: Aircraft
+  href: api/GhTA.Vehicles.MouseFlightController.html#GhTA_Vehicles_MouseFlightController_Aircraft
+  commentId: F:GhTA.Vehicles.MouseFlightController.Aircraft
+  fullName: GhTA.Vehicles.MouseFlightController.Aircraft
+  nameWithType: MouseFlightController.Aircraft
 - uid: GhTA.Vehicles.MouseFlightController.BoresightPos
   name: BoresightPos
   href: api/GhTA.Vehicles.MouseFlightController.html#GhTA_Vehicles_MouseFlightController_BoresightPos
