@@ -1383,6 +1383,12 @@ references:
   commentId: T:GhTA.Celestial.CelestialController
   fullName: GhTA.Celestial.CelestialController
   nameWithType: CelestialController
+- uid: GhTA.Celestial.CelestialController.AmbientColor
+  name: AmbientColor
+  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_AmbientColor
+  commentId: F:GhTA.Celestial.CelestialController.AmbientColor
+  fullName: GhTA.Celestial.CelestialController.AmbientColor
+  nameWithType: CelestialController.AmbientColor
 - uid: GhTA.Celestial.CelestialController.AmbientIntensity
   name: AmbientIntensity
   href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_AmbientIntensity
@@ -1401,12 +1407,6 @@ references:
   commentId: F:GhTA.Celestial.CelestialController.MoonUp
   fullName: GhTA.Celestial.CelestialController.MoonUp
   nameWithType: CelestialController.MoonUp
-- uid: GhTA.Celestial.CelestialController.NightDayColor
-  name: NightDayColor
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_NightDayColor
-  commentId: F:GhTA.Celestial.CelestialController.NightDayColor
-  fullName: GhTA.Celestial.CelestialController.NightDayColor
-  nameWithType: CelestialController.NightDayColor
 - uid: GhTA.Celestial.CelestialController.SetCelestialLocation(System.Single,System.Single)
   name: SetCelestialLocation(Single, Single)
   href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_SetCelestialLocation_System_Single_System_Single_
