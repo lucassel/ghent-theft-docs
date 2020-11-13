@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace GhTA.WMTS
+    <title>Class WeatherInfoRetriever
    | GhTA docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace GhTA.WMTS
+    <meta name="title" content="Class WeatherInfoRetriever
    | GhTA docs ">
     <meta name="generator" content="docfx 2.52.0.0">
     
@@ -677,8 +677,8 @@
                           <li class="">
                             <a href="GhTA.Realtime.SheepInfoRetriever.html" title="SheepInfoRetriever" class="">SheepInfoRetriever</a>
                           </li>
-                          <li class="">
-                            <a href="GhTA.Realtime.WeatherInfoRetriever.html" title="WeatherInfoRetriever" class="">WeatherInfoRetriever</a>
+                          <li class="active">
+                            <a href="GhTA.Realtime.WeatherInfoRetriever.html" title="WeatherInfoRetriever" class="active">WeatherInfoRetriever</a>
                           </li>
                         </ul>  </li>
                     <li class="">
@@ -1005,9 +1005,9 @@
                             <a href="GhTA.Web.IRetriever.html" title="IRetriever" class="">IRetriever</a>
                           </li>
                         </ul>  </li>
-                    <li class="active">
+                    <li class="">
                       <span class="expand-stub"></span>
-                      <a href="GhTA.WMTS.html" title="GhTA.WMTS" class="active">GhTA.WMTS</a>
+                      <a href="GhTA.WMTS.html" title="GhTA.WMTS" class="">GhTA.WMTS</a>
                         
                         <ul class="nav level2">
                           <li class="">
@@ -1105,31 +1105,248 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="GhTA.WMTS">
+            <article class="content wrap" id="_content" data-uid="GhTA.Realtime.WeatherInfoRetriever">
   
-  <h1 id="GhTA_WMTS" data-uid="GhTA.WMTS" class="text-break">Namespace GhTA.WMTS
+  
+  <h1 id="GhTA_Realtime_WeatherInfoRetriever" data-uid="GhTA.Realtime.WeatherInfoRetriever" class="text-break">Class WeatherInfoRetriever
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Retrieves (historical) weather information for a certain location.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><a class="xref" href="GhTA.Web.InfoRetriever.html">InfoRetriever</a></div>
+    <div class="level6"><span class="xref">WeatherInfoRetriever</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="GhTA.Web.IRetriever.html">IRetriever</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="GhTA.Web.InfoRetriever.html#GhTA_Web_InfoRetriever_AutoStart">InfoRetriever.AutoStart</a>
+    </div>
+    <div>
+      <a class="xref" href="GhTA.Web.InfoRetriever.html#GhTA_Web_InfoRetriever_DebugData">InfoRetriever.DebugData</a>
+    </div>
+    <div>
+      <a class="xref" href="GhTA.Web.InfoRetriever.html#GhTA_Web_InfoRetriever_DataCreated">InfoRetriever.DataCreated</a>
+    </div>
+    <div>
+      <a class="xref" href="GhTA.Web.InfoRetriever.html#GhTA_Web_InfoRetriever_LastRetrieved">InfoRetriever.LastRetrieved</a>
+    </div>
+    <div>
+      <a class="xref" href="GhTA.Web.InfoRetriever.html#GhTA_Web_InfoRetriever_ns">InfoRetriever.ns</a>
+    </div>
+    <div>
+      <a class="xref" href="GhTA.Web.InfoRetriever.html#GhTA_Web_InfoRetriever_GetRequestOnce_System_String_System_Action_System_String__">InfoRetriever.GetRequestOnce(String, Action&lt;String&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="GhTA.Web.InfoRetriever.html#GhTA_Web_InfoRetriever_GetTimedRequest_System_String_System_Single_System_Action_System_String__System_Action_">InfoRetriever.GetTimedRequest(String, Single, Action&lt;String&gt;, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="GhTA.Web.InfoRetriever.html#GhTA_Web_InfoRetriever_WriteStringToTextFile_System_String_System_String_UnityEngine_TextAsset_">InfoRetriever.WriteStringToTextFile(String, String, TextAsset)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GhTA.Realtime.html">GhTA.Realtime</a></h6>
+  <h6><strong>Assembly</strong>: GhTA.Realtime.dll</h6>
+  <h5 id="GhTA_Realtime_WeatherInfoRetriever_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class WeatherInfoRetriever : InfoRetriever, IRetriever</code></pre>
+  </div>
+  <h3 id="fields">Fields
   </h3>
-      <h4><a class="xref" href="GhTA.WMTS.TileServers.html">TileServers</a></h4>
-      <section></section>
-      <h4><a class="xref" href="GhTA.WMTS.WebMapTileServices.html">WebMapTileServices</a></h4>
-      <section></section>
-      <h4><a class="xref" href="GhTA.WMTS.WebTileHelper.html">WebTileHelper</a></h4>
-      <section></section>
-    <h3 id="structs">Structs
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Realtime_WeatherInfoRetriever_Forecast.md&amp;value=---%0Auid%3A%20GhTA.Realtime.WeatherInfoRetriever.Forecast%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ghenttheftauto/ghent-theft-game/blob/master/Assets/Public/Realtime/WeatherInfoRetriever.cs/#L20">View Source</a>
+  </span>
+  <h4 id="GhTA_Realtime_WeatherInfoRetriever_Forecast" data-uid="GhTA.Realtime.WeatherInfoRetriever.Forecast">Forecast</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HideInInspector]
+public List&lt;Weather&gt; Forecast</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="GhTA.Climate.Weather.html">Weather</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Realtime_WeatherInfoRetriever_OnWeatherUpdate.md&amp;value=---%0Auid%3A%20GhTA.Realtime.WeatherInfoRetriever.OnWeatherUpdate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ghenttheftauto/ghent-theft-game/blob/master/Assets/Public/Realtime/WeatherInfoRetriever.cs/#L21">View Source</a>
+  </span>
+  <h4 id="GhTA_Realtime_WeatherInfoRetriever_OnWeatherUpdate" data-uid="GhTA.Realtime.WeatherInfoRetriever.OnWeatherUpdate">OnWeatherUpdate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent OnWeatherUpdate</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Events.UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Realtime_WeatherInfoRetriever_WeatherIcons.md&amp;value=---%0Auid%3A%20GhTA.Realtime.WeatherInfoRetriever.WeatherIcons%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ghenttheftauto/ghent-theft-game/blob/master/Assets/Public/Realtime/WeatherInfoRetriever.cs/#L22">View Source</a>
+  </span>
+  <h4 id="GhTA_Realtime_WeatherInfoRetriever_WeatherIcons" data-uid="GhTA.Realtime.WeatherInfoRetriever.WeatherIcons">WeatherIcons</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WeatherEmoji WeatherIcons</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Common.Emoji.WeatherEmoji</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Realtime_WeatherInfoRetriever_WorldInfo.md&amp;value=---%0Auid%3A%20GhTA.Realtime.WeatherInfoRetriever.WorldInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ghenttheftauto/ghent-theft-game/blob/master/Assets/Public/Realtime/WeatherInfoRetriever.cs/#L23">View Source</a>
+  </span>
+  <h4 id="GhTA_Realtime_WeatherInfoRetriever_WorldInfo" data-uid="GhTA.Realtime.WeatherInfoRetriever.WorldInfo">WorldInfo</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WorldInfo WorldInfo</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GhTA.Common.Model.WorldInfo.html">WorldInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
   </h3>
-      <h4><a class="xref" href="GhTA.WMTS.WebMapTile.html">WebMapTile</a></h4>
-      <section></section>
-    <h3 id="enums">Enums
-  </h3>
-      <h4><a class="xref" href="GhTA.WMTS.RainMapType.html">RainMapType</a></h4>
-      <section></section>
-      <h4><a class="xref" href="GhTA.WMTS.TileServerType.html">TileServerType</a></h4>
-      <section></section>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Realtime_WeatherInfoRetriever_FireRequest.md&amp;value=---%0Auid%3A%20GhTA.Realtime.WeatherInfoRetriever.FireRequest%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ghenttheftauto/ghent-theft-game/blob/master/Assets/Public/Realtime/WeatherInfoRetriever.cs/#L46">View Source</a>
+  </span>
+  <a id="GhTA_Realtime_WeatherInfoRetriever_FireRequest_" data-uid="GhTA.Realtime.WeatherInfoRetriever.FireRequest*"></a>
+  <h4 id="GhTA_Realtime_WeatherInfoRetriever_FireRequest" data-uid="GhTA.Realtime.WeatherInfoRetriever.FireRequest">FireRequest()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FireRequest()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Realtime_WeatherInfoRetriever_ProcessData_System_String_.md&amp;value=---%0Auid%3A%20GhTA.Realtime.WeatherInfoRetriever.ProcessData(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ghenttheftauto/ghent-theft-game/blob/master/Assets/Public/Realtime/WeatherInfoRetriever.cs/#L25">View Source</a>
+  </span>
+  <a id="GhTA_Realtime_WeatherInfoRetriever_ProcessData_" data-uid="GhTA.Realtime.WeatherInfoRetriever.ProcessData*"></a>
+  <h4 id="GhTA_Realtime_WeatherInfoRetriever_ProcessData_System_String_" data-uid="GhTA.Realtime.WeatherInfoRetriever.ProcessData(System.String)">ProcessData(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ProcessData(string data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Realtime_WeatherInfoRetriever_StartWeatherInfoRequest.md&amp;value=---%0Auid%3A%20GhTA.Realtime.WeatherInfoRetriever.StartWeatherInfoRequest%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ghenttheftauto/ghent-theft-game/blob/master/Assets/Public/Realtime/WeatherInfoRetriever.cs/#L48">View Source</a>
+  </span>
+  <a id="GhTA_Realtime_WeatherInfoRetriever_StartWeatherInfoRequest_" data-uid="GhTA.Realtime.WeatherInfoRetriever.StartWeatherInfoRequest*"></a>
+  <h4 id="GhTA_Realtime_WeatherInfoRetriever_StartWeatherInfoRequest" data-uid="GhTA.Realtime.WeatherInfoRetriever.StartWeatherInfoRequest">StartWeatherInfoRequest()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartWeatherInfoRequest()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="GhTA.Web.IRetriever.html">IRetriever</a>
+  </div>
 </article>
           </div>
           
@@ -1137,6 +1354,12 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/lucassel/ghent-theft-auto/new/master/apiSpec/new?filename=GhTA_Realtime_WeatherInfoRetriever.md&amp;value=---%0Auid%3A%20GhTA.Realtime.WeatherInfoRetriever%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ghenttheftauto/ghent-theft-game/blob/master/Assets/Public/Realtime/WeatherInfoRetriever.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

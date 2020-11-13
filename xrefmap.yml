@@ -3828,18 +3828,6 @@ references:
   isSpec: "True"
   fullName: GhTA.Locations.DoctorPractice.Name
   nameWithType: DoctorPractice.Name
-- uid: GhTA.Locations.GeometryData
-  name: GeometryData
-  href: api/GhTA.Locations.GeometryData.html
-  commentId: T:GhTA.Locations.GeometryData
-  fullName: GhTA.Locations.GeometryData
-  nameWithType: GeometryData
-- uid: GhTA.Locations.GeometryData.Coordinates
-  name: Coordinates
-  href: api/GhTA.Locations.GeometryData.html#GhTA_Locations_GeometryData_Coordinates
-  commentId: F:GhTA.Locations.GeometryData.Coordinates
-  fullName: GhTA.Locations.GeometryData.Coordinates
-  nameWithType: GeometryData.Coordinates
 - uid: GhTA.Locations.Hospital
   name: Hospital
   href: api/GhTA.Locations.Hospital.html
@@ -10766,6 +10754,75 @@ references:
   commentId: F:GhTA.Realtime.SheepInfoRetriever.URL
   fullName: GhTA.Realtime.SheepInfoRetriever.URL
   nameWithType: SheepInfoRetriever.URL
+- uid: GhTA.Realtime.WeatherInfoRetriever
+  name: WeatherInfoRetriever
+  href: api/GhTA.Realtime.WeatherInfoRetriever.html
+  commentId: T:GhTA.Realtime.WeatherInfoRetriever
+  fullName: GhTA.Realtime.WeatherInfoRetriever
+  nameWithType: WeatherInfoRetriever
+- uid: GhTA.Realtime.WeatherInfoRetriever.FireRequest
+  name: FireRequest()
+  href: api/GhTA.Realtime.WeatherInfoRetriever.html#GhTA_Realtime_WeatherInfoRetriever_FireRequest
+  commentId: M:GhTA.Realtime.WeatherInfoRetriever.FireRequest
+  fullName: GhTA.Realtime.WeatherInfoRetriever.FireRequest()
+  nameWithType: WeatherInfoRetriever.FireRequest()
+- uid: GhTA.Realtime.WeatherInfoRetriever.FireRequest*
+  name: FireRequest
+  href: api/GhTA.Realtime.WeatherInfoRetriever.html#GhTA_Realtime_WeatherInfoRetriever_FireRequest_
+  commentId: Overload:GhTA.Realtime.WeatherInfoRetriever.FireRequest
+  isSpec: "True"
+  fullName: GhTA.Realtime.WeatherInfoRetriever.FireRequest
+  nameWithType: WeatherInfoRetriever.FireRequest
+- uid: GhTA.Realtime.WeatherInfoRetriever.Forecast
+  name: Forecast
+  href: api/GhTA.Realtime.WeatherInfoRetriever.html#GhTA_Realtime_WeatherInfoRetriever_Forecast
+  commentId: F:GhTA.Realtime.WeatherInfoRetriever.Forecast
+  fullName: GhTA.Realtime.WeatherInfoRetriever.Forecast
+  nameWithType: WeatherInfoRetriever.Forecast
+- uid: GhTA.Realtime.WeatherInfoRetriever.OnWeatherUpdate
+  name: OnWeatherUpdate
+  href: api/GhTA.Realtime.WeatherInfoRetriever.html#GhTA_Realtime_WeatherInfoRetriever_OnWeatherUpdate
+  commentId: F:GhTA.Realtime.WeatherInfoRetriever.OnWeatherUpdate
+  fullName: GhTA.Realtime.WeatherInfoRetriever.OnWeatherUpdate
+  nameWithType: WeatherInfoRetriever.OnWeatherUpdate
+- uid: GhTA.Realtime.WeatherInfoRetriever.ProcessData(System.String)
+  name: ProcessData(String)
+  href: api/GhTA.Realtime.WeatherInfoRetriever.html#GhTA_Realtime_WeatherInfoRetriever_ProcessData_System_String_
+  commentId: M:GhTA.Realtime.WeatherInfoRetriever.ProcessData(System.String)
+  fullName: GhTA.Realtime.WeatherInfoRetriever.ProcessData(System.String)
+  nameWithType: WeatherInfoRetriever.ProcessData(String)
+- uid: GhTA.Realtime.WeatherInfoRetriever.ProcessData*
+  name: ProcessData
+  href: api/GhTA.Realtime.WeatherInfoRetriever.html#GhTA_Realtime_WeatherInfoRetriever_ProcessData_
+  commentId: Overload:GhTA.Realtime.WeatherInfoRetriever.ProcessData
+  isSpec: "True"
+  fullName: GhTA.Realtime.WeatherInfoRetriever.ProcessData
+  nameWithType: WeatherInfoRetriever.ProcessData
+- uid: GhTA.Realtime.WeatherInfoRetriever.StartWeatherInfoRequest
+  name: StartWeatherInfoRequest()
+  href: api/GhTA.Realtime.WeatherInfoRetriever.html#GhTA_Realtime_WeatherInfoRetriever_StartWeatherInfoRequest
+  commentId: M:GhTA.Realtime.WeatherInfoRetriever.StartWeatherInfoRequest
+  fullName: GhTA.Realtime.WeatherInfoRetriever.StartWeatherInfoRequest()
+  nameWithType: WeatherInfoRetriever.StartWeatherInfoRequest()
+- uid: GhTA.Realtime.WeatherInfoRetriever.StartWeatherInfoRequest*
+  name: StartWeatherInfoRequest
+  href: api/GhTA.Realtime.WeatherInfoRetriever.html#GhTA_Realtime_WeatherInfoRetriever_StartWeatherInfoRequest_
+  commentId: Overload:GhTA.Realtime.WeatherInfoRetriever.StartWeatherInfoRequest
+  isSpec: "True"
+  fullName: GhTA.Realtime.WeatherInfoRetriever.StartWeatherInfoRequest
+  nameWithType: WeatherInfoRetriever.StartWeatherInfoRequest
+- uid: GhTA.Realtime.WeatherInfoRetriever.WeatherIcons
+  name: WeatherIcons
+  href: api/GhTA.Realtime.WeatherInfoRetriever.html#GhTA_Realtime_WeatherInfoRetriever_WeatherIcons
+  commentId: F:GhTA.Realtime.WeatherInfoRetriever.WeatherIcons
+  fullName: GhTA.Realtime.WeatherInfoRetriever.WeatherIcons
+  nameWithType: WeatherInfoRetriever.WeatherIcons
+- uid: GhTA.Realtime.WeatherInfoRetriever.WorldInfo
+  name: WorldInfo
+  href: api/GhTA.Realtime.WeatherInfoRetriever.html#GhTA_Realtime_WeatherInfoRetriever_WorldInfo
+  commentId: F:GhTA.Realtime.WeatherInfoRetriever.WorldInfo
+  fullName: GhTA.Realtime.WeatherInfoRetriever.WorldInfo
+  nameWithType: WeatherInfoRetriever.WorldInfo
 - uid: GhTA.StreetView
   name: GhTA.StreetView
   href: api/GhTA.StreetView.html
@@ -10839,12 +10896,6 @@ references:
   commentId: T:GhTA.StreetView.MapillaryResult
   fullName: GhTA.StreetView.MapillaryResult
   nameWithType: MapillaryResult
-- uid: GhTA.StreetView.MapillaryResult.geo
-  name: geo
-  href: api/GhTA.StreetView.MapillaryResult.html#GhTA_StreetView_MapillaryResult_geo
-  commentId: F:GhTA.StreetView.MapillaryResult.geo
-  fullName: GhTA.StreetView.MapillaryResult.geo
-  nameWithType: MapillaryResult.geo
 - uid: GhTA.StreetView.MapillaryResult.properties
   name: properties
   href: api/GhTA.StreetView.MapillaryResult.html#GhTA_StreetView_MapillaryResult_properties
@@ -14471,75 +14522,6 @@ references:
   isSpec: "True"
   fullName: GhTA.Web.IRetriever.ProcessData
   nameWithType: IRetriever.ProcessData
-- uid: GhTA.Web.WeatherInfoRetriever
-  name: WeatherInfoRetriever
-  href: api/GhTA.Web.WeatherInfoRetriever.html
-  commentId: T:GhTA.Web.WeatherInfoRetriever
-  fullName: GhTA.Web.WeatherInfoRetriever
-  nameWithType: WeatherInfoRetriever
-- uid: GhTA.Web.WeatherInfoRetriever.FireRequest
-  name: FireRequest()
-  href: api/GhTA.Web.WeatherInfoRetriever.html#GhTA_Web_WeatherInfoRetriever_FireRequest
-  commentId: M:GhTA.Web.WeatherInfoRetriever.FireRequest
-  fullName: GhTA.Web.WeatherInfoRetriever.FireRequest()
-  nameWithType: WeatherInfoRetriever.FireRequest()
-- uid: GhTA.Web.WeatherInfoRetriever.FireRequest*
-  name: FireRequest
-  href: api/GhTA.Web.WeatherInfoRetriever.html#GhTA_Web_WeatherInfoRetriever_FireRequest_
-  commentId: Overload:GhTA.Web.WeatherInfoRetriever.FireRequest
-  isSpec: "True"
-  fullName: GhTA.Web.WeatherInfoRetriever.FireRequest
-  nameWithType: WeatherInfoRetriever.FireRequest
-- uid: GhTA.Web.WeatherInfoRetriever.Forecast
-  name: Forecast
-  href: api/GhTA.Web.WeatherInfoRetriever.html#GhTA_Web_WeatherInfoRetriever_Forecast
-  commentId: F:GhTA.Web.WeatherInfoRetriever.Forecast
-  fullName: GhTA.Web.WeatherInfoRetriever.Forecast
-  nameWithType: WeatherInfoRetriever.Forecast
-- uid: GhTA.Web.WeatherInfoRetriever.OnWeatherUpdate
-  name: OnWeatherUpdate
-  href: api/GhTA.Web.WeatherInfoRetriever.html#GhTA_Web_WeatherInfoRetriever_OnWeatherUpdate
-  commentId: F:GhTA.Web.WeatherInfoRetriever.OnWeatherUpdate
-  fullName: GhTA.Web.WeatherInfoRetriever.OnWeatherUpdate
-  nameWithType: WeatherInfoRetriever.OnWeatherUpdate
-- uid: GhTA.Web.WeatherInfoRetriever.ProcessData(System.String)
-  name: ProcessData(String)
-  href: api/GhTA.Web.WeatherInfoRetriever.html#GhTA_Web_WeatherInfoRetriever_ProcessData_System_String_
-  commentId: M:GhTA.Web.WeatherInfoRetriever.ProcessData(System.String)
-  fullName: GhTA.Web.WeatherInfoRetriever.ProcessData(System.String)
-  nameWithType: WeatherInfoRetriever.ProcessData(String)
-- uid: GhTA.Web.WeatherInfoRetriever.ProcessData*
-  name: ProcessData
-  href: api/GhTA.Web.WeatherInfoRetriever.html#GhTA_Web_WeatherInfoRetriever_ProcessData_
-  commentId: Overload:GhTA.Web.WeatherInfoRetriever.ProcessData
-  isSpec: "True"
-  fullName: GhTA.Web.WeatherInfoRetriever.ProcessData
-  nameWithType: WeatherInfoRetriever.ProcessData
-- uid: GhTA.Web.WeatherInfoRetriever.StartWeatherInfoRequest
-  name: StartWeatherInfoRequest()
-  href: api/GhTA.Web.WeatherInfoRetriever.html#GhTA_Web_WeatherInfoRetriever_StartWeatherInfoRequest
-  commentId: M:GhTA.Web.WeatherInfoRetriever.StartWeatherInfoRequest
-  fullName: GhTA.Web.WeatherInfoRetriever.StartWeatherInfoRequest()
-  nameWithType: WeatherInfoRetriever.StartWeatherInfoRequest()
-- uid: GhTA.Web.WeatherInfoRetriever.StartWeatherInfoRequest*
-  name: StartWeatherInfoRequest
-  href: api/GhTA.Web.WeatherInfoRetriever.html#GhTA_Web_WeatherInfoRetriever_StartWeatherInfoRequest_
-  commentId: Overload:GhTA.Web.WeatherInfoRetriever.StartWeatherInfoRequest
-  isSpec: "True"
-  fullName: GhTA.Web.WeatherInfoRetriever.StartWeatherInfoRequest
-  nameWithType: WeatherInfoRetriever.StartWeatherInfoRequest
-- uid: GhTA.Web.WeatherInfoRetriever.WeatherIcons
-  name: WeatherIcons
-  href: api/GhTA.Web.WeatherInfoRetriever.html#GhTA_Web_WeatherInfoRetriever_WeatherIcons
-  commentId: F:GhTA.Web.WeatherInfoRetriever.WeatherIcons
-  fullName: GhTA.Web.WeatherInfoRetriever.WeatherIcons
-  nameWithType: WeatherInfoRetriever.WeatherIcons
-- uid: GhTA.Web.WeatherInfoRetriever.WorldInfo
-  name: WorldInfo
-  href: api/GhTA.Web.WeatherInfoRetriever.html#GhTA_Web_WeatherInfoRetriever_WorldInfo
-  commentId: F:GhTA.Web.WeatherInfoRetriever.WorldInfo
-  fullName: GhTA.Web.WeatherInfoRetriever.WorldInfo
-  nameWithType: WeatherInfoRetriever.WorldInfo
 - uid: GhTA.WMTS
   name: GhTA.WMTS
   href: api/GhTA.WMTS.html
