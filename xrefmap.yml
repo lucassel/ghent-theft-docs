@@ -633,175 +633,6 @@ references:
   isSpec: "True"
   fullName: GhTA.Application.WastedFlow.End
   nameWithType: WastedFlow.End
-- uid: GhTA.Celestial
-  name: GhTA.Celestial
-  href: api/GhTA.Celestial.html
-  commentId: N:GhTA.Celestial
-  fullName: GhTA.Celestial
-  nameWithType: GhTA.Celestial
-- uid: GhTA.Celestial.CelestialController
-  name: CelestialController
-  href: api/GhTA.Celestial.CelestialController.html
-  commentId: T:GhTA.Celestial.CelestialController
-  fullName: GhTA.Celestial.CelestialController
-  nameWithType: CelestialController
-- uid: GhTA.Celestial.CelestialController.AmbientColor
-  name: AmbientColor
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_AmbientColor
-  commentId: F:GhTA.Celestial.CelestialController.AmbientColor
-  fullName: GhTA.Celestial.CelestialController.AmbientColor
-  nameWithType: CelestialController.AmbientColor
-- uid: GhTA.Celestial.CelestialController.AmbientIntensity
-  name: AmbientIntensity
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_AmbientIntensity
-  commentId: F:GhTA.Celestial.CelestialController.AmbientIntensity
-  fullName: GhTA.Celestial.CelestialController.AmbientIntensity
-  nameWithType: CelestialController.AmbientIntensity
-- uid: GhTA.Celestial.CelestialController.Moon
-  name: Moon
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_Moon
-  commentId: F:GhTA.Celestial.CelestialController.Moon
-  fullName: GhTA.Celestial.CelestialController.Moon
-  nameWithType: CelestialController.Moon
-- uid: GhTA.Celestial.CelestialController.MoonUp
-  name: MoonUp
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_MoonUp
-  commentId: F:GhTA.Celestial.CelestialController.MoonUp
-  fullName: GhTA.Celestial.CelestialController.MoonUp
-  nameWithType: CelestialController.MoonUp
-- uid: GhTA.Celestial.CelestialController.SetCelestialLocation(System.Single,System.Single)
-  name: SetCelestialLocation(Single, Single)
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_SetCelestialLocation_System_Single_System_Single_
-  commentId: M:GhTA.Celestial.CelestialController.SetCelestialLocation(System.Single,System.Single)
-  fullName: GhTA.Celestial.CelestialController.SetCelestialLocation(System.Single, System.Single)
-  nameWithType: CelestialController.SetCelestialLocation(Single, Single)
-- uid: GhTA.Celestial.CelestialController.SetCelestialLocation*
-  name: SetCelestialLocation
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_SetCelestialLocation_
-  commentId: Overload:GhTA.Celestial.CelestialController.SetCelestialLocation
-  isSpec: "True"
-  fullName: GhTA.Celestial.CelestialController.SetCelestialLocation
-  nameWithType: CelestialController.SetCelestialLocation
-- uid: GhTA.Celestial.CelestialController.Sun
-  name: Sun
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_Sun
-  commentId: F:GhTA.Celestial.CelestialController.Sun
-  fullName: GhTA.Celestial.CelestialController.Sun
-  nameWithType: CelestialController.Sun
-- uid: GhTA.Celestial.CelestialController.SunAltitude
-  name: SunAltitude
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_SunAltitude
-  commentId: F:GhTA.Celestial.CelestialController.SunAltitude
-  fullName: GhTA.Celestial.CelestialController.SunAltitude
-  nameWithType: CelestialController.SunAltitude
-- uid: GhTA.Celestial.CelestialController.SunAzimuth
-  name: SunAzimuth
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_SunAzimuth
-  commentId: F:GhTA.Celestial.CelestialController.SunAzimuth
-  fullName: GhTA.Celestial.CelestialController.SunAzimuth
-  nameWithType: CelestialController.SunAzimuth
-- uid: GhTA.Celestial.CelestialController.SunSet
-  name: SunSet
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_SunSet
-  commentId: F:GhTA.Celestial.CelestialController.SunSet
-  fullName: GhTA.Celestial.CelestialController.SunSet
-  nameWithType: CelestialController.SunSet
-- uid: GhTA.Celestial.CelestialController.SunUp
-  name: SunUp
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_SunUp
-  commentId: F:GhTA.Celestial.CelestialController.SunUp
-  fullName: GhTA.Celestial.CelestialController.SunUp
-  nameWithType: CelestialController.SunUp
-- uid: GhTA.Celestial.CelestialController.UpdateCelestialTime(System.DateTime,System.Int32)
-  name: UpdateCelestialTime(DateTime, Int32)
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_UpdateCelestialTime_System_DateTime_System_Int32_
-  commentId: M:GhTA.Celestial.CelestialController.UpdateCelestialTime(System.DateTime,System.Int32)
-  fullName: GhTA.Celestial.CelestialController.UpdateCelestialTime(System.DateTime, System.Int32)
-  nameWithType: CelestialController.UpdateCelestialTime(DateTime, Int32)
-- uid: GhTA.Celestial.CelestialController.UpdateCelestialTime*
-  name: UpdateCelestialTime
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_UpdateCelestialTime_
-  commentId: Overload:GhTA.Celestial.CelestialController.UpdateCelestialTime
-  isSpec: "True"
-  fullName: GhTA.Celestial.CelestialController.UpdateCelestialTime
-  nameWithType: CelestialController.UpdateCelestialTime
-- uid: GhTA.Celestial.CelestialController.UpdateSky(System.Single)
-  name: UpdateSky(Single)
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_UpdateSky_System_Single_
-  commentId: M:GhTA.Celestial.CelestialController.UpdateSky(System.Single)
-  fullName: GhTA.Celestial.CelestialController.UpdateSky(System.Single)
-  nameWithType: CelestialController.UpdateSky(Single)
-- uid: GhTA.Celestial.CelestialController.UpdateSky*
-  name: UpdateSky
-  href: api/GhTA.Celestial.CelestialController.html#GhTA_Celestial_CelestialController_UpdateSky_
-  commentId: Overload:GhTA.Celestial.CelestialController.UpdateSky
-  isSpec: "True"
-  fullName: GhTA.Celestial.CelestialController.UpdateSky
-  nameWithType: CelestialController.UpdateSky
-- uid: GhTA.Celestial.Moon
-  name: Moon
-  href: api/GhTA.Celestial.Moon.html
-  commentId: T:GhTA.Celestial.Moon
-  fullName: GhTA.Celestial.Moon
-  nameWithType: Moon
-- uid: GhTA.Celestial.Moon.Configure
-  name: Configure()
-  href: api/GhTA.Celestial.Moon.html#GhTA_Celestial_Moon_Configure
-  commentId: M:GhTA.Celestial.Moon.Configure
-  fullName: GhTA.Celestial.Moon.Configure()
-  nameWithType: Moon.Configure()
-- uid: GhTA.Celestial.Moon.Configure*
-  name: Configure
-  href: api/GhTA.Celestial.Moon.html#GhTA_Celestial_Moon_Configure_
-  commentId: Overload:GhTA.Celestial.Moon.Configure
-  isSpec: "True"
-  fullName: GhTA.Celestial.Moon.Configure
-  nameWithType: Moon.Configure
-- uid: GhTA.Celestial.Moon.SetMoonPosition(System.Double,System.Double,System.Single)
-  name: SetMoonPosition(Double, Double, Single)
-  href: api/GhTA.Celestial.Moon.html#GhTA_Celestial_Moon_SetMoonPosition_System_Double_System_Double_System_Single_
-  commentId: M:GhTA.Celestial.Moon.SetMoonPosition(System.Double,System.Double,System.Single)
-  fullName: GhTA.Celestial.Moon.SetMoonPosition(System.Double, System.Double, System.Single)
-  nameWithType: Moon.SetMoonPosition(Double, Double, Single)
-- uid: GhTA.Celestial.Moon.SetMoonPosition*
-  name: SetMoonPosition
-  href: api/GhTA.Celestial.Moon.html#GhTA_Celestial_Moon_SetMoonPosition_
-  commentId: Overload:GhTA.Celestial.Moon.SetMoonPosition
-  isSpec: "True"
-  fullName: GhTA.Celestial.Moon.SetMoonPosition
-  nameWithType: Moon.SetMoonPosition
-- uid: GhTA.Celestial.Sun
-  name: Sun
-  href: api/GhTA.Celestial.Sun.html
-  commentId: T:GhTA.Celestial.Sun
-  fullName: GhTA.Celestial.Sun
-  nameWithType: Sun
-- uid: GhTA.Celestial.Sun.Configure
-  name: Configure()
-  href: api/GhTA.Celestial.Sun.html#GhTA_Celestial_Sun_Configure
-  commentId: M:GhTA.Celestial.Sun.Configure
-  fullName: GhTA.Celestial.Sun.Configure()
-  nameWithType: Sun.Configure()
-- uid: GhTA.Celestial.Sun.Configure*
-  name: Configure
-  href: api/GhTA.Celestial.Sun.html#GhTA_Celestial_Sun_Configure_
-  commentId: Overload:GhTA.Celestial.Sun.Configure
-  isSpec: "True"
-  fullName: GhTA.Celestial.Sun.Configure
-  nameWithType: Sun.Configure
-- uid: GhTA.Celestial.Sun.UpdateSolarSettings(System.Double,System.Double,System.Single)
-  name: UpdateSolarSettings(Double, Double, Single)
-  href: api/GhTA.Celestial.Sun.html#GhTA_Celestial_Sun_UpdateSolarSettings_System_Double_System_Double_System_Single_
-  commentId: M:GhTA.Celestial.Sun.UpdateSolarSettings(System.Double,System.Double,System.Single)
-  fullName: GhTA.Celestial.Sun.UpdateSolarSettings(System.Double, System.Double, System.Single)
-  nameWithType: Sun.UpdateSolarSettings(Double, Double, Single)
-- uid: GhTA.Celestial.Sun.UpdateSolarSettings*
-  name: UpdateSolarSettings
-  href: api/GhTA.Celestial.Sun.html#GhTA_Celestial_Sun_UpdateSolarSettings_
-  commentId: Overload:GhTA.Celestial.Sun.UpdateSolarSettings
-  isSpec: "True"
-  fullName: GhTA.Celestial.Sun.UpdateSolarSettings
-  nameWithType: Sun.UpdateSolarSettings
 - uid: GhTA.Climate
   name: GhTA.Climate
   href: api/GhTA.Climate.html
@@ -4416,12 +4247,12 @@ references:
   commentId: T:GhTA.Maps.LocationComponent
   fullName: GhTA.Maps.LocationComponent
   nameWithType: LocationComponent
-- uid: GhTA.Maps.LocationComponent.Init(GhTA.OpenStreetMap.OSMNode,System.Single,Common.Emoji.EmojiLibrary)
-  name: Init(OSMNode, Single, EmojiLibrary)
-  href: api/GhTA.Maps.LocationComponent.html#GhTA_Maps_LocationComponent_Init_GhTA_OpenStreetMap_OSMNode_System_Single_Common_Emoji_EmojiLibrary_
-  commentId: M:GhTA.Maps.LocationComponent.Init(GhTA.OpenStreetMap.OSMNode,System.Single,Common.Emoji.EmojiLibrary)
-  fullName: GhTA.Maps.LocationComponent.Init(GhTA.OpenStreetMap.OSMNode, System.Single, Common.Emoji.EmojiLibrary)
-  nameWithType: LocationComponent.Init(OSMNode, Single, EmojiLibrary)
+- uid: GhTA.Maps.LocationComponent.Init(GhTA.OpenStreetMap.OSMNode,Common.Emoji.EmojiLibrary)
+  name: Init(OSMNode, EmojiLibrary)
+  href: api/GhTA.Maps.LocationComponent.html#GhTA_Maps_LocationComponent_Init_GhTA_OpenStreetMap_OSMNode_Common_Emoji_EmojiLibrary_
+  commentId: M:GhTA.Maps.LocationComponent.Init(GhTA.OpenStreetMap.OSMNode,Common.Emoji.EmojiLibrary)
+  fullName: GhTA.Maps.LocationComponent.Init(GhTA.OpenStreetMap.OSMNode, Common.Emoji.EmojiLibrary)
+  nameWithType: LocationComponent.Init(OSMNode, EmojiLibrary)
 - uid: GhTA.Maps.LocationComponent.Init*
   name: Init
   href: api/GhTA.Maps.LocationComponent.html#GhTA_Maps_LocationComponent_Init_
@@ -8743,12 +8574,12 @@ references:
   isSpec: "True"
   fullName: GhTA.Presentation.WastedViewController.OnRespawnButtonClicked
   nameWithType: WastedViewController.OnRespawnButtonClicked
-- uid: GhTA.Presentation.WastedViewController.SetDeathText(System.String,System.String,System.String)
-  name: SetDeathText(String, String, String)
-  href: api/GhTA.Presentation.WastedViewController.html#GhTA_Presentation_WastedViewController_SetDeathText_System_String_System_String_System_String_
-  commentId: M:GhTA.Presentation.WastedViewController.SetDeathText(System.String,System.String,System.String)
-  fullName: GhTA.Presentation.WastedViewController.SetDeathText(System.String, System.String, System.String)
-  nameWithType: WastedViewController.SetDeathText(String, String, String)
+- uid: GhTA.Presentation.WastedViewController.SetDeathText(System.String,System.String,System.String,System.String)
+  name: SetDeathText(String, String, String, String)
+  href: api/GhTA.Presentation.WastedViewController.html#GhTA_Presentation_WastedViewController_SetDeathText_System_String_System_String_System_String_System_String_
+  commentId: M:GhTA.Presentation.WastedViewController.SetDeathText(System.String,System.String,System.String,System.String)
+  fullName: GhTA.Presentation.WastedViewController.SetDeathText(System.String, System.String, System.String, System.String)
+  nameWithType: WastedViewController.SetDeathText(String, String, String, String)
 - uid: GhTA.Presentation.WastedViewController.SetDeathText*
   name: SetDeathText
   href: api/GhTA.Presentation.WastedViewController.html#GhTA_Presentation_WastedViewController_SetDeathText_
@@ -13562,6 +13393,24 @@ references:
   commentId: F:Global.Carrousel.Paardjes
   fullName: Carrousel.Paardjes
   nameWithType: Carrousel.Paardjes
+- uid: Global.CommandBufferTest
+  name: CommandBufferTest
+  href: api/Global.CommandBufferTest.html
+  commentId: T:Global.CommandBufferTest
+  fullName: CommandBufferTest
+  nameWithType: CommandBufferTest
+- uid: Global.CommandBufferTest.testMaterial
+  name: testMaterial
+  href: api/Global.CommandBufferTest.html#Global_CommandBufferTest_testMaterial
+  commentId: F:Global.CommandBufferTest.testMaterial
+  fullName: CommandBufferTest.testMaterial
+  nameWithType: CommandBufferTest.testMaterial
+- uid: Global.CommandBufferTest.testRenderer
+  name: testRenderer
+  href: api/Global.CommandBufferTest.html#Global_CommandBufferTest_testRenderer
+  commentId: F:Global.CommandBufferTest.testRenderer
+  fullName: CommandBufferTest.testRenderer
+  nameWithType: CommandBufferTest.testRenderer
 - uid: Global.Entity
   name: Entity
   href: api/Global.Entity.html
